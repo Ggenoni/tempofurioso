@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-23T21:11:51.825Z"
+    "exportedAt": "2026-08-23T23:41:46.961Z"
   },
   "annotations": {
     "narrative": [
@@ -6878,13 +6878,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -6928,8 +6922,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T16:21:50.615Z",
-        "updatedAt": "2026-08-23T10:17:48.689Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T21:44:39.137Z"
       },
       {
         "id": "N_III_65_1__III_65_2",
@@ -7245,13 +7238,7 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -7259,7 +7246,8 @@
           "Determinazione_Quantificazione": "determinato",
           "Determinazione_coordinata_temporale": true,
           "Tempi_secondari": [
-            "T_III_71_7"
+            "T_III_71_7",
+            "T_III_75_7"
           ],
           "Successioni_temporali": [
             {
@@ -7291,12 +7279,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Bradamante incontra Brunello"
+          "secondo_titolo": "Bradamante incontra Brunello",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T16:44:01.677Z",
-        "updatedAt": "2026-08-22T10:35:33.773Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T23:09:27.735Z"
       },
       {
         "id": "N_III_75_5__III_75_7",
@@ -13252,20 +13240,16 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
           "Determinazione_coordinata_temporale": false,
-          "Tempi_secondari": [],
+          "Tempi_secondari": [
+            "T_VII_21_8"
+          ],
           "Successioni_temporali": [
             {
               "Segmento_successione_riferimento": "N_VII_9_1__VII_9_8",
@@ -13294,12 +13278,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T20:24:17.577Z",
-        "updatedAt": "2026-08-22T11:12:04.636Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T23:14:55.354Z"
       },
       {
         "id": "N_VII_22_5__VII_25_8",
@@ -13727,11 +13711,11 @@
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
-              "Segmento_successione_riferimento": "N_VII_34_2__VII_36_8",
+              "Segmento_successione_riferimento": "N_VII_33_6__VII_36_8",
               "Relazione_successione": "segue"
             }
           ],
-          "Segmento_successione_riferimento": "N_VII_34_2__VII_36_8",
+          "Segmento_successione_riferimento": "N_VII_33_6__VII_36_8",
           "Relazione_successione": "segue",
           "Contraddizione_temporale": false,
           "Contraddizioni_tempi": [],
@@ -13852,14 +13836,14 @@
         "drafts": {}
       },
       {
-        "id": "N_VII_34_2__VII_36_8",
+        "id": "N_VII_33_6__VII_36_8",
         "category": "narrative",
         "range": {
           "start": {
             "c": 7,
-            "o": 34,
-            "v": 2,
-            "ch": 4
+            "o": 33,
+            "v": 6,
+            "ch": 0
           },
           "end": {
             "c": 7,
@@ -13940,7 +13924,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T21:06:44.947Z",
-        "updatedAt": "2026-08-23T18:31:59.910Z"
+        "updatedAt": "2026-08-23T23:19:09.320Z"
       },
       {
         "id": "N_VII_44_1__VII_44_8",
@@ -14829,7 +14813,7 @@
             "c": 7,
             "o": 52,
             "v": 4,
-            "ch": 35
+            "ch": 15
           }
         },
         "exactSpans": [],
@@ -14855,13 +14839,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -14898,12 +14876,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T21:46:18.069Z",
-        "updatedAt": "2026-08-22T11:20:18.364Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T23:35:57.895Z"
       },
       {
         "id": "N_VII_52_5__VII_53_4",
@@ -14946,13 +14924,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_VII_50_7",
@@ -14964,13 +14936,7 @@
                   "Valore": "4",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -14980,11 +14946,11 @@
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
-              "Segmento_successione_riferimento": "N_VII_51_1__VII_52_4",
+              "Segmento_successione_riferimento": "N_VII_52_4__VII_52_4",
               "Relazione_successione": "segue"
             }
           ],
-          "Segmento_successione_riferimento": "N_VII_51_1__VII_52_4",
+          "Segmento_successione_riferimento": "N_VII_52_4__VII_52_4",
           "Relazione_successione": "segue",
           "Contraddizione_temporale": false,
           "Contraddizioni_tempi": [],
@@ -15007,12 +14973,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T21:48:00.119Z",
-        "updatedAt": "2026-08-22T11:20:37.182Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T23:36:29.578Z"
       },
       {
         "id": "N_VII_56_1__VII_64_8",
@@ -17540,7 +17506,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T23:33:41.631Z",
-        "updatedAt": "2026-08-23T21:11:51.794Z"
+        "updatedAt": "2026-08-23T21:39:12.555Z"
       },
       {
         "id": "N_VIII_33_1__VIII_33_8",
@@ -123195,6 +123161,93 @@
         "custom": {},
         "createdAt": "2026-08-23T19:41:35.890Z",
         "updatedAt": "2026-08-23T19:46:25.555Z"
+      },
+      {
+        "id": "N_VII_52_4__VII_52_4",
+        "category": "narrative",
+        "range": {
+          "start": {
+            "c": 7,
+            "o": 52,
+            "v": 4,
+            "ch": 16
+          },
+          "end": {
+            "c": 7,
+            "o": 52,
+            "v": 4,
+            "ch": 35
+          }
+        },
+        "exactSpans": [],
+        "fields": {
+          "Titolo_breve": "Melissa attende di trovare Ruggiero da solo",
+          "Tipo_segmento": "",
+          "Durata_genettiana": "sommario",
+          "Ordine_genettiano": "lineare",
+          "Frequenza_genettiana": "singolativa",
+          "Personaggi_in_scena": [
+            "Melissa"
+          ],
+          "Descrizione": "",
+          "Note": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": "",
+          "Determinazioni_temporali": [
+            {
+              "Da_Riferimento_ID": "T_VII_50_7",
+              "Da_incluso": true,
+              "Direzione": "dopo",
+              "A_Riferimento_ID": "T_VII_52_6",
+              "A_incluso": true,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": "",
+              "Nota": "",
+              "Quantita": [
+                {
+                  "Valore": "",
+                  "Unita": ""
+                }
+              ]
+            }
+          ],
+          "Determinazione_Collocazione": "relativo",
+          "Determinazione_Estensione": "durativo",
+          "Determinazione_Quantificazione": "determinato",
+          "Determinazione_coordinata_temporale": false,
+          "Tempi_secondari": [],
+          "Successioni_temporali": [
+            {
+              "Segmento_successione_riferimento": "N_VII_51_1__VII_52_4",
+              "Relazione_successione": "segue"
+            }
+          ],
+          "Segmento_successione_riferimento": "N_VII_51_1__VII_52_4",
+          "Relazione_successione": "segue",
+          "Contraddizione_temporale": false,
+          "Contraddizioni_tempi": [],
+          "Contraddizione_tempo_principale_ID": "",
+          "Nota_contraddizione": "",
+          "Ripresa_narrativa": false,
+          "Riprende_segmenti_ID": [],
+          "Tipo_raccordo_ripresa": "",
+          "Nota_ripresa": "",
+          "Coordinate_spaziali": [
+            "G_VI_19_4"
+          ],
+          "Luoghi_secondari": [],
+          "Incompleta": false,
+          "Nota_incompletezza": ""
+        },
+        "custom": {},
+        "createdAt": "2026-08-23T23:34:46.729Z",
+        "updatedAt": "2026-08-23T23:41:46.930Z"
       }
     ],
     "time": [
@@ -126575,12 +126628,13 @@
           "Calendario_a_mese": "",
           "Calendario_a_anno": "",
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "come_riferimento": "",
+          "primo_ordine": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T21:04:09.073Z",
-        "updatedAt": "2026-07-26T21:04:53.289Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T23:18:48.301Z"
       },
       {
         "id": "T_VII_34_7",
