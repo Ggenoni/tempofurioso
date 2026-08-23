@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-23T21:05:17.839Z"
+    "exportedAt": "2026-08-23T21:11:51.825Z"
   },
   "annotations": {
     "narrative": [
@@ -17313,7 +17313,9 @@
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Angelica"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
@@ -17327,13 +17329,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -17367,12 +17363,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T23:21:18.257Z",
-        "updatedAt": "2026-08-22T11:38:32.192Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T21:11:35.512Z"
       },
       {
         "id": "N_VIII_35_1__VIII_35_4",
@@ -17505,13 +17501,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -17545,12 +17535,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T23:33:41.631Z",
-        "updatedAt": "2026-08-22T11:40:11.126Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T21:11:51.794Z"
       },
       {
         "id": "N_VIII_33_1__VIII_33_8",
@@ -17698,7 +17688,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T23:34:42.996Z",
-        "updatedAt": "2026-08-23T21:03:10.146Z"
+        "updatedAt": "2026-08-23T21:11:41.895Z"
       },
       {
         "id": "N_VIII_35_5__VIII_37_4",
@@ -18496,7 +18486,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T00:14:29.717Z",
-        "updatedAt": "2026-08-23T21:05:17.812Z"
+        "updatedAt": "2026-08-23T21:10:30.528Z"
       },
       {
         "id": "N_VIII_64_7__VIII_65_6",
