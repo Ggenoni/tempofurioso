@@ -6031,7 +6031,7 @@ line.axisGuide.axisPinnedActive{stroke:#111!important;stroke-width:1.65!importan
 
   /* Il wrapper ridisegna coordinate, area narrativa e tratteggio nello stesso frame del grafico. */
   const renderBeforePinnedAxes=render;
-  render=function(...args){const out=renderBeforePinnedAxes(...args);paintPinnedAxes();return out};
+  render=function(...args){const out=renderBeforePinnedAxes(...args);paintPinnedAxes();enforceCueActivity();return out};
 
   function toggleAxis(target){
     const key=target?.getAttribute?.('data-axis-key');if(!key)return;
@@ -6062,6 +6062,7 @@ line.axisGuide.axisPinnedActive{stroke:#111!important;stroke-width:1.65!importan
   /* Tondi dei personaggi: visibili e attivi solo sul segmento corrente e per i personaggi attivi nel menu e nella legenda.
      Se e selezionato un elemento del raccordogramma (ricongiungimento, stacco, Boiardo o incongruenza), i tondi non compaiono. */
   function cueAnchorSegment(button){return button?.dataset?.threadDirection==='back'?button.dataset.threadTo:button?.dataset?.threadFrom}
+  function cueTargetSegment(button){return button?.dataset?.threadDirection==='back'?button.dataset.threadFrom:button?.dataset?.threadTo}
   function raccordogramSelectionActive(){
     return readerBody.classList.contains('raccordSelectionActive')||readerBody.classList.contains('cutSelectionActive')||readerBody.classList.contains('boiardoSelectionActive')||readerBody.classList.contains('contradictionSelectionActive')||chart.classList.contains('raccordSelectionActive')||chart.classList.contains('cutSelectionActive')||chart.classList.contains('boiardoSelectionActive')||chart.classList.contains('contradictionPinnedActive')||readerBody.classList.contains('edition1532SelectionActive')||chart.classList.contains('edition1532SelectionActive');
   }
@@ -6071,10 +6072,11 @@ line.axisGuide.axisPinnedActive{stroke:#111!important;stroke-width:1.65!importan
     return !item||item.getAttribute('aria-pressed')==='true';
   }
   function enforceCueActivity(){
-    if(!readerBody)return;const selectedId=currentReaderSegment?.id||'',hideAll=raccordogramSelectionActive();
+    if(!readerBody)return;const selectedId=currentReaderSegment?.id||'',hideAll=raccordogramSelectionActive();let visibleIds=null;
+    try{visibleIds=window.__furiosoVisibleMarkerIds?.()}catch{}
     for(const b of readerBody.querySelectorAll('.threadJump')){
-      const visible=!hideAll&&Boolean(selectedId)&&cueAnchorSegment(b)===selectedId&&cueCharacterActive(b);
-      b.classList.toggle('threadJumpHidden',!visible);b.classList.toggle('threadJumpInactive',!visible);b.disabled=!visible;b.tabIndex=visible?0:-1;b.setAttribute('aria-disabled',String(!visible));
+      const visible=!hideAll&&Boolean(selectedId)&&cueAnchorSegment(b)===selectedId&&cueCharacterActive(b),targetVisible=!(visibleIds instanceof Set)||visibleIds.has(cueTargetSegment(b)),active=visible&&targetVisible;
+      b.classList.toggle('threadJumpHidden',!visible);b.classList.toggle('threadJumpInactive',!active);b.disabled=!active;b.tabIndex=active?0:-1;b.setAttribute('aria-disabled',String(!active));
     }
     for(const cue of readerBody.querySelectorAll('.threadBoundaryCue')){
       const visible=!hideAll&&Boolean(selectedId)&&cue.dataset.threadSegment===selectedId&&cueCharacterActive(cue);
