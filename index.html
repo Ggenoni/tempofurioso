@@ -1370,6 +1370,7 @@ function panAxisFromScroller(input){const kind=input.dataset.kind;if(!kind)retur
 function drawAxes(root,S,sc){const bg=svgEl('rect',{x:M.l,y:M.t,width:S.iw,height:S.ih,class:'plotbg'});root.append(bg);const defs=svgEl('defs');const clip=svgEl('clipPath',{id:'clipPlot'});clip.append(svgEl('rect',{x:M.l,y:M.t,width:S.iw,height:S.ih}));defs.append(clip);const marker=svgEl('marker',{id:'resumeArrow',markerWidth:7,markerHeight:7,refX:6.4,refY:4,orient:'auto',markerUnits:'strokeWidth'});marker.append(svgEl('path',{d:'M0,1.25 L6.8,4 L0,6.75 Z',class:'resumeArrow'}));defs.append(marker);root.append(defs);drawStoryBands(root,S,sc);
  const narrativeBandLayer=svgEl('g',{'clip-path':'url(#clipPlot)',class:'narrativeUnitHoverBands'});root.append(narrativeBandLayer);
  const addNarrativeBand=(key,a,b,axis)=>{const lo=axis==='x'?sc.x0:sc.y0,hi=axis==='x'?sc.x1:sc.y1,start=Math.max(lo,Math.min(Number(a),Number(b))),end=Math.min(hi,Math.max(Number(a),Number(b)));if(!Number.isFinite(start)||!Number.isFinite(end)||end<=start)return;if(axis==='x'){const p1=sc.sx(start),p2=sc.sx(end);narrativeBandLayer.append(svgEl('rect',{x:Math.min(p1,p2),y:M.t,width:Math.abs(p2-p1),height:S.ih,class:'narrativeUnitHoverBand','data-axis-key':key}))}else{const p1=sc.sy(start),p2=sc.sy(end);narrativeBandLayer.append(svgEl('rect',{x:M.l,y:Math.min(p1,p2),width:S.iw,height:Math.abs(p2-p1),class:'narrativeUnitHoverBand','data-axis-key':key}))}};
+ const addStoryDayBand=(key,value,axis)=>{const day=Math.floor(Number(value)+1e-8),lo=axis==='x'?sc.x0:sc.y0,hi=axis==='x'?sc.x1:sc.y1,start=Math.max(lo,day),end=Math.min(hi,day+1);if(!Number.isFinite(day)||end<=start)return;if(axis==='x'){const p1=sc.sx(start),p2=sc.sx(end);narrativeBandLayer.append(svgEl('rect',{x:Math.min(p1,p2),y:M.t,width:Math.abs(p2-p1),height:S.ih,class:'storyDayHoverBand','data-axis-key':key}))}else{const p1=sc.sy(start),p2=sc.sy(end);narrativeBandLayer.append(svgEl('rect',{x:M.l,y:Math.min(p1,p2),width:S.iw,height:Math.abs(p2-p1),class:'storyDayHoverBand','data-axis-key':key}))}};
  const gx=svgEl('g'),gy=svgEl('g');root.append(gx,gy);const xspan=sc.x1-sc.x0,storyZoom=storyZoomFactor(),showStoryCalendar=storyZoom>=1.35;
  if(sc.xKind==='narr'){
    const pxPerVerse=S.iw/Math.max(1e-9,xspan),showStanzas=pxPerVerse>=3.15,showVerses=pxPerVerse>=17,axisLabelY=M.t+S.ih+18;
@@ -1378,15 +1379,15 @@ function drawAxes(root,S,sc){const bg=svgEl('rect',{x:M.l,y:M.t,width:S.iw,heigh
    if(showVerses)for(const vt of verseTicks){if(vt.x<sc.x0||vt.x>sc.x1)continue;const key=`narr-v-${vt.c}-${vt.o}-${vt.v}`,px=sc.sx(vt.x);addNarrativeBand(key,vt.x,vt.x+1,'x');line(gx,px,M.t,px,M.t+S.ih,'verseGrid axisHoverTarget axisGuide',{'data-axis-key':key});line(gx,px,M.t+S.ih-5,px,M.t+S.ih+5,'verseTick axisHoverTarget',{'data-axis-key':key});text(gx,px,axisLabelY,`${roman(vt.c)} ${vt.o}, ${vt.v}`,'verseAxisText axisHoverTarget','end',{transform:`rotate(-58 ${px} ${axisLabelY})`,'data-axis-key':key})}
  }else{
    const refs=storyMainTicks(sc.x0,sc.x1),selectedRefs=selectStoryReferenceLabels(refs,sc.sx,'x');
-   if(showStoryCalendar){const xstep=storyStep(xspan,Math.max(5,Math.floor(S.iw/92)));for(const x of storyTickValues(sc.x0,sc.x1,xstep)){const px=sc.sx(x),sameRef=refs.some(t=>Math.abs(t.value-x)<1e-7),key=`story-calendar-${x}`;if(!sameRef)line(gx,px,M.t,px,M.t+S.ih,'grid axisHoverTarget axisGuide',{'data-axis-key':key});if(!sameRef&&storyCalendarLabelClear(px,selectedRefs,'x'))text(gx,px,M.t+S.ih+21,storyCalendarTickLabel(x,xstep),'storyCalendarLabel axisHoverTarget','middle',{'data-axis-key':key})}}
-   for(const t of refs){const px=sc.sx(t.value),key=`story-${t.id}-${t.value}`,labelVisible=selectedRefs.some(r=>r.id===t.id&&Math.abs(r.value-t.value)<1e-8);line(gx,px,M.t,px,M.t+S.ih,'storyMainGrid axisHoverTarget axisGuide',{'data-axis-key':key});line(gx,px,M.t+S.ih-4,px,M.t+S.ih+5,'storyMainTick axisHoverTarget',{'data-axis-key':key,'data-axis-tooltip':storyReferenceTooltip(t),'data-axis-label-hidden':labelVisible?'false':'true'})}
+   if(showStoryCalendar){const xstep=storyStep(xspan,Math.max(5,Math.floor(S.iw/92)));for(const x of storyTickValues(sc.x0,sc.x1,xstep)){const px=sc.sx(x),sameRef=refs.some(t=>Math.abs(t.value-x)<1e-7),key=`story-calendar-${x}`;if(!sameRef){addStoryDayBand(key,x,'x');line(gx,px,M.t,px,M.t+S.ih,'grid axisHoverTarget axisGuide',{'data-axis-key':key})}if(!sameRef&&storyCalendarLabelClear(px,selectedRefs,'x'))text(gx,px,M.t+S.ih+21,storyCalendarTickLabel(x,xstep),'storyCalendarLabel axisHoverTarget','middle',{'data-axis-key':key})}}
+   for(const t of refs){const px=sc.sx(t.value),key=`story-${t.id}-${t.value}`,labelVisible=selectedRefs.some(r=>r.id===t.id&&Math.abs(r.value-t.value)<1e-8);addStoryDayBand(key,t.value,'x');line(gx,px,M.t,px,M.t+S.ih,'storyMainGrid axisHoverTarget axisGuide',{'data-axis-key':key});line(gx,px,M.t+S.ih-4,px,M.t+S.ih+5,'storyMainTick axisHoverTarget',{'data-axis-key':key,'data-axis-tooltip':storyReferenceTooltip(t),'data-axis-label-hidden':labelVisible?'false':'true'})}
    for(const t of selectedRefs){const key=`story-${t.id}-${t.value}`;storyLabelX(gx,t.p,t.label,M.t+S.ih+18,S.H-24,key,storyReferenceTooltip(t))}
  }
  const yspan=sc.y1-sc.y0;
  if(sc.yKind==='story'){
    const refs=storyMainTicks(sc.y0,sc.y1),selectedRefs=selectStoryReferenceLabels(refs,sc.sy,'y');
-   if(showStoryCalendar){const ystep=storyStep(yspan,Math.max(5,Math.floor(S.ih/54)));for(const y of storyTickValues(sc.y0,sc.y1,ystep)){const py=sc.sy(y),sameRef=refs.some(t=>Math.abs(t.value-y)<1e-7),key=`story-calendar-${y}`;if(!sameRef)line(gy,M.l,py,M.l+S.iw,py,'grid axisHoverTarget axisGuide',{'data-axis-key':key});if(!sameRef&&storyCalendarLabelClear(py,selectedRefs,'y'))text(gy,M.l-10,py+4,storyCalendarTickLabel(y,ystep),'storyCalendarLabel axisHoverTarget','end',{'data-axis-key':key})}}
-   for(const t of refs){const py=sc.sy(t.value),key=`story-${t.id}-${t.value}`,labelVisible=selectedRefs.some(r=>r.id===t.id&&Math.abs(r.value-t.value)<1e-8);line(gy,M.l,py,M.l+S.iw,py,'storyMainGrid axisHoverTarget axisGuide',{'data-axis-key':key});line(gy,M.l-5,py,M.l+2,py,'storyMainTick axisHoverTarget',{'data-axis-key':key,'data-axis-tooltip':storyReferenceTooltip(t),'data-axis-label-hidden':labelVisible?'false':'true'})}
+   if(showStoryCalendar){const ystep=storyStep(yspan,Math.max(5,Math.floor(S.ih/54)));for(const y of storyTickValues(sc.y0,sc.y1,ystep)){const py=sc.sy(y),sameRef=refs.some(t=>Math.abs(t.value-y)<1e-7),key=`story-calendar-${y}`;if(!sameRef){addStoryDayBand(key,y,'y');line(gy,M.l,py,M.l+S.iw,py,'grid axisHoverTarget axisGuide',{'data-axis-key':key})}if(!sameRef&&storyCalendarLabelClear(py,selectedRefs,'y'))text(gy,M.l-10,py+4,storyCalendarTickLabel(y,ystep),'storyCalendarLabel axisHoverTarget','end',{'data-axis-key':key})}}
+   for(const t of refs){const py=sc.sy(t.value),key=`story-${t.id}-${t.value}`,labelVisible=selectedRefs.some(r=>r.id===t.id&&Math.abs(r.value-t.value)<1e-8);addStoryDayBand(key,t.value,'y');line(gy,M.l,py,M.l+S.iw,py,'storyMainGrid axisHoverTarget axisGuide',{'data-axis-key':key});line(gy,M.l-5,py,M.l+2,py,'storyMainTick axisHoverTarget',{'data-axis-key':key,'data-axis-tooltip':storyReferenceTooltip(t),'data-axis-label-hidden':labelVisible?'false':'true'})}
    for(const t of selectedRefs){const key=`story-${t.id}-${t.value}`;storyLabelY(gy,t.p,t.label,key,storyReferenceTooltip(t))}
  }else{
    const pxPerVerse=S.ih/Math.max(1e-9,yspan),showStanzas=pxPerVerse>=3.15,showVerses=pxPerVerse>=17,axisLabelX=M.l-10;
@@ -4742,7 +4743,7 @@ line.axisGuide.tickHoverActive{stroke:#111!important;stroke-width:1.65!important
   let axisRefreshFrame=0;
   const applyAxisHighlights=()=>{
     axisRefreshFrame=0;
-    for(const el of chart?.querySelectorAll('.axisHoverTarget[data-axis-key],.narrativeUnitHoverBand[data-axis-key]')||[]){
+    for(const el of chart?.querySelectorAll('.axisHoverTarget[data-axis-key],.narrativeUnitHoverBand[data-axis-key],.storyDayHoverBand[data-axis-key]')||[]){
       const key=el.getAttribute('data-axis-key');
       el.classList.toggle('tickHoverActive',Boolean(key)&&(key===activeAxisKey||pinnedAxisKeys.has(key)));
     }
@@ -4826,15 +4827,15 @@ line.axisGuide.tickHoverActive{stroke:#111!important;stroke-width:1.65!important
 .textFragment.readerCurrent:hover,.textFragment.readerCurrent.textActive{background:#ffe8a6!important;box-shadow:none!important;color:#2d230f!important}
 .timeExpressionFragment.timeExpressionActive{text-decoration-line:underline!important;text-decoration-color:#2f8f5b!important;text-decoration-thickness:2px!important;text-underline-offset:2px!important;text-decoration-skip-ink:auto!important}
 .timeExpressionFragment.timeExpressionActive:hover,.timeExpressionFragment.timeExpressionActive.textActive,.timeExpressionFragment.timeExpressionActive.readerCurrent,.timeExpressionFragment.timeExpressionActive.readerCurrent:hover,.timeExpressionFragment.timeExpressionActive.readerCurrent.textActive{text-decoration-line:underline!important;text-decoration-color:#2f8f5b!important;text-decoration-thickness:2px!important;text-underline-offset:2px!important;text-decoration-skip-ink:auto!important}
-.narrativeUnitHoverBand{fill:#163a59;opacity:0;pointer-events:none;transition:opacity .08s ease}
-.narrativeUnitHoverBand.tickHoverActive{opacity:.055}
+.narrativeUnitHoverBand,.storyDayHoverBand{fill:#163a59;opacity:0;pointer-events:none;transition:opacity .08s ease}
+.narrativeUnitHoverBand.tickHoverActive,.storyDayHoverBand.tickHoverActive{opacity:.055}
 </style>
 
 <style id="requested-interaction-revision-v49">
 /* Rifiniture: stato di selezione stabile durante zoom, cursore del testo selezionato, collisione etichette e hover asse sincrono. */
 #chart.segmentSelectionActive .markerGroup{transition:none!important}
 .textFragment.readerCurrent,.textFragment.readerCurrent:hover{cursor:default!important}
-.axisHoverTarget,.narrativeUnitHoverBand{transition:none!important}
+.axisHoverTarget,.narrativeUnitHoverBand,.storyDayHoverBand{transition:none!important}
 </style>
 
 
@@ -5989,10 +5990,12 @@ line.axisGuide.axisPinnedActive{stroke:#111!important;stroke-width:1.65!importan
     group.append(visible,hit);
   }
   function addPinnedNarrativeBand(group,info,S,sc){
-    if(info?.kind!=='narr'||!Number.isFinite(info.start)||!Number.isFinite(info.end))return;
-    const axis=sc.xKind==='narr'?'x':(sc.yKind==='narr'?'y':null);if(!axis)return;
+    if(!info||!['narr','story'].includes(info.kind))return;
+    const axis=sc.xKind===info.kind?'x':(sc.yKind===info.kind?'y':null);if(!axis)return;
+    const semanticStart=info.kind==='story'?Math.floor(Number(info.value)+1e-8):Number(info.start),semanticEnd=info.kind==='story'?semanticStart+1:Number(info.end);
+    if(!Number.isFinite(semanticStart)||!Number.isFinite(semanticEnd))return;
     const lo=axis==='x'?sc.x0:sc.y0,hi=axis==='x'?sc.x1:sc.y1;
-    const start=Math.max(lo,Math.min(info.start,info.end)),end=Math.min(hi,Math.max(info.start,info.end));
+    const start=Math.max(lo,Math.min(semanticStart,semanticEnd)),end=Math.min(hi,Math.max(semanticStart,semanticEnd));
     if(!Number.isFinite(start)||!Number.isFinite(end)||end<=start)return;
     if(axis==='x'){
       const p1=sc.sx(start),p2=sc.sx(end);group.append(svgEl('rect',{x:Math.min(p1,p2),y:M.t,width:Math.abs(p2-p1),height:S.ih,class:'axisPinnedBand'}));
@@ -11148,6 +11151,11 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
     return Boolean(target&&typeof target.closest==='function'&&target.closest('#raccordogram'));
   }
 
+  function pointerInReaderPanel(){
+    const target=lastTarget;
+    return Boolean(target&&typeof target.closest==='function'&&target.closest('#reader .readerPanel'));
+  }
+
   function pointerInStructureTooltipZone(){
     const target=lastTarget;
     if(!target||typeof target.closest!=='function')return false;
@@ -11430,6 +11438,11 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
       return;
     }
     if(!pointerKnown)return;
+    if(pointerInReaderPanel()){
+      structureTooltipZone=false;
+      releaseMainMarkerHover();
+      return;
+    }
     /* Il raccordogramma ha una gestione autonoma e gia completa dell'hover.
        Qui il correttore dei marker del grafico principale resta TOTALMENTE passivo:
        l'uscita dal grafico e gia gestita dal pointerleave di #chart. In particolare
@@ -14303,6 +14316,7 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
      il caso in cui il grande selezionato copre una tacca piccola realmente puntata. */
   document.addEventListener('pointermove',e=>{
     if(e.pointerType&&e.pointerType!=='mouse'&&e.pointerType!=='pen')return;
+    if(!reader.hidden&&e.target?.closest?.('#reader .readerPanel'))return;
     const id=selectedId();if(!id||!chart.classList.contains('segmentSelectionActive'))return;
     const r=chart.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)return;
     const g=exactVisibleCandidate(e,id);if(g)forceHover(e,g);
@@ -14310,5 +14324,59 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
 })();
 </script>
 <!-- v218: protezione mirata per tacche piccole coperte dall'hit-area del segmento grande selezionato. -->
+
+<style id="requested-axis-highlight-over-ellipses-v219-style">
+/* v219: durante l'hover/selezione degli assi, linea e banda semantica restano
+   davanti alle ellissi aperte; la normale stratificazione resta invariata. */
+.axisHighlightForegroundOverlay{pointer-events:none}
+.axisHighlightForegroundBand{fill:#163a59;opacity:.055;pointer-events:none}
+.axisHighlightForegroundLine{stroke:#111;stroke-width:1.65;opacity:.88;vector-effect:non-scaling-stroke;pointer-events:none}
+.axisHighlightForegroundLine.axisHighlightForegroundLineDashed{stroke-dasharray:2.5 3.5}
+</style>
+
+<script id="requested-axis-highlight-over-ellipses-v219-script">
+(() => {
+  'use strict';
+  const chart=document.getElementById('chart');if(!chart)return;
+  let frame=0;
+  function sync(){
+    frame=0;
+    const previousForeground=chart.querySelector('.axisHighlightForegroundOverlay');
+    const freshPinnedLines=[...chart.querySelectorAll('.axisPinnedOverlay > .axisPinnedOverlayLine')];
+    const retainedPinnedLines=freshPinnedLines.length?freshPinnedLines:(window.__furiosoPinnedAxes?.size?[...(previousForeground?.querySelectorAll('.axisPinnedOverlayLine')||[])]:[]);
+    previousForeground?.remove();
+    const ellipses=chart.querySelector('.ellipsesOverlay');
+    const plot=ellipses?.parentElement||[...chart.children].find(el=>el.tagName?.toLowerCase()==='g'&&el.getAttribute('clip-path')==='url(#clipPlot)'&&el.querySelector?.(':scope > .selectedMarks'));
+    if(!plot)return;
+    if(!ellipses&&!retainedPinnedLines.length)return;
+    const foreground=svgEl('g',{class:'axisHighlightForegroundOverlay','aria-hidden':'true'});
+    if(ellipses){
+      for(const source of chart.querySelectorAll('.narrativeUnitHoverBands > :is(.narrativeUnitHoverBand,.storyDayHoverBand).tickHoverActive:not(.axisPinnedActive)')){
+        const clone=source.cloneNode(false);clone.setAttribute('class','axisHighlightForegroundBand');clone.removeAttribute('data-axis-key');foreground.append(clone);
+      }
+      for(const source of chart.querySelectorAll('.axisPinnedBandOverlay > .axisPinnedBand')){
+        const clone=source.cloneNode(false);clone.setAttribute('class','axisHighlightForegroundBand');clone.removeAttribute('data-axis-key');foreground.append(clone);
+      }
+      for(const source of chart.querySelectorAll('line.axisGuide.tickHoverActive:not(.axisPinnedActive)')){
+        const clone=source.cloneNode(false),dashed=source.classList.contains('storyMainGrid');clone.setAttribute('class',`axisHighlightForegroundLine${dashed?' axisHighlightForegroundLineDashed':''}`);clone.removeAttribute('data-axis-key');foreground.append(clone);
+      }
+    }
+    /* La linea visibile di una coordinata fissata viene separata dal suo hit-area:
+       resta sotto ai segmenti, mentre il bersaglio trasparente continua a stare sopra. */
+    for(const line of retainedPinnedLines)foreground.append(line);
+    if(!foreground.childNodes.length)return;
+    const marks=plot.querySelector(':scope > .selectedMarks');plot.insertBefore(foreground,marks||ellipses.nextSibling);
+  }
+  const schedule=()=>{if(!frame)frame=requestAnimationFrame(sync)};
+  const renderBeforeAxisEllipsisPriority=render;
+  render=function(...args){const out=renderBeforeAxisEllipsisPriority(...args);schedule();return out};
+  for(const type of ['pointerover','pointermove','pointerout','pointerleave'])chart.addEventListener(type,schedule);
+  new MutationObserver(mutations=>{
+    if(mutations.some(m=>[...m.addedNodes,...m.removedNodes].some(n=>n?.nodeType===1&&(n.matches?.('.ellipsesOverlay,.axisPinnedBandOverlay,.axisPinnedOverlay')||n.querySelector?.('.ellipsesOverlay,.axisPinnedBandOverlay,.axisPinnedOverlay')))))schedule();
+  }).observe(chart,{childList:true,subtree:true});
+  schedule();
+})();
+</script>
+<!-- v219: ombra giornaliera per le tick della storia e priorita visiva degli assi evidenziati sulle ellissi. -->
 
 </body></html>
