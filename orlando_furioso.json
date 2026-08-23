@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-23T11:35:28.738Z"
+    "exportedAt": "2026-08-23T12:07:17.659Z"
   },
   "annotations": {
     "narrative": [
@@ -115,11 +115,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-25T19:53:38.921Z",
-        "updatedAt": "2026-08-18T20:01:39.785Z",
+        "updatedAt": "2026-08-23T11:43:55.392Z",
         "drafts": {}
       },
       {
@@ -2327,7 +2328,10 @@
                   "Valore": "2",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -2368,7 +2372,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T12:29:25.236Z",
-        "updatedAt": "2026-08-23T10:14:09.739Z"
+        "updatedAt": "2026-08-23T10:14:09.739Z",
+        "drafts": {}
       },
       {
         "id": "N_I_35_3__I_35_8",
@@ -2410,7 +2415,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -2451,7 +2462,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T12:34:39.723Z",
-        "updatedAt": "2026-08-23T10:14:49.822Z"
+        "updatedAt": "2026-08-23T10:14:49.822Z",
+        "drafts": {}
       },
       {
         "id": "N_I_36_1__I_38_4",
@@ -3038,7 +3050,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -3082,7 +3100,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T14:00:32.563Z",
-        "updatedAt": "2026-08-23T09:57:29.293Z"
+        "updatedAt": "2026-08-23T09:57:29.293Z",
+        "drafts": {}
       },
       {
         "id": "N_I_64_5__I_64_8",
@@ -5293,7 +5312,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -5336,7 +5358,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T15:17:31.069Z",
-        "updatedAt": "2026-08-23T10:15:04.587Z"
+        "updatedAt": "2026-08-23T10:15:04.587Z",
+        "drafts": {}
       },
       {
         "id": "N_II_27_8__II_30_4",
@@ -5378,7 +5401,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -5419,7 +5448,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T15:21:02.754Z",
-        "updatedAt": "2026-08-23T10:15:41.672Z"
+        "updatedAt": "2026-08-23T10:15:41.672Z",
+        "drafts": {}
       },
       {
         "id": "N_II_33_7__II_33_7",
@@ -6902,7 +6932,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -6946,7 +6982,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T16:21:50.615Z",
-        "updatedAt": "2026-08-23T10:17:48.689Z"
+        "updatedAt": "2026-08-23T10:17:48.689Z",
+        "drafts": {}
       },
       {
         "id": "N_III_65_1__III_65_2",
@@ -19497,12 +19534,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T10:21:33.041Z",
-        "updatedAt": "2026-08-22T11:51:55.200Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:46:41.343Z"
       },
       {
         "id": "N_VIII_90_1__VIII_90_2",
@@ -27938,7 +27975,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -27980,7 +28020,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T15:08:13.023Z",
-        "updatedAt": "2026-08-23T09:47:27.582Z"
+        "updatedAt": "2026-08-23T09:47:27.582Z",
+        "drafts": {}
       },
       {
         "id": "N_XI_21_4__XI_21_4",
@@ -29848,7 +29889,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -29889,7 +29936,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:40:36.558Z",
-        "updatedAt": "2026-08-23T09:45:55.215Z"
+        "updatedAt": "2026-08-23T09:45:55.215Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_7_1__XII_7_6",
@@ -29935,7 +29983,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -29975,7 +30026,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:42:04.274Z",
-        "updatedAt": "2026-08-23T09:47:55.665Z"
+        "updatedAt": "2026-08-23T09:47:55.665Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_8_7__XII_9_2",
@@ -30017,7 +30069,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30057,7 +30115,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:44:15.546Z",
-        "updatedAt": "2026-08-23T09:48:00.132Z"
+        "updatedAt": "2026-08-23T09:48:00.132Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_9_3__XII_10_8",
@@ -30099,7 +30158,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30140,7 +30205,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:44:25.096Z",
-        "updatedAt": "2026-08-23T10:19:38.720Z"
+        "updatedAt": "2026-08-23T10:19:38.720Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_11_1__XII_12_6",
@@ -30186,7 +30252,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30228,7 +30300,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:44:40.362Z",
-        "updatedAt": "2026-08-23T10:19:36.120Z"
+        "updatedAt": "2026-08-23T10:19:36.120Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_13_1__XII_13_6",
@@ -30270,7 +30343,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30310,7 +30389,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:45:18.647Z",
-        "updatedAt": "2026-08-23T09:48:13.198Z"
+        "updatedAt": "2026-08-23T09:48:13.198Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_13_7__XII_15_8",
@@ -30352,7 +30432,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30395,7 +30481,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:45:57.745Z",
-        "updatedAt": "2026-08-23T09:48:16.514Z"
+        "updatedAt": "2026-08-23T09:48:16.514Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_16_1__XII_16_8",
@@ -30437,7 +30524,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30478,7 +30571,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:46:07.665Z",
-        "updatedAt": "2026-08-23T10:18:37.571Z"
+        "updatedAt": "2026-08-23T10:18:37.571Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_7_7__XII_8_6",
@@ -30520,7 +30614,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30564,7 +30664,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:49:41.312Z",
-        "updatedAt": "2026-08-23T09:47:58.146Z"
+        "updatedAt": "2026-08-23T09:47:58.146Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_12_7__XII_12_8",
@@ -30625,7 +30726,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T16:55:22.877Z",
-        "updatedAt": "2026-08-23T09:48:10.765Z"
+        "updatedAt": "2026-08-23T09:48:10.765Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_17_5__XII_17_6",
@@ -30667,7 +30769,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "N_XI_83_3__XI_83_6",
@@ -30679,7 +30787,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30729,7 +30843,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T17:06:07.719Z",
-        "updatedAt": "2026-08-23T10:19:49.788Z"
+        "updatedAt": "2026-08-23T10:19:49.788Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_17_7__XII_18_4",
@@ -30771,7 +30886,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30812,7 +30933,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T17:10:33.298Z",
-        "updatedAt": "2026-08-23T09:48:23.814Z"
+        "updatedAt": "2026-08-23T09:48:23.814Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_18_5__XII_20_8",
@@ -30854,7 +30976,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -30898,7 +31026,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T17:24:30.610Z",
-        "updatedAt": "2026-08-23T10:19:54.471Z"
+        "updatedAt": "2026-08-23T10:19:54.471Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_21_1__XII_22_8",
@@ -30962,7 +31091,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T17:30:41.509Z",
-        "updatedAt": "2026-08-23T10:23:42.618Z"
+        "updatedAt": "2026-08-23T10:23:42.618Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_26_1__XII_31_2",
@@ -31007,7 +31137,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31047,7 +31183,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T17:34:48.772Z",
-        "updatedAt": "2026-08-23T09:49:11.997Z"
+        "updatedAt": "2026-08-23T09:49:11.997Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_23_1__XII_24_8",
@@ -31089,7 +31226,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31128,7 +31271,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T17:35:39.171Z",
-        "updatedAt": "2026-08-23T09:48:59.096Z"
+        "updatedAt": "2026-08-23T09:48:59.096Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_25_1__XII_25_4",
@@ -31174,7 +31318,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31217,7 +31364,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T17:36:34.338Z",
-        "updatedAt": "2026-08-23T09:49:01.764Z"
+        "updatedAt": "2026-08-23T09:49:01.764Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_25_5__XII_25_8",
@@ -31259,7 +31407,13 @@
                   "Valore": "10",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31302,7 +31456,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T17:36:47.836Z",
-        "updatedAt": "2026-08-23T09:49:03.514Z"
+        "updatedAt": "2026-08-23T09:49:03.514Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_34_1__XII_35_8",
@@ -31347,7 +31502,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31385,7 +31546,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:03:19.994Z",
-        "updatedAt": "2026-08-23T09:49:35.613Z"
+        "updatedAt": "2026-08-23T09:49:35.613Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_36_1__XII_47_8",
@@ -31430,7 +31592,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31473,7 +31641,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:05:20.375Z",
-        "updatedAt": "2026-08-23T09:49:44.962Z"
+        "updatedAt": "2026-08-23T09:49:44.962Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_50_1__XII_50_8",
@@ -31517,7 +31686,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31557,7 +31732,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:08:31.059Z",
-        "updatedAt": "2026-08-23T09:49:47.748Z"
+        "updatedAt": "2026-08-23T09:49:47.748Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_51_1__XII_51_6",
@@ -31599,7 +31775,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31639,7 +31821,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:09:36.855Z",
-        "updatedAt": "2026-08-23T09:49:50.145Z"
+        "updatedAt": "2026-08-23T09:49:50.145Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_51_7__XII_53_4",
@@ -31683,7 +31866,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31724,7 +31913,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:10:28.949Z",
-        "updatedAt": "2026-08-23T09:49:54.213Z"
+        "updatedAt": "2026-08-23T09:49:54.213Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_53_5__XII_53_5",
@@ -31766,7 +31956,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31806,7 +32002,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:10:40.021Z",
-        "updatedAt": "2026-08-23T09:50:10.829Z"
+        "updatedAt": "2026-08-23T09:50:10.829Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_53_6__XII_55_8",
@@ -31849,7 +32046,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31889,7 +32092,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:11:05.171Z",
-        "updatedAt": "2026-08-23T09:50:40.396Z"
+        "updatedAt": "2026-08-23T09:50:40.396Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_56_1__XII_56_2",
@@ -31931,7 +32135,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -31971,7 +32181,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:11:11.404Z",
-        "updatedAt": "2026-08-23T09:51:02.329Z"
+        "updatedAt": "2026-08-23T09:51:02.329Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_56_3__XII_56_4",
@@ -32013,7 +32224,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32053,7 +32270,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:11:19.886Z",
-        "updatedAt": "2026-08-23T09:51:15.079Z"
+        "updatedAt": "2026-08-23T09:51:15.079Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_56_5__XII_57_8",
@@ -32095,7 +32313,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32137,7 +32361,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:11:38.104Z",
-        "updatedAt": "2026-08-23T09:51:26.546Z"
+        "updatedAt": "2026-08-23T09:51:26.546Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_58_1__XII_59_2",
@@ -32180,7 +32405,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32220,7 +32451,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:12:00.521Z",
-        "updatedAt": "2026-08-23T09:51:40.612Z"
+        "updatedAt": "2026-08-23T09:51:40.612Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_59_3__XII_61_4",
@@ -32262,7 +32494,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32302,7 +32540,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:12:29.002Z",
-        "updatedAt": "2026-08-23T09:51:58.613Z"
+        "updatedAt": "2026-08-23T09:51:58.613Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_61_5__XII_61_5",
@@ -32348,7 +32587,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32390,7 +32632,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:12:38.572Z",
-        "updatedAt": "2026-08-23T09:52:14.746Z"
+        "updatedAt": "2026-08-23T09:52:14.746Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_62_5__XII_62_8",
@@ -32454,7 +32697,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:12:54.336Z",
-        "updatedAt": "2026-08-23T10:02:24.959Z"
+        "updatedAt": "2026-08-23T10:02:24.959Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_61_6__XII_62_4",
@@ -32500,7 +32744,10 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32541,7 +32788,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:13:26.221Z",
-        "updatedAt": "2026-08-23T10:02:22.492Z"
+        "updatedAt": "2026-08-23T10:02:22.492Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_63_1__XII_65_2",
@@ -32583,7 +32831,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32624,7 +32878,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:13:49.070Z",
-        "updatedAt": "2026-08-23T10:05:49.208Z"
+        "updatedAt": "2026-08-23T10:05:49.208Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_65_3__XII_65_5",
@@ -32670,7 +32925,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32709,7 +32967,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:13:57.351Z",
-        "updatedAt": "2026-08-23T10:05:01.275Z"
+        "updatedAt": "2026-08-23T10:05:01.275Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_65_6__XII_65_8",
@@ -32752,7 +33011,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "N_XIX_17_1__XIX_17_4",
@@ -32764,7 +33029,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32804,7 +33075,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T18:14:08.669Z",
-        "updatedAt": "2026-08-23T10:05:53.658Z"
+        "updatedAt": "2026-08-23T10:05:53.658Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_67_1__XII_67_6",
@@ -32846,7 +33118,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32888,7 +33166,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T21:32:54.945Z",
-        "updatedAt": "2026-08-23T10:34:13.280Z"
+        "updatedAt": "2026-08-23T10:34:13.280Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_73_1__XII_85_2",
@@ -32930,7 +33209,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -32972,7 +33257,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T21:39:14.147Z",
-        "updatedAt": "2026-08-23T10:37:08.946Z"
+        "updatedAt": "2026-08-23T10:37:08.946Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_70_1__XII_71_8",
@@ -33034,7 +33320,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T21:48:08.929Z",
-        "updatedAt": "2026-08-23T10:36:50.545Z"
+        "updatedAt": "2026-08-23T10:36:50.545Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_72_1__XII_72_8",
@@ -33074,7 +33361,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33109,7 +33402,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T21:48:47.746Z",
-        "updatedAt": "2026-08-23T10:36:53.346Z"
+        "updatedAt": "2026-08-23T10:36:53.346Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_68_1__XII_69_8",
@@ -33153,7 +33447,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "T_XIV_68_1_2",
@@ -33165,7 +33465,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "N_XII_25_5__XII_25_8",
@@ -33177,7 +33483,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "T_XIV_68_1_2",
@@ -33189,7 +33501,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33233,7 +33551,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T21:54:22.343Z",
-        "updatedAt": "2026-08-23T10:36:44.796Z"
+        "updatedAt": "2026-08-23T10:36:44.796Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_67_7__XII_67_8_2",
@@ -33279,7 +33598,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33319,7 +33641,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T21:55:35.961Z",
-        "updatedAt": "2026-08-23T10:34:17.297Z"
+        "updatedAt": "2026-08-23T10:34:17.297Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_86_1__XII_86_4",
@@ -33365,7 +33688,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33407,7 +33733,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:00:00.739Z",
-        "updatedAt": "2026-08-23T11:05:45.148Z"
+        "updatedAt": "2026-08-23T11:05:45.148Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_85_3__XII_85_8",
@@ -33449,7 +33776,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33491,7 +33824,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:00:06.084Z",
-        "updatedAt": "2026-08-23T11:05:44.233Z"
+        "updatedAt": "2026-08-23T11:05:44.233Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_86_4__XII_86_8",
@@ -33533,7 +33867,13 @@
                   "Valore": "20",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "T_XII_68_7",
@@ -33545,7 +33885,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "N_XXIII_53_5__XXIII_54_1",
@@ -33557,7 +33903,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33601,7 +33953,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:01:56.442Z",
-        "updatedAt": "2026-08-23T11:05:54.950Z"
+        "updatedAt": "2026-08-23T11:05:54.950Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_88_1__XII_89_8",
@@ -33643,7 +33996,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33685,7 +34044,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:02:07.326Z",
-        "updatedAt": "2026-08-23T11:06:51.766Z"
+        "updatedAt": "2026-08-23T11:06:51.766Z",
+        "drafts": {}
       },
       {
         "id": "N_XII_90_1__XII_94_6",
@@ -33729,7 +34089,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33770,7 +34136,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:03:19.924Z",
-        "updatedAt": "2026-08-23T11:07:47.768Z"
+        "updatedAt": "2026-08-23T11:07:47.768Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_2_1__XIII_2_8",
@@ -33813,7 +34180,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33852,7 +34225,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:11:55.235Z",
-        "updatedAt": "2026-08-23T11:23:03.280Z"
+        "updatedAt": "2026-08-23T11:23:03.280Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_32_1__XIII_40_8",
@@ -33895,7 +34269,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -33936,7 +34316,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:28:22.777Z",
-        "updatedAt": "2026-08-23T11:08:58.781Z"
+        "updatedAt": "2026-08-23T11:08:58.781Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_42_1__XIII_42_2",
@@ -33978,7 +34359,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34020,7 +34407,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:29:26.676Z",
-        "updatedAt": "2026-08-23T11:10:23.931Z"
+        "updatedAt": "2026-08-23T11:10:23.931Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_42_3__XIII_42_6",
@@ -34066,7 +34454,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34108,7 +34499,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:29:35.174Z",
-        "updatedAt": "2026-08-23T11:10:39.399Z"
+        "updatedAt": "2026-08-23T11:10:39.399Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_42_7__XIII_42_7",
@@ -34151,7 +34543,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34195,7 +34593,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:29:43.725Z",
-        "updatedAt": "2026-08-23T11:10:46.632Z"
+        "updatedAt": "2026-08-23T11:10:46.632Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_41_1__XIII_41_8",
@@ -34237,7 +34636,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34278,7 +34683,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T22:30:12.709Z",
-        "updatedAt": "2026-08-23T11:09:20.732Z"
+        "updatedAt": "2026-08-23T11:09:20.732Z",
+        "drafts": {}
       },
       {
         "id": "N_XIV_10_1__XIV_11_2",
@@ -34321,13 +34727,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34364,12 +34764,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T22:50:54.605Z",
-        "updatedAt": "2026-08-13T15:53:01.798Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:50:18.590Z"
       },
       {
         "id": "N_XIV_19_5__XIV_20_8",
@@ -34428,12 +34828,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T22:53:00.222Z",
-        "updatedAt": "2026-08-22T14:23:47.893Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:51:53.406Z"
       },
       {
         "id": "N_XIII_81_3__XIII_83_6",
@@ -34454,7 +34854,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "I Mori si preparano all'assalto di Parigi",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -34476,13 +34876,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XIV_68_1_2",
@@ -34494,13 +34888,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34529,12 +34917,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "Bisogna stabilire il giorno della mostra",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T22:56:12.403Z",
-        "updatedAt": "2026-08-09T21:27:19.011Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:50:14.926Z"
       },
       {
         "id": "N_XIV_25_5__XIV_25_7",
@@ -34664,13 +35058,7 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34698,12 +35086,16 @@
           "da_mostrare": [],
           "di_riferimento": [],
           "primo_ordine": "",
-          "connessione_boiardo": []
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:05:38.620Z",
-        "updatedAt": "2026-08-11T22:23:37.329Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:52:38.189Z"
       },
       {
         "id": "N_XIV_30_1__XIV_30_2",
@@ -34758,12 +35150,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:09:13.239Z",
-        "updatedAt": "2026-08-07T14:02:59.461Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:53:09.623Z"
       },
       {
         "id": "N_XIV_28_1__XIV_29_8",
@@ -34784,7 +35182,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Agramante viene a sapere della morte di Alzirdo e Manilardo",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -34806,13 +35204,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34843,12 +35235,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:16:18.651Z",
-        "updatedAt": "2026-08-07T14:02:18.395Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:53:25.458Z"
       },
       {
         "id": "N_XIV_32_1__XIV_34_5",
@@ -34869,7 +35267,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo decide di cercare l'uccisore di Alzirdo e Manilardo",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -34890,13 +35288,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -34931,12 +35323,16 @@
           "primo_ordine": "",
           "connessione_boiardo": [
             "Mandricardo"
-          ]
+          ],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:23:14.544Z",
-        "updatedAt": "2026-08-11T22:39:55.480Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:54:40.275Z"
       },
       {
         "id": "N_XIV_34_6__XIV_35_8",
@@ -34957,7 +35353,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Mandricardo va alla ricerca di Orlando",
+          "Titolo_breve": "Mandricardo parte alla ricerca di Orlando",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -34978,13 +35374,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35020,12 +35410,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:23:29.881Z",
-        "updatedAt": "2026-08-13T15:54:17.932Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:54:52.223Z"
       },
       {
         "id": "N_XIV_36_1__XIV_37_8",
@@ -35046,7 +35436,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo si imbatte nei resti delle schiere di Alzirdo e Manilardo",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -35067,13 +35457,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35100,12 +35484,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:23:42.249Z",
-        "updatedAt": "2026-07-28T00:06:12.571Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:55:41.710Z"
       },
       {
         "id": "N_XIV_38_1__XIV_38_2",
@@ -35126,7 +35517,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo prosegue la ricerca di Orlando",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -35151,10 +35542,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35189,12 +35577,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:24:12.698Z",
-        "updatedAt": "2026-08-14T01:54:57.688Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:55:57.255Z"
       },
       {
         "id": "N_XIV_38_3__XIV_49_8",
@@ -35215,7 +35603,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Mandricardo incontra il corteo di Doralice",
+          "Titolo_breve": "Mandricardo si imbatte nel corteo di Doralice",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -35236,13 +35624,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XIV_68_1_2",
@@ -35254,13 +35636,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XIV_68_1",
@@ -35272,13 +35648,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35317,12 +35687,12 @@
           ],
           "riferimento_contraddizione": "RIF_XVIII_33_3__XVIII_33_4",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:25:27.558Z",
-        "updatedAt": "2026-08-19T00:52:28.334Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:56:19.707Z"
       },
       {
         "id": "N_XIV_50_1__XIV_56_4",
@@ -35365,13 +35735,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35409,12 +35773,12 @@
           "aggancio_contraddizione": [
             "N_XIV_38_3__XIV_49_8"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:27:06.506Z",
-        "updatedAt": "2026-08-14T01:59:09.695Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:56:23.857Z"
       },
       {
         "id": "N_XIV_56_5__XIV_60_8",
@@ -35435,7 +35799,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo conforta Doralice",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -35457,13 +35821,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35499,12 +35857,12 @@
           "aggancio_contraddizione": [
             "N_XIV_38_3__XIV_49_8"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:27:51.691Z",
-        "updatedAt": "2026-08-14T01:59:39.127Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:57:15.972Z"
       },
       {
         "id": "N_XIV_61_1__XIV_61_8",
@@ -35525,7 +35883,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo e Doralice si affrettano verso un riparo dove passare la notte",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -35547,13 +35905,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35591,12 +35943,12 @@
           "aggancio_contraddizione": [
             "N_XIV_38_3__XIV_49_8"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:46:08.029Z",
-        "updatedAt": "2026-08-14T02:04:27.600Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:58:40.789Z"
       },
       {
         "id": "N_XIV_62_1__XIV_62_8",
@@ -35617,7 +35969,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo e Doralice trovano riparo nell'alloggio di un pastore ",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -35639,13 +35991,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35683,12 +36029,12 @@
           "aggancio_contraddizione": [
             "N_XIV_38_3__XIV_49_8"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:47:12.679Z",
-        "updatedAt": "2026-08-14T02:04:46.050Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:58:44.205Z"
       },
       {
         "id": "N_XIV_63_1__XIV_63_4",
@@ -35709,7 +36055,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo e Doralice trascorrono la notte assieme",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -35731,13 +36077,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35777,12 +36117,12 @@
           "aggancio_contraddizione": [
             "N_XIV_38_3__XIV_49_8"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:48:39.579Z",
-        "updatedAt": "2026-08-14T02:05:17.649Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:59:07.140Z"
       },
       {
         "id": "N_XIV_64_1__XIV_64_1",
@@ -35803,7 +36143,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo e Doralice viaggiano assieme",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -35829,10 +36169,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35872,12 +36209,12 @@
             "N_XIV_64_7__XIV_64_8",
             "N_XIV_38_3__XIV_49_8"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:49:43.694Z",
-        "updatedAt": "2026-08-14T02:17:19.825Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:59:53.739Z"
       },
       {
         "id": "N_XIV_63_5__XIV_63_8",
@@ -35898,7 +36235,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo e Doralice si svegliano il giorno dopo",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -35920,13 +36257,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XIV_63_6",
@@ -35938,13 +36269,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -35982,12 +36307,12 @@
           "aggancio_contraddizione": [
             "N_XIV_38_3__XIV_49_8"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:49:48.527Z",
-        "updatedAt": "2026-08-14T02:05:42.231Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:59:25.323Z"
       },
       {
         "id": "N_XIV_64_7__XIV_64_8",
@@ -36033,13 +36358,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XIV_68_1",
@@ -36051,13 +36370,7 @@
                   "Valore": "10",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36099,12 +36412,12 @@
           ],
           "riferimento_contraddizione": "RIF_XXIII_73_1__XXIII_73_2",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Mandricardo e Doralice incontrano Orlando, Zerbino e Isabella"
+          "secondo_titolo": "Mandricardo e Doralice incontrano Orlando, Zerbino e Isabella",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:50:03.460Z",
-        "updatedAt": "2026-08-14T22:48:00.688Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:00:23.501Z"
       },
       {
         "id": "N_XIV_64_2__XIV_64_6",
@@ -36125,7 +36438,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mandricardo e Doralice presso un fiume",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -36147,13 +36460,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36194,12 +36501,12 @@
           "aggancio_contraddizione": [
             "N_XIV_64_7__XIV_64_8"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:50:08.294Z",
-        "updatedAt": "2026-08-14T02:06:32.844Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:00:16.501Z"
       },
       {
         "id": "N_XIV_66_2__XIV_66_2",
@@ -36257,12 +36564,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:50:40.644Z",
-        "updatedAt": "2026-08-09T21:31:30.667Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:01:12.533Z"
       },
       {
         "id": "N_XIV_66_1__XIV_67_8",
@@ -36283,7 +36596,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Agramante si prepara all'assalto di Parigi",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -36305,13 +36618,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36340,12 +36647,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T23:51:40.943Z",
-        "updatedAt": "2026-08-09T21:27:47.393Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:01:30.366Z"
       },
       {
         "id": "N_XIV_68_1__XIV_73_8",
@@ -36387,13 +36700,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36430,12 +36737,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:08:15.448Z",
-        "updatedAt": "2026-08-13T15:56:42.315Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:01:48.632Z"
       },
       {
         "id": "N_XIV_96_4__XIV_96_6",
@@ -36456,7 +36763,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "San Michele e il Silenzio agevolano le schiere di Rinaldo",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -36481,10 +36788,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36525,12 +36829,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:17:18.708Z",
-        "updatedAt": "2026-08-22T14:26:03.192Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:02:50.249Z"
       },
       {
         "id": "N_XIV_96_7__XIV_98_4",
@@ -36551,7 +36855,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Le schiere di Rinaldo giungono a Parigi assediata",
+          "Titolo_breve": "Le schiere di Rinaldo giungono presso Parigi assediata",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -36572,13 +36876,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XIV_68_1_2",
@@ -36590,13 +36888,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36635,12 +36927,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:19:25.041Z",
-        "updatedAt": "2026-08-22T14:25:38.677Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:02:44.534Z"
       },
       {
         "id": "N_XIV_98_5__XIV_99_8",
@@ -36682,13 +36974,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36728,12 +37014,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:20:41.258Z",
-        "updatedAt": "2026-08-13T15:58:06.982Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:02:56.730Z"
       },
       {
         "id": "N_XIV_100_1__XIV_103_8",
@@ -36754,7 +37040,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Carlo prepara la difesa di Parigi",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -36775,13 +37061,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36812,12 +37092,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:21:23.179Z",
-        "updatedAt": "2026-08-07T14:10:11.890Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:03:20.431Z"
       },
       {
         "id": "N_XIV_105_1__XIV_105_8",
@@ -36838,7 +37124,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Agramante si ritira oltre la Senna",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -36859,13 +37145,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -36894,12 +37174,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:21:47.559Z",
-        "updatedAt": "2026-07-28T00:32:30.086Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:03:48.314Z"
       },
       {
         "id": "N_XIV_106_1__XIV_107_4",
@@ -36920,7 +37207,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Carlo difende le mura di Parigi",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "analessi",
@@ -36957,12 +37244,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:22:18.458Z",
-        "updatedAt": "2026-08-22T14:26:27.128Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:04:14.546Z"
       },
       {
         "id": "N_XIV_107_5__XIV_108_4",
@@ -36983,7 +37270,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Marsilio guida le sue schiere con altri capitani",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -37007,13 +37294,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37042,12 +37323,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:23:00.225Z",
-        "updatedAt": "2026-07-28T00:34:08.884Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:04:56.696Z"
       },
       {
         "id": "N_XIV_108_7__XIV_108_8",
@@ -37068,7 +37356,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Rodomonte è impaziente di attaccare",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -37089,13 +37377,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37124,12 +37406,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:23:32.657Z",
-        "updatedAt": "2026-07-28T00:34:48.318Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:05:26.279Z"
       },
       {
         "id": "N_XIV_109_1__XIV_112_8",
@@ -37169,13 +37458,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37204,12 +37487,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:23:48.575Z",
-        "updatedAt": "2026-07-28T00:35:32.018Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:05:33.229Z"
       },
       {
         "id": "N_XIV_113_1__XIV_125_8",
@@ -37251,13 +37541,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37293,12 +37577,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:25:32.974Z",
-        "updatedAt": "2026-08-13T15:59:12.464Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:05:48.696Z"
       },
       {
         "id": "N_XIV_129_1__XIV_130_8",
@@ -37319,7 +37603,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Rodomonte supera il fossato di Parigi",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -37340,13 +37624,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37375,12 +37653,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:26:37.390Z",
-        "updatedAt": "2026-07-28T00:38:46.583Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:06:28.429Z"
       },
       {
         "id": "N_XIV_131_1__XIV_134_6",
@@ -37436,12 +37721,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:26:47.307Z",
-        "updatedAt": "2026-08-13T16:05:00.413Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:06:38.414Z"
       },
       {
         "id": "N_XIV_126_1__XIV_128_8",
@@ -37481,13 +37766,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37516,12 +37795,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:26:58.212Z",
-        "updatedAt": "2026-07-28T00:37:17.767Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:05:58.379Z"
       },
       {
         "id": "N_XV_3_1__XV_5_8",
@@ -37563,13 +37849,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37600,12 +37880,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T00:38:46.597Z",
-        "updatedAt": "2026-08-10T00:08:09.186Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T12:07:17.631Z"
       },
       {
         "id": "N_XV_6_1__XV_9_4",
@@ -43225,7 +43511,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -43270,7 +43562,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T09:42:36.800Z",
-        "updatedAt": "2026-08-23T10:09:35.956Z"
+        "updatedAt": "2026-08-23T10:09:35.956Z",
+        "drafts": {}
       },
       {
         "id": "N_XIX_40_7__XIX_41_8",
@@ -47083,7 +47376,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -47127,7 +47423,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T12:19:21.648Z",
-        "updatedAt": "2026-08-23T11:35:28.710Z"
+        "updatedAt": "2026-08-23T11:36:23.551Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_43_1__XIII_43_4",
@@ -47170,7 +47467,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -47211,7 +47514,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T12:50:49.172Z",
-        "updatedAt": "2026-08-23T11:17:50.747Z"
+        "updatedAt": "2026-08-23T11:17:50.747Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_43_5__XIII_43_8",
@@ -47254,7 +47558,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -47296,7 +47606,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T12:50:57.786Z",
-        "updatedAt": "2026-08-23T11:17:53.261Z"
+        "updatedAt": "2026-08-23T11:17:53.261Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_44_1__XIII_44_2",
@@ -47343,7 +47654,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -47383,7 +47697,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T12:51:03.919Z",
-        "updatedAt": "2026-08-23T11:18:14.795Z"
+        "updatedAt": "2026-08-23T11:18:14.795Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_44_3__XIII_44_4",
@@ -47427,7 +47742,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -47467,7 +47788,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T12:51:09.671Z",
-        "updatedAt": "2026-08-23T11:23:05.114Z"
+        "updatedAt": "2026-08-23T11:23:05.114Z",
+        "drafts": {}
       },
       {
         "id": "N_XXIII_53_5__XXIII_54_1",
@@ -51062,7 +51384,10 @@
                   "Valore": "",
                   "Unita": "mesi"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51110,7 +51435,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T16:32:35.149Z",
-        "updatedAt": "2026-08-23T11:23:33.580Z"
+        "updatedAt": "2026-08-23T11:23:33.580Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_46_5__XIII_49_2",
@@ -51153,7 +51479,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "T_VIII_64_8",
@@ -51165,7 +51497,13 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51209,7 +51547,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T16:33:19.235Z",
-        "updatedAt": "2026-08-23T11:23:40.629Z"
+        "updatedAt": "2026-08-23T11:23:40.629Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_54_1__XIII_54_4",
@@ -51252,7 +51591,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51293,7 +51638,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T16:34:44.633Z",
-        "updatedAt": "2026-08-23T11:24:05.179Z"
+        "updatedAt": "2026-08-23T11:24:05.179Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_54_5__XIII_55_8",
@@ -51340,7 +51686,10 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51383,7 +51732,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T16:35:19.397Z",
-        "updatedAt": "2026-08-23T11:34:51.145Z"
+        "updatedAt": "2026-08-23T11:34:51.145Z",
+        "drafts": {}
       },
       {
         "id": "N_XIII_74_1__XIII_74_4",
@@ -51404,7 +51754,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Mellissa istruisce Bradamante",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -51430,10 +51780,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51467,12 +51814,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T16:36:32.248Z",
-        "updatedAt": "2026-08-22T14:21:50.029Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:47:11.941Z"
       },
       {
         "id": "N_XIII_74_5__XIII_75_3",
@@ -51493,7 +51840,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Melissa e Bradamante si separano",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -51515,13 +51862,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51550,12 +51891,19 @@
             "G_XIII_74_6"
           ],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T16:36:48.231Z",
-        "updatedAt": "2026-07-28T17:11:48.681Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:47:31.107Z"
       },
       {
         "id": "N_XIII_75_3__XIII_75_4",
@@ -51576,7 +51924,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Bradamante si inoltra verso il palazzo di Atlante ",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -51601,10 +51949,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51640,12 +51985,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T16:38:01.184Z",
-        "updatedAt": "2026-08-22T14:23:34.128Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:48:35.575Z"
       },
       {
         "id": "N_XIII_75_5__XIII_78_8",
@@ -51666,7 +52011,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Bradamante si lascia ingannare da Atlante",
+          "Titolo_breve": "Bradamante viene ingannata dal simulacro di Ruggiero",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -51687,13 +52032,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51728,12 +52067,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T16:38:36.498Z",
-        "updatedAt": "2026-08-22T14:22:47.860Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:48:57.807Z"
       },
       {
         "id": "N_XIII_79_3__XIII_79_8",
@@ -51754,7 +52093,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Bradamante e Ruggiero nel palazzo di Atlante",
+          "Titolo_breve": "Bradamante e Ruggiero sono prigionieri nel palazzo di Atlante",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -51780,10 +52119,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -51820,12 +52156,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T16:39:22.481Z",
-        "updatedAt": "2026-08-13T15:52:10.200Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:49:22.407Z"
       },
       {
         "id": "N_XXII_10_3__XXII_10_8",
@@ -52122,7 +52458,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Bradamante arriva al palazzo di Atlante",
+          "Titolo_breve": "Bradamante giunge al palazzo di Atlante",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -52143,13 +52479,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -52188,12 +52518,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Bradamante giunge al palazzo di Atlante"
+          "secondo_titolo": "Bradamante giunge al palazzo di Atlante",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T17:18:06.288Z",
-        "updatedAt": "2026-08-14T22:47:55.238Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:49:02.457Z"
       },
       {
         "id": "N_XXII_15_1__XXII_15_8",
@@ -118381,7 +118711,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -118422,7 +118758,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T23:53:44.843Z",
-        "updatedAt": "2026-08-23T10:09:52.206Z"
+        "updatedAt": "2026-08-23T10:09:52.206Z",
+        "drafts": {}
       },
       {
         "id": "N_XLV_113_4__XLV_114_6",
@@ -119294,7 +119631,13 @@
                   "Valore": "7",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -119337,7 +119680,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T00:14:25.467Z",
-        "updatedAt": "2026-08-23T10:11:28.040Z"
+        "updatedAt": "2026-08-23T10:11:28.040Z",
+        "drafts": {}
       },
       {
         "id": "N_XLVI_65_1__XLVI_66_8",
@@ -122058,7 +122402,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122097,7 +122447,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T21:29:56.798Z",
-        "updatedAt": "2026-08-23T09:55:13.661Z"
+        "updatedAt": "2026-08-23T09:55:13.661Z",
+        "drafts": {}
       },
       {
         "id": "N_VIII_73_1__VIII_85_8",
@@ -122209,7 +122560,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Sobrino guida la sua schiera alla mostra",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -122233,13 +122584,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122266,12 +122611,16 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-11T22:23:37.354Z",
-        "updatedAt": "2026-08-11T22:30:13.520Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:52:35.624Z"
       },
       {
         "id": "N_XIV_19_3__XIV_19_4",
@@ -122292,7 +122641,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Brunello guida la schiera di Tingitana alla mostra",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -122316,13 +122665,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122349,12 +122692,16 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-11T22:28:00.814Z",
-        "updatedAt": "2026-08-11T22:29:33.122Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:52:04.990Z"
       },
       {
         "id": "N_XIV_25_1__XIV_25_4",
@@ -122375,7 +122722,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Rodomonte alla mostra dell'esercito",
+          "Titolo_breve": "Rodomonte guida la schiera di Bellamarina alla mostra",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -122401,13 +122748,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122438,12 +122779,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-11T22:30:13.542Z",
-        "updatedAt": "2026-08-13T15:53:32.749Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T11:52:29.557Z"
       },
       {
         "id": "N_XXXII_6_6__XXXII_6_6",
@@ -153867,7 +154208,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-23T11:18:53.739Z",
-        "updatedAt": "2026-08-23T11:18:58.045Z"
+        "updatedAt": "2026-08-23T11:18:58.045Z",
+        "drafts": {}
       }
     ],
     "geography": [
