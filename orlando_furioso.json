@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-23T19:47:41.532Z"
+    "exportedAt": "2026-08-23T21:05:17.839Z"
   },
   "annotations": {
     "narrative": [
@@ -17019,7 +17019,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T23:13:03.523Z",
-        "updatedAt": "2026-08-23T19:47:41.507Z"
+        "updatedAt": "2026-08-23T20:26:57.214Z"
       },
       {
         "id": "N_VIII_26_4__VIII_26_5",
@@ -17657,17 +17657,16 @@
                   "Valore": "6",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
           "Determinazione_coordinata_temporale": false,
-          "Tempi_secondari": [],
+          "Tempi_secondari": [
+            "T_VIII_34_4"
+          ],
           "Successioni_temporali": [
             {
               "Segmento_successione_riferimento": "N_VIII_30_2__VIII_30_8",
@@ -17694,12 +17693,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T23:34:42.996Z",
-        "updatedAt": "2026-08-22T11:40:40.009Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T21:03:10.146Z"
       },
       {
         "id": "N_VIII_35_5__VIII_37_4",
@@ -18369,13 +18368,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -18411,12 +18404,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T00:13:42.206Z",
-        "updatedAt": "2026-08-22T11:49:13.265Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T21:04:14.678Z"
       },
       {
         "id": "N_VIII_64_5__VIII_64_6",
@@ -18450,22 +18443,19 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "N_VIII_35_1__VIII_35_4",
-              "Da_incluso": true,
-              "Direzione": "in",
-              "A_Riferimento_ID": "N_VIII_35_1__VIII_35_4",
-              "A_incluso": true,
+              "Da_incluso": false,
+              "Direzione": "dopo",
+              "A_Riferimento_ID": "",
+              "A_incluso": false,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "",
-                  "Unita": ""
+                  "Valore": "1",
+                  "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -18501,12 +18491,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T00:14:29.717Z",
-        "updatedAt": "2026-08-22T14:18:35.894Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T21:05:17.812Z"
       },
       {
         "id": "N_VIII_64_7__VIII_65_6",
@@ -18540,7 +18530,7 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "N_VIII_35_1__VIII_35_4",
-              "Da_incluso": true,
+              "Da_incluso": false,
               "Direzione": "dopo",
               "A_Riferimento_ID": "T_VIII_64_8",
               "A_incluso": false,
@@ -18552,10 +18542,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -18592,12 +18579,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T00:16:35.600Z",
-        "updatedAt": "2026-08-22T11:49:45.767Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T21:04:40.762Z"
       },
       {
         "id": "N_VIII_65_7__VIII_66_6",
@@ -127218,12 +127205,13 @@
           "Calendario_a_mese": "",
           "Calendario_a_anno": "",
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "come_riferimento": "",
+          "primo_ordine": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T23:24:26.003Z",
-        "updatedAt": "2026-07-26T23:46:00.400Z",
-        "drafts": {}
+        "updatedAt": "2026-08-23T20:27:00.510Z"
       },
       {
         "id": "T_VIII_37_8",
