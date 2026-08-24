@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-24T08:41:20.280Z"
+    "exportedAt": "2026-08-24T10:25:00.779Z"
   },
   "annotations": {
     "narrative": [
@@ -18451,7 +18451,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "I corsari di Ebuda catturano Angelica e l'eremita",
+          "Titolo_breve": "I corsari di Ebuda catturano Angelica",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -18472,13 +18472,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -18516,13 +18510,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "",
+          "secondo_titolo": "I corsari di Ebuda catturano Angelica e l'eremita",
           "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T00:13:42.206Z",
-        "updatedAt": "2026-08-24T08:19:07.604Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T09:08:40.790Z"
       },
       {
         "id": "N_VIII_64_5__VIII_64_6",
@@ -20257,12 +20250,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T11:00:00.071Z",
-        "updatedAt": "2026-08-22T14:18:49.545Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T09:09:47.207Z"
       },
       {
         "id": "N_IX_7_1__IX_7_6",
@@ -20396,13 +20389,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_IX_7_1",
@@ -20418,13 +20405,7 @@
                   "Valore": "15",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -20463,12 +20444,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T11:12:43.333Z",
-        "updatedAt": "2026-08-22T11:54:17.203Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T10:22:10.181Z"
       },
       {
         "id": "N_IX_15_5__IX_15_7",
@@ -20689,7 +20670,7 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "N_IX_15_7__IX_15_8",
-              "Da_incluso": false,
+              "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_IX_16_5__IX_16_8",
               "A_incluso": false,
@@ -20701,10 +20682,7 @@
                   "Valore": "4",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -20743,12 +20721,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T11:29:01.127Z",
-        "updatedAt": "2026-08-22T12:03:09.958Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T10:25:00.750Z"
       },
       {
         "id": "N_IX_16_5__IX_16_8",
@@ -128743,7 +128721,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T10:01:12.923Z",
-        "updatedAt": "2026-08-24T08:41:20.252Z"
+        "updatedAt": "2026-08-24T08:56:27.546Z"
       },
       {
         "id": "T_IX_7_1_2",
@@ -129108,8 +129086,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T10:29:22.007Z",
-        "updatedAt": "2026-08-14T23:02:31.204Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T09:09:59.890Z"
       },
       {
         "id": "T_IX_7_7",
