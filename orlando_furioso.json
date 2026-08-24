@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-24T10:56:50.875Z"
+    "exportedAt": "2026-08-24T11:33:12.643Z"
   },
   "annotations": {
     "narrative": [
@@ -20714,7 +20714,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T11:29:01.127Z",
-        "updatedAt": "2026-08-24T10:56:50.845Z"
+        "updatedAt": "2026-08-24T11:26:15.983Z"
       },
       {
         "id": "N_IX_16_5__IX_16_8",
@@ -22536,7 +22536,7 @@
               "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "T_XI_55_3",
-              "A_incluso": false,
+              "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "I giorni si calcolano da sé: l'importante è che la cifra non sia negativa!",
@@ -22545,10 +22545,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -22587,12 +22584,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T12:23:06.990Z",
-        "updatedAt": "2026-08-22T12:12:15.710Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T11:26:52.198Z"
       },
       {
         "id": "N_X_20_7__X_34_8",
@@ -28091,7 +28088,7 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "T_IX_59_5",
-              "Da_incluso": false,
+              "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "T_XI_55_3",
               "A_incluso": true,
@@ -28103,10 +28100,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -28143,12 +28137,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T15:16:01.748Z",
-        "updatedAt": "2026-08-22T12:44:23.427Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T11:33:12.613Z"
       },
       {
         "id": "N_XI_30_5__XI_43_8",
