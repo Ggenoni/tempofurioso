@@ -2050,7 +2050,7 @@ setupReader();buildChars();buildLegend();render();
     for(const d of DATA.segments){
       const r=d.range;if(r?.start&&r?.end){const a=pos.get(`${r.start.c}:${r.start.o}:${r.start.v}`),b=pos.get(`${r.end.c}:${r.end.o}:${r.end.v}`);if(a!=null&&b!=null)for(let i=Math.min(a,b);i<=Math.max(a,b);i++){const k=verses[i];if(!verseSegments.has(k))verseSegments.set(k,[]);verseSegments.get(k).push(d)}}
       const details=d.temporalDetails||{},seen=new Set();
-      for(const item of [...(details.principali||[]),...(details.secondarie||[])]){const tr=item?.range,keyId=`${d.id}|${item?.id||''}`;if(!tr?.start||!tr?.end||seen.has(keyId))continue;seen.add(keyId);const a=pos.get(`${tr.start.c}:${tr.start.o}:${tr.start.v}`),b=pos.get(`${tr.end.c}:${tr.end.o}:${tr.end.v}`);if(a==null||b==null)continue;for(let i=Math.min(a,b);i<=Math.max(a,b);i++){const k=verses[i];if(!timeExpressionSegments.has(k))timeExpressionSegments.set(k,[]);timeExpressionSegments.get(k).push({segmentId:d.id,timeId:item.id||'',range:tr})}}
+      for(const item of [...(details.principali||[]),...(details.secondarie||[])]){const keyId=`${d.id}|${item?.id||''}`;if(seen.has(keyId))continue;seen.add(keyId);const spans=Array.isArray(item?.exactSpans)&&item.exactSpans.length?item.exactSpans:(item?.range?[item.range]:[]);for(const tr of spans){if(!tr?.start||!tr?.end)continue;const a=pos.get(`${tr.start.c}:${tr.start.o}:${tr.start.v}`),b=pos.get(`${tr.end.c}:${tr.end.o}:${tr.end.v}`);if(a==null||b==null)continue;for(let i=Math.min(a,b);i<=Math.max(a,b);i++){const k=verses[i];if(!timeExpressionSegments.has(k))timeExpressionSegments.set(k,[]);timeExpressionSegments.get(k).push({segmentId:d.id,timeId:item.id||'',range:tr})}}}
     }
   }
 
@@ -2322,7 +2322,7 @@ function buildVisualizationData(raw, template){
   const contradictionReferences=rawReferences.filter(x=>contradictionReferenceIds.has(String(x?.id||''))).map(x=>mapStructuralRange(x,{type:x.fields?.Tipo||'',relation:x.fields?.Relazione||'',note:x.fields?.Note||'',incomplete:Boolean(x.fields?.Incompleta)}));
   const edition1532=rawEdition1532.filter(x=>String(x?.fields?.Tipo_intervento||'').trim().toLowerCase()==='aggiunta').map(x=>mapStructuralRange(x,{type:x.fields?.Tipo_intervento||'',title:String(x.fields?.titolo||'').trim()||'Aggiunta del 1532',note:x.fields?.Note||'',incomplete:Boolean(x.fields?.Incompleta)}));
   const allRefIds=d=>{const out=[];for(const [k,v] of Object.entries(d||{})){if((k.endsWith('_ID')||k==='Riferimento_ID')&&typeof v==='string'&&v)out.push(v)}return [...new Set(out)]};
-  const timeDetail=id=>{const t=timeMap.get(id);if(!t)return null;const f=t.fields||{};return {id,Termine_temporale:f.Termine_temporale??'',range:t.range||null};};
+  const timeDetail=id=>{const t=timeMap.get(id);if(!t)return null;const f=t.fields||{},exactSpans=Array.isArray(t.exactSpans)&&t.exactSpans.length?t.exactSpans:(t.range?[t.range]:[]);return {id,Termine_temporale:f.Termine_temporale??'',range:t.range||null,exactSpans};};
   const uniqueTimeDetails=ids=>{const seen=new Set();return ids.map(timeDetail).filter(x=>x&&!seen.has(x.id)&&(seen.add(x.id),true));};
   const uniqueLabeledTimeDetails=items=>{const seen=new Set(),out=[];for(const item of items){const d=timeDetail(item.id);if(!d)continue;const key=`${item.label}|${d.id}`;if(seen.has(key))continue;seen.add(key);out.push({...d,label:item.label})}return out;};
   // Espressioni del tooltip: soltanto ID esplicitamente annotati nel record narrativo.
