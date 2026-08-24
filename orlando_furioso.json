@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-24T11:33:12.643Z"
+    "exportedAt": "2026-08-24T11:36:10.924Z"
   },
   "annotations": {
     "narrative": [
@@ -22449,13 +22449,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -22494,12 +22488,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T12:20:22.790Z",
-        "updatedAt": "2026-08-22T12:12:08.761Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T11:34:58.510Z"
       },
       {
         "id": "N_IX_93_1__IX_93_2",
@@ -22589,7 +22583,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T12:23:06.990Z",
-        "updatedAt": "2026-08-24T11:26:52.198Z"
+        "updatedAt": "2026-08-24T11:36:03.846Z"
       },
       {
         "id": "N_X_20_7__X_34_8",
@@ -28142,7 +28136,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T15:16:01.748Z",
-        "updatedAt": "2026-08-24T11:33:12.613Z"
+        "updatedAt": "2026-08-24T11:36:10.895Z"
       },
       {
         "id": "N_XI_30_5__XI_43_8",
