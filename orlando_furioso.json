@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-24T08:31:21.751Z"
+    "exportedAt": "2026-08-24T08:41:20.280Z"
   },
   "annotations": {
     "narrative": [
@@ -5025,7 +5025,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Rinaldo arriva a Parigi assediata",
+          "Titolo_breve": "Rinaldo arriva a Parigi sotto assedio",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -5046,13 +5046,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -5090,12 +5084,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Rinaldo giunge a Parigi assediata"
+          "secondo_titolo": "Rinaldo giunge a Parigi assediata",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T15:10:43.854Z",
-        "updatedAt": "2026-08-22T10:22:01.223Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T08:40:00.370Z"
       },
       {
         "id": "N_II_26_3__II_26_8",
@@ -13802,13 +13796,7 @@
                   "Valore": "10",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -13840,7 +13828,7 @@
             "sì"
           ],
           "di_riferimento": [],
-          "primo_ordine": "",
+          "primo_ordine": "1",
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
@@ -13850,8 +13838,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T20:55:34.045Z",
-        "updatedAt": "2026-08-24T08:20:25.087Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T08:39:37.635Z"
       },
       {
         "id": "N_VII_38_1__VII_38_4",
@@ -19159,13 +19146,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_IX_7_1_2",
@@ -19177,13 +19158,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -19222,12 +19197,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T10:13:44.880Z",
-        "updatedAt": "2026-08-22T11:50:53.034Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T08:40:13.987Z"
       },
       {
         "id": "N_VIII_86_5__VIII_87_8",
@@ -24778,10 +24753,7 @@
                   "Valore": "2",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -24818,12 +24790,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T13:45:09.339Z",
-        "updatedAt": "2026-08-22T12:24:05.433Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T08:35:24.789Z"
       },
       {
         "id": "N_X_68_4__X_68_4",
@@ -123862,7 +123834,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-24T08:24:33.831Z",
-        "updatedAt": "2026-08-24T08:31:21.724Z"
+        "updatedAt": "2026-08-24T08:32:08.673Z"
       }
     ],
     "time": [
@@ -128748,7 +128720,7 @@
         ],
         "fields": {
           "Coordinata_temporale": true,
-          "Nome_coordinata_temporale": "Orlando parte da Parigi assediata",
+          "Nome_coordinata_temporale": "Orlando dà avvio all'inchiesta di Angelica",
           "Relazione_coordinata_temporale": "nessuna",
           "Coordinata_temporale_riferimento": "",
           "Note": "",
@@ -128771,8 +128743,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T10:01:12.923Z",
-        "updatedAt": "2026-08-14T23:02:15.203Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T08:41:20.252Z"
       },
       {
         "id": "T_IX_7_1_2",
