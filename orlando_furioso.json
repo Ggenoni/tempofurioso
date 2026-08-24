@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-24T10:25:00.779Z"
+    "exportedAt": "2026-08-24T10:56:50.875Z"
   },
   "annotations": {
     "narrative": [
@@ -20491,13 +20491,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -20538,12 +20532,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T11:28:50.844Z",
-        "updatedAt": "2026-08-22T11:54:41.154Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T10:55:04.074Z"
       },
       {
         "id": "N_IX_15_7__IX_15_8",
@@ -20585,13 +20579,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -20631,12 +20619,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T11:28:55.362Z",
-        "updatedAt": "2026-08-22T12:02:53.072Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T10:56:12.458Z"
       },
       {
         "id": "N_IX_16_1__IX_16_4",
@@ -20670,7 +20658,7 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "N_IX_15_7__IX_15_8",
-              "Da_incluso": true,
+              "Da_incluso": false,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_IX_16_5__IX_16_8",
               "A_incluso": false,
@@ -20726,7 +20714,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T11:29:01.127Z",
-        "updatedAt": "2026-08-24T10:25:00.750Z"
+        "updatedAt": "2026-08-24T10:56:50.845Z"
       },
       {
         "id": "N_IX_16_5__IX_16_8",
@@ -23821,10 +23809,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -23869,12 +23854,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T13:16:39.543Z",
-        "updatedAt": "2026-08-22T12:14:49.314Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T10:41:20.221Z"
       },
       {
         "id": "N_X_35_5__X_43_2",
@@ -29362,8 +29347,8 @@
               "Da_Riferimento_ID": "T_XI_78_1",
               "Da_incluso": true,
               "Direzione": "in",
-              "A_Riferimento_ID": "",
-              "A_incluso": false,
+              "A_Riferimento_ID": "T_XI_78_1",
+              "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "",
@@ -29372,10 +29357,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             },
             {
               "Da_Riferimento_ID": "T_XI_77_5",
@@ -29391,10 +29373,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -29433,12 +29412,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T16:21:20.895Z",
-        "updatedAt": "2026-08-22T14:20:38.429Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T10:54:50.559Z"
       },
       {
         "id": "N_XI_80_3__XI_80_4",
@@ -130264,7 +130243,7 @@
           "end": {
             "c": 10,
             "o": 20,
-            "v": 4,
+            "v": 6,
             "ch": 34
           }
         },
@@ -130279,7 +130258,7 @@
             "end": {
               "c": 10,
               "o": 20,
-              "v": 4,
+              "v": 6,
               "ch": 34
             }
           }
@@ -130290,7 +130269,7 @@
           "Relazione_coordinata_temporale": "nessuna",
           "Coordinata_temporale_riferimento": "",
           "Note": "",
-          "Termine_temporale": "fin che l'Aurora la gelata brina\nda le dorate ruote in terra sparse",
+          "Termine_temporale": "fin che l'Aurora la gelata brina\nda le dorate ruote in terra sparse,\ne s'udîr le Alcione alla marina\nde l'antico infortunio lamentarse.",
           "Calendario": false,
           "Calendario_estensione": "puntuale",
           "Calendario_giorno": "",
@@ -130303,12 +130282,13 @@
           "Calendario_a_mese": "",
           "Calendario_a_anno": "",
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "come_riferimento": "",
+          "primo_ordine": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T12:39:53.853Z",
-        "updatedAt": "2026-07-27T12:42:29.441Z",
-        "drafts": {}
+        "updatedAt": "2026-08-24T10:44:57.802Z"
       },
       {
         "id": "T_X_16_7_2",
