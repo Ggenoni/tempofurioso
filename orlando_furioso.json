@@ -51365,24 +51365,6 @@
               "A_incluso": false,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": ""
-            },
-            {
-              "Riferimento_ID": "N_XIX_54_1__XIX_54_4",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "2",
-                  "Unita": "giorni"
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -52456,9 +52438,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -52549,9 +52529,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -52638,9 +52616,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -52825,9 +52801,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -52917,9 +52891,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T18:37:28.839Z",
@@ -52979,9 +52951,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T18:39:41.421Z",
@@ -53073,9 +53043,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T18:39:51.007Z",
@@ -53163,9 +53131,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -53372,9 +53338,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T18:49:43.018Z",
@@ -53461,9 +53425,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T18:52:13.050Z",
@@ -53551,9 +53513,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T18:52:58.422Z",
@@ -53660,9 +53620,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -62947,18 +62905,18 @@
           "Note": "",
           "Determinazioni_temporali": [
             {
-              "Da_Riferimento_ID": "T_XX_101_7",
-              "Da_incluso": true,
-              "Direzione": "in",
+              "Da_Riferimento_ID": "N_XIX_54_1__XIX_54_4",
+              "Da_incluso": false,
+              "Direzione": "dopo",
               "A_Riferimento_ID": "T_XX_101_7",
               "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
-              "Nota": "",
+              "Nota": "Durata ricostruita retrospettivamente dall’arrivo ad Alessandretta, escluso, al giorno dell’imbarco a Luna e dell’arrivo a Marsiglia, incluso.",
               "Quantita": [
                 {
-                  "Valore": "",
-                  "Unita": ""
+                  "Valore": "19",
+                  "Unita": "giorni"
                 }
               ],
               "Stima_min_quantita": [],
@@ -63041,24 +62999,6 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Riferimento_ID": "N_XIX_54_1__XIX_54_4",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "1",
-                  "Unita": "giorni"
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            },
             {
               "Riferimento_ID": "T_XX_101_7",
               "Riferimento_incluso": true,
@@ -63931,9 +63871,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -64027,9 +63965,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -64120,9 +64056,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ],
+          "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
         "custom": {},
@@ -64212,9 +64146,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T23:02:13.577Z",
@@ -64302,9 +64234,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T23:02:24.478Z",
@@ -64392,9 +64322,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T23:02:28.645Z",
@@ -64481,9 +64409,7 @@
           "connessione_boiardo": [],
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
-          "aggancio_contraddizione": [
-            "N_XXII_6_1__XXII_6_8"
-          ]
+          "aggancio_contraddizione": []
         },
         "custom": {},
         "createdAt": "2026-07-28T23:02:49.143Z",
@@ -64518,40 +64444,21 @@
             "Astolfo"
           ],
           "Descrizione": "",
-          "Note": "Contraddizione!!! Astolfo giunge in Francia e libera Ruggiero e Bradamante nel giorno in cui viene ucciso Pinabello, che è pochi giorni dopo l'arrivo di Marfisa e compagni in Francia. Il viaggio di Astolfo deve quindi durare solo qualche giorno in più di quello degli altri compagni!!! Queste indicazioni sono da sovrascrivere",
+          "Note": "Durata ricostruita retrospettivamente in rapporto alla liberazione dei prigionieri del palazzo di Atlante il 18 giugno. Il sommario è delimitato dalla partenza di Astolfo da Alessandretta e dalla successiva tappa verso le Ardenne e Aquisgrana, con entrambi gli estremi esclusi.",
           "Determinazioni_temporali": [
             {
-              "Da_Riferimento_ID": "N_XIX_54_1__XIX_54_4",
+              "Da_Riferimento_ID": "N_XXII_5_7__XXII_5_8",
               "Da_incluso": false,
               "Direzione": "dopo",
-              "A_Riferimento_ID": "T_XXII_30_5",
+              "A_Riferimento_ID": "N_XXII_7_1__XXII_7_2",
               "A_incluso": false,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
-              "Nota": "Contraddizione!!! Sarebbe circa un mese di viaggio!!! Astolfo giunge in Francia e libera Ruggiero e Bradamante nel giorno in cui viene ucciso Pinabello, che è pochi giorni dopo l'arrivo di Marfisa e compagni in Francia. Il viaggio di Astolfo deve quindi durare solo qualche giorno in più di quello degli altri compagni!!! Queste indicazioni sono da sovrascrivere",
+              "Nota": "Quantificazione convenzionale fondata sulle formule «dopo alquanti giorni» e «in meno di venti giorni».",
               "Quantita": [
                 {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
-            },
-            {
-              "Da_Riferimento_ID": "N_XIX_54_1__XIX_54_4",
-              "Da_incluso": false,
-              "Direzione": "dopo",
-              "A_Riferimento_ID": "T_XXII_30_5",
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": "",
-              "Nota": "CONT",
-              "Quantita": [
-                {
-                  "Valore": "1",
-                  "Unita": "mesi"
+                  "Valore": "20",
+                  "Unita": "giorni"
                 }
               ],
               "Stima_min_quantita": [],
@@ -64575,7 +64482,7 @@
           ],
           "Segmento_successione_riferimento": "N_XXII_5_7__XXII_5_8",
           "Relazione_successione": "segue",
-          "Contraddizione_temporale": true,
+          "Contraddizione_temporale": false,
           "Contraddizioni_tempi": [],
           "Contraddizione_tempo_principale_ID": "",
           "Nota_contraddizione": "",
@@ -64593,10 +64500,8 @@
           "di_riferimento": [],
           "primo_ordine": "",
           "connessione_boiardo": [],
-          "personaggio_incongruente": [
-            "Astolfo"
-          ],
-          "riferimento_contraddizione": "RIF_XXII_30_5__XXII_30_8",
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
           "secondo_titolo": ""
         },
@@ -188888,38 +188793,6 @@
         "custom": {},
         "createdAt": "2026-08-12T16:15:50.079Z",
         "updatedAt": "2026-08-12T16:15:55.987Z",
-        "drafts": {}
-      },
-      {
-        "id": "RIF_XXII_30_5__XXII_30_8",
-        "category": "references",
-        "range": {
-          "start": {
-            "c": 22,
-            "o": 30,
-            "v": 5,
-            "ch": 0
-          },
-          "end": {
-            "c": 22,
-            "o": 30,
-            "v": 8,
-            "ch": 39
-          }
-        },
-        "exactSpans": [],
-        "fields": {
-          "Tipo": "Motivo contraddizione",
-          "Relazione": "",
-          "Note": "",
-          "personaggi_boiardo": [],
-          "Incompleta": false,
-          "Nota_incompletezza": "",
-          "Intervalli_destinazione": []
-        },
-        "custom": {},
-        "createdAt": "2026-08-12T18:40:12.171Z",
-        "updatedAt": "2026-08-12T18:40:57.874Z",
         "drafts": {}
       },
       {
