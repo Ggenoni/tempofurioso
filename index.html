@@ -3010,12 +3010,10 @@ function buildVisualizationData(raw, template){
     const clampY=y=>Math.max(pad,Math.min(y,Math.max(pad,innerHeight-h-pad)));
     const rectAt=(x,y)=>({left:x,top:y,right:x+w,bottom:y+h});
     const overlap=(a,b)=>Boolean(a&&b&&Math.min(a.right,b.right)>Math.max(a.left,b.left)&&Math.min(a.bottom,b.bottom)>Math.max(a.top,b.top));
-    const coversNarrativeSegment=r=>{
-      for(const node of document.querySelectorAll('#chart .markerGroup .segmentGlyphOutline')){
-        const nr=node.getBoundingClientRect?.();
-        if(nr&&nr.width>0&&nr.height>0&&overlap(r,nr))return true;
-      }
-      return false;
+    const correspondingSankeyNarrativeRect=()=>{
+      const id=String(sankeyOrigin?.dataset?.segmentId||'');if(!id)return null;
+      const safe=CSS.escape(id),node=document.querySelector(`#chart .markerGroup[data-segment-id="${safe}"] .segmentGlyphOutline`)||document.querySelector(`#chart .contextTick[data-context-id="${safe}"]`),r=node?.getBoundingClientRect?.();
+      return r&&r.width>0&&r.height>0&&[r.left,r.right,r.top,r.bottom].every(Number.isFinite)?r:null;
     };
     const coversEdition1532Halo=r=>{
       for(const node of document.querySelectorAll('#chart .edition1532Band.isActive,#chart .edition1532Band.isPreview')){
@@ -3388,12 +3386,21 @@ function buildVisualizationData(raw, template){
       return false;
     }
 
-    // Sankey: posizione ordinaria sempre in basso. Se il box coprirebbe una tacca
-    // narrativa del diagramma principale, lo sposta lateralmente a sinistra del filo/area.
+    // Sankey: la posizione ordinaria resta invariata. Soltanto se quel box coprirebbe
+    // il segmento narrativo corrispondente lo spostiamo sul lato esterno del puntatore:
+    // a destra nella meta sinistra dello schermo, a sinistra nella meta destra.
     if(sankeyOrigin){
       const belowY=clampY(anchorY+gap),x=xCandidates[0];
-      const placement=rememberedPlacement()||rememberPlacement(coversNarrativeSegment(rectAt(x,belowY))?'left':'bottom');
-      if(placement==='left')return placeLeftOfPointer();
+      const segmentRect=correspondingSankeyNarrativeRect();
+      if(segmentRect&&overlap(rectAt(x,belowY),segmentRect)){
+        const placeRight=anchorX<=innerWidth/2,sideX=clampX(placeRight?anchorX+gap:anchorX-w-gap);
+        let sideY=clampY(anchorY-h/2);
+        /* La distanza orizzontale dal puntatore resta quella ordinaria. Se il box
+           laterale intercetta ancora il segmento, lo alziamo soltanto quanto basta
+           per portarne il bordo inferiore appena sopra la tacca corrispondente. */
+        if(overlap(rectAt(sideX,sideY),segmentRect))sideY=clampY(Math.min(sideY,segmentRect.top-h-1));
+        t.style.left=Math.round(sideX)+'px';t.style.top=Math.round(sideY)+'px';return true;
+      }
       t.style.left=Math.round(x)+'px';t.style.top=Math.round(belowY)+'px';return true;
     }
 
@@ -5547,10 +5554,14 @@ line.axisGuide.tickHoverActive{stroke:#111!important;stroke-width:1.65!important
     else chart.classList.remove('contradictionDimmingTransition');
     chart.classList.remove('contradictionPreviewActive','contradictionPinnedActive','contradictionPinnedColorLock','contradictionReflow','contradictionNarrativeReaderActive');
     if(hadContradictionFocus)contradictionFadeTimer=setTimeout(()=>{contradictionFadeTimer=0;chart.classList.remove('contradictionDimmingTransition')},680);
+    const returningCoveredIds=new Set([...chart.querySelectorAll('.markerGroup[data-segment-id]')].filter(el=>el.style.transform||window.__furiosoContradictionElementAnimating?.(el)).map(el=>String(el.dataset.segmentId||'')).filter(Boolean));
     chart.querySelectorAll('.markerGroup,.contextTick[data-context-id]').forEach(el=>{
       if(el.classList.contains('markerGroup')&&el.style.transform)animateContradictionMarkerTransform(el,'');
       else el.style.removeProperty('transform');
-      el.classList.remove('contradictionPreviewMember','contradictionPinnedPrimary','contradictionPinnedLinked','contradictionPinnedHoverMember','contradictionPinnedHoverReturning','contradictionCoveredContext','contradictionBirthDim','contradictionBirthFull');
+      const keepCovered=el.classList.contains('contextTick')&&returningCoveredIds.has(String(el.dataset.contextId||''));
+      el.classList.remove('contradictionPreviewMember','contradictionPinnedPrimary','contradictionPinnedLinked','contradictionPinnedHoverMember','contradictionPinnedHoverReturning','contradictionBirthDim','contradictionBirthFull');
+      el.classList.toggle('contradictionCoveredContext',keepCovered);
+      el.classList.toggle('contradictionCoveredReturning',keepCovered);
     });
     chart.querySelectorAll('.contradictionPrimaryFrame,.contradictionForcedMarker,.contradictionForcedContext').forEach(el=>el.remove());
   }
@@ -5706,6 +5717,13 @@ line.axisGuide.tickHoverActive{stroke:#111!important;stroke-width:1.65!important
     if(!el)return false;const anim=contradictionMarkerAnimations.get(el);
     return Boolean(anim&&['running','pending'].includes(anim.playState));
   };
+  function releaseReturningCoveredContext(el){
+    const id=String(el?.dataset?.segmentId||'');if(!id)return;
+    const context=document.querySelector(`#chart .contextTick[data-context-id="${CSS.escape(id)}"]`);
+    if(!context?.classList.contains('contradictionCoveredReturning'))return;
+    if(window.__furiosoContradictionElementAnimating?.(el))return;
+    context.classList.remove('contradictionCoveredReturning','contradictionCoveredContext');
+  }
   function stopContradictionCornerFollower(el,anim){
     const item=contradictionCornerFollowers.get(el);if(item?.anim===anim)contradictionCornerFollowers.delete(el);
   }
@@ -5715,10 +5733,17 @@ line.axisGuide.tickHoverActive{stroke:#111!important;stroke-width:1.65!important
     const priorTarget=el.dataset.contradictionMotionTarget||'';
     const existing=contradictionMarkerAnimations.get(el);
     if(priorTarget===target){
-      el.style.transform=targetCss||'';
-      /* Se l'animazione e gia in corso, il follower condiviso possiede gia gli angoli:
-         non forziamo una lettura di stile durante applyContradictionState. */
-      if(!existing)syncContradictionMarkerCorners(el,target);
+      const moving=Boolean(existing&&['running','pending'].includes(existing.playState));
+      /* Lo stato puo essere riapplicato mentre lo stesso movimento WAAPI e in corso
+         (per esempio dopo un riordino SVG). Riscrivere il transform finale in quel
+         momento costringe il browser a riconciliare stile inline e animazione e rende
+         il segmento visivamente frenato. Destinazione e follower sono gia corretti:
+         non tocchiamo il nodo finche l'animazione non e terminata. */
+      if(!moving){
+        const nextInline=targetCss||'';
+        if(el.style.transform!==nextInline)el.style.transform=nextInline;
+        syncContradictionMarkerCorners(el,target);
+      }
       return;
     }
     /* Nessuna getComputedStyle per marker: se interrompiamo un movimento ricaviamo
@@ -5735,6 +5760,7 @@ line.axisGuide.tickHoverActive{stroke:#111!important;stroke-width:1.65!important
     if(!el.classList.contains('markerGroup')||chart?.classList.contains('contradictionReflow')||current===target||typeof el.animate!=='function'){
       syncContradictionMarkerCorners(el,target);
       if(el.classList.contains('contradictionPinnedHoverReturning')&&!el.classList.contains('contradictionPinnedHoverMember'))el.classList.remove('contradictionPinnedHoverReturning');
+      if(!targetCss)releaseReturningCoveredContext(el);
       return;
     }
     el.style.setProperty('transition','opacity .58s ease,filter .58s ease','important');
@@ -5756,6 +5782,7 @@ line.axisGuide.tickHoverActive{stroke:#111!important;stroke-width:1.65!important
          richiesta per la modalita singola e per le combinazioni multilivello. */
       if(el.classList.contains('contradictionPinnedHoverReturning')&&!el.classList.contains('contradictionPinnedHoverMember'))el.classList.remove('contradictionPinnedHoverReturning');
       if(!targetCss)delete el.dataset.contradictionMotionTarget;
+      if(!targetCss)releaseReturningCoveredContext(el);
     };
     anim.addEventListener('finish',finish,{once:true});
     anim.addEventListener('cancel',()=>{
@@ -5773,13 +5800,17 @@ line.axisGuide.tickHoverActive{stroke:#111!important;stroke-width:1.65!important
     clearTimeout(contradictionFadeTimer);contradictionFadeTimer=0;chart.classList.add('contradictionDimmingTransition');
     chart.classList.toggle('contradictionPinnedActive',pinned);chart.classList.toggle('contradictionPinnedColorLock',pinned);chart.classList.toggle('contradictionPreviewActive',!pinned&&Boolean(preview));chart.classList.toggle('contradictionNarrativeReaderActive',Boolean(pin&&currentReaderSegment));
     if(pin&&!contradictionPinAnimatingId)ensurePinnedMemberNodes(pin);
-    const coloredMarkerIds=new Set([...chart.querySelectorAll('.markerGroup[data-segment-id]')].map(el=>el.dataset.segmentId).filter(Boolean));
+    const coloredMarkers=new Map([...chart.querySelectorAll('.markerGroup[data-segment-id]')].map(el=>[String(el.dataset.segmentId||''),el]).filter(([id])=>Boolean(id)));
+    const coloredMarkerIds=new Set(coloredMarkers.keys());
     for(const el of chart.querySelectorAll('.markerGroup,.contextTick[data-context-id]')){
       const id=el.dataset.segmentId||el.dataset.contextId,pinOn=pinMembers.has(id),previewOn=previewMembers.has(id),owner=previewOn?preview:(pinOn?pin:null),d=owner?segById.get(id):null,memberActive=Boolean(d&&graphActive(d)),geom=d?geometryFor(owner,d):null;
       // Se esiste il segmento colorato, la tacca grigia di contesto corrispondente
       // non deve animarsi sotto di esso: era l'"ombra" visibile durante lo spostamento.
-      const coveredContext=Boolean(owner&&el.classList.contains('contextTick')&&coloredMarkerIds.has(id));
+      const coloredMarker=el.classList.contains('contextTick')?coloredMarkers.get(String(id)):null;
+      const returningCovered=Boolean(!owner&&coloredMarker&&(coloredMarker.style.transform||window.__furiosoContradictionElementAnimating?.(coloredMarker)));
+      const coveredContext=Boolean(el.classList.contains('contextTick')&&coloredMarkerIds.has(id)&&(owner||returningCovered));
       el.classList.toggle('contradictionCoveredContext',coveredContext);
+      el.classList.toggle('contradictionCoveredReturning',returningCovered);
       /* Se, con una Incongruenza gia fissata, il mouse lascia una seconda
          Incongruenza, il marker che rientra conserva il colore pieno per tutta
          la trasformazione. La classe temporanea viene rimossa dal callback di
@@ -10923,7 +10954,7 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
 
 /* Stati ordinari di attenuazione: stessi livelli precedenti, ma senza alfa sul gruppo. */
 #chart .markerGroup.resumeDim{--segment-solid-weight:22%;--segment-outline-alpha:.22}
-#chart.crossFocusActive .markerGroup:not(.crossActive){--segment-solid-weight:24%;--segment-outline-alpha:.24}
+#chart.crossFocusActive.segmentSelectionActive .markerGroup:not(.crossActive){--segment-solid-weight:24%;--segment-outline-alpha:.24}
 #chart .markerGroup.characterSoloDim{--segment-solid-weight:14%;--segment-outline-alpha:.14}
 #chart .markerGroup.characterSoloActive{--segment-solid-weight:100%;--segment-outline-alpha:1}
 #chart .markerGroup.threadGraphActive{--segment-solid-weight:100%;--segment-outline-alpha:1}
@@ -11109,6 +11140,7 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
   let structureTooltipZone=false;
   let indexDirty=true;
   let hitIndex=new Map();
+  let indexedChartRect=null;
   const CELL=30,MAX_HIT_DISTANCE=6;
 
   function setVisualMarkerHover(group){
@@ -11181,6 +11213,14 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
 
   function markIndexDirty(){indexDirty=true}
 
+  function chartRectChanged(r){
+    if(!r||!indexedChartRect)return true;
+    return Math.abs(r.left-indexedChartRect.left)>.20||
+      Math.abs(r.top-indexedChartRect.top)>.20||
+      Math.abs(r.width-indexedChartRect.width)>.20||
+      Math.abs(r.height-indexedChartRect.height)>.20;
+  }
+
   function rebuildHitIndex(){
     indexDirty=false;
     hitIndex=new Map();
@@ -11200,6 +11240,8 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
         list.push(rec);
       }
     }
+    const r=chart.getBoundingClientRect();
+    indexedChartRect={left:r.left,top:r.top,width:r.width,height:r.height};
   }
 
   function selectedNarrativeIdForHitTest(){
@@ -11215,6 +11257,10 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
     if(!Number.isFinite(x)||!Number.isFinite(y))return null;
     const r=chart.getBoundingClientRect();
     if(x<r.left||x>r.right||y<r.top||y>r.bottom)return null;
+    /* Il raccordogramma si trova sopra al grafico e cambia altezza passando dal
+       Sankey alle strutture compatte. Lo spostamento non e un resize del grafico:
+       confrontiamo quindi anche la sua quota nello schermo prima di usare l'indice. */
+    if(!indexDirty&&chartRectChanged(r))markIndexDirty();
     if(indexDirty)rebuildHitIndex();
     const list=hitIndex.get(`${Math.floor(x/CELL)},${Math.floor(y/CELL)}`)||[];
     const selectedId=selectedNarrativeIdForHitTest();
@@ -11370,6 +11416,7 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
     if(exactRaccord)return exactRaccord;
     const r=chart.getBoundingClientRect();
     if(lastX<r.left||lastX>r.right||lastY<r.top||lastY>r.bottom)return null;
+    if(!indexDirty&&chartRectChanged(r))markIndexDirty();
     if(indexDirty)rebuildHitIndex();
     const list=hitIndex.get(`${Math.floor(lastX/CELL)},${Math.floor(lastY/CELL)}`)||[];
 
@@ -11537,6 +11584,13 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
   window.addEventListener('blur',releaseMainMarkerHover);
   window.addEventListener('resize',()=>{markIndexDirty();scheduleValidation()},{passive:true});
   window.addEventListener('scroll',()=>{markIndexDirty();scheduleValidation()},{passive:true,capture:true});
+  const raccordLayout=document.querySelector('#raccordogram .raccordogramSvgWrap');
+  const finishRaccordLayoutShift=e=>{
+    if(e?.propertyName&&e.propertyName!=='height')return;
+    markIndexDirty();scheduleValidation();
+  };
+  raccordLayout?.addEventListener('transitionend',finishRaccordLayoutShift,{passive:true});
+  raccordLayout?.addEventListener('transitioncancel',finishRaccordLayoutShift,{passive:true});
 
   /* Ogni render puo cambiare posizione e dimensioni delle tacche: invalida la sola
      cache geometrica. Le mutazioni di classe delle strutture non richiedono rebuild,
@@ -14331,6 +14385,7 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
 /* v219: durante l'hover/selezione degli assi, linea e banda semantica restano
    davanti alle ellissi aperte; la normale stratificazione resta invariata. */
 .axisHighlightForegroundOverlay{pointer-events:none}
+.axisHighlightBandOverlay{pointer-events:none}
 .axisHighlightForegroundBand{fill:#163a59;opacity:.055;pointer-events:none}
 .axisHighlightForegroundLine{stroke:#111;stroke-width:1.65;opacity:.88;vector-effect:non-scaling-stroke;pointer-events:none}
 .axisHighlightForegroundLine.axisHighlightForegroundLineDashed{stroke-dasharray:2.5 3.5}
@@ -14344,30 +14399,38 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
   function sync(){
     frame=0;
     const previousForeground=chart.querySelector('.axisHighlightForegroundOverlay');
+    chart.querySelector('.axisHighlightBandOverlay')?.remove();
     const freshPinnedLines=[...chart.querySelectorAll('.axisPinnedOverlay > .axisPinnedOverlayLine')];
     const retainedPinnedLines=freshPinnedLines.length?freshPinnedLines:(window.__furiosoPinnedAxes?.size?[...(previousForeground?.querySelectorAll('.axisPinnedOverlayLine')||[])]:[]);
     previousForeground?.remove();
     const ellipses=chart.querySelector('.ellipsesOverlay');
     const plot=ellipses?.parentElement||[...chart.children].find(el=>el.tagName?.toLowerCase()==='g'&&el.getAttribute('clip-path')==='url(#clipPlot)'&&el.querySelector?.(':scope > .selectedMarks'));
     if(!plot)return;
-    if(!ellipses&&!retainedPinnedLines.length)return;
+    const hoverLines=[...chart.querySelectorAll('line.axisGuide.tickHoverActive:not(.axisPinnedActive)')];
+    if(!ellipses&&!hoverLines.length&&!retainedPinnedLines.length)return;
+    const bands=svgEl('g',{class:'axisHighlightBandOverlay','aria-hidden':'true'});
     const foreground=svgEl('g',{class:'axisHighlightForegroundOverlay','aria-hidden':'true'});
     if(ellipses){
       for(const source of chart.querySelectorAll('.narrativeUnitHoverBands > :is(.narrativeUnitHoverBand,.storyDayHoverBand).tickHoverActive:not(.axisPinnedActive)')){
-        const clone=source.cloneNode(false);clone.setAttribute('class','axisHighlightForegroundBand');clone.removeAttribute('data-axis-key');foreground.append(clone);
+        const clone=source.cloneNode(false);clone.setAttribute('class','axisHighlightForegroundBand');clone.removeAttribute('data-axis-key');bands.append(clone);
       }
       for(const source of chart.querySelectorAll('.axisPinnedBandOverlay > .axisPinnedBand')){
-        const clone=source.cloneNode(false);clone.setAttribute('class','axisHighlightForegroundBand');clone.removeAttribute('data-axis-key');foreground.append(clone);
-      }
-      for(const source of chart.querySelectorAll('line.axisGuide.tickHoverActive:not(.axisPinnedActive)')){
-        const clone=source.cloneNode(false),dashed=source.classList.contains('storyMainGrid');clone.setAttribute('class',`axisHighlightForegroundLine${dashed?' axisHighlightForegroundLineDashed':''}`);clone.removeAttribute('data-axis-key');foreground.append(clone);
+        const clone=source.cloneNode(false);clone.setAttribute('class','axisHighlightForegroundBand');clone.removeAttribute('data-axis-key');bands.append(clone);
       }
     }
+    for(const source of hoverLines){
+      const clone=source.cloneNode(false),dashed=source.classList.contains('storyMainGrid');clone.setAttribute('class',`axisHighlightForegroundLine${dashed?' axisHighlightForegroundLineDashed':''}`);clone.removeAttribute('data-axis-key');foreground.append(clone);
+    }
     /* La linea visibile di una coordinata fissata viene separata dal suo hit-area:
-       resta sotto ai segmenti, mentre il bersaglio trasparente continua a stare sopra. */
+       soltanto la linea passa sopra ai segmenti; il bersaglio trasparente conserva
+       il proprio livello e continua a gestire il toggle dell'asse. */
     for(const line of retainedPinnedLines)foreground.append(line);
-    if(!foreground.childNodes.length)return;
-    const marks=plot.querySelector(':scope > .selectedMarks');plot.insertBefore(foreground,marks||ellipses.nextSibling);
+    const marks=plot.querySelector(':scope > .selectedMarks');
+    if(bands.childNodes.length)plot.insertBefore(bands,marks||null);
+    if(foreground.childNodes.length){
+      if(marks)plot.insertBefore(foreground,marks.nextSibling);
+      else plot.append(foreground);
+    }
   }
   const schedule=()=>{if(!frame)frame=requestAnimationFrame(sync)};
   const renderBeforeAxisEllipsisPriority=render;
