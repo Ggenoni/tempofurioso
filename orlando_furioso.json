@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-26T11:48:13.324Z"
+    "exportedAt": "2026-08-26T12:11:32.443Z"
   },
   "annotations": {
     "narrative": [
@@ -53732,7 +53732,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T19:14:04.743Z",
-        "updatedAt": "2026-08-26T02:22:33.098Z"
+        "updatedAt": "2026-08-26T12:10:50.443Z"
       },
       {
         "id": "N_XV_18_1__XV_18_8",
@@ -53903,7 +53903,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T19:16:33.628Z",
-        "updatedAt": "2026-08-26T02:22:35.247Z"
+        "updatedAt": "2026-08-26T11:50:48.510Z"
       },
       {
         "id": "N_XV_37_1__XV_37_2",
@@ -53945,13 +53945,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -53993,8 +53987,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T19:17:25.742Z",
-        "updatedAt": "2026-08-23T18:12:14.384Z",
-        "drafts": {}
+        "updatedAt": "2026-08-26T12:11:00.777Z"
       },
       {
         "id": "N_XV_37_5__XV_37_8",
@@ -54076,7 +54069,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T19:17:33.612Z",
-        "updatedAt": "2026-08-26T11:44:43.993Z"
+        "updatedAt": "2026-08-26T12:11:03.092Z"
       },
       {
         "id": "N_XV_41_5__XV_48_6",
@@ -121969,7 +121962,7 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "N_XV_37_5__XV_37_8",
-              "Da_incluso": false,
+              "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XV_81_3__XV_87_8",
               "A_incluso": false,
@@ -122023,7 +122016,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T17:43:08.967Z",
-        "updatedAt": "2026-08-26T11:48:13.295Z"
+        "updatedAt": "2026-08-26T12:11:32.411Z"
       },
       {
         "id": "N_XXV_73_5__XXV_80_4",
@@ -122203,7 +122196,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-09T23:46:09.393Z",
-        "updatedAt": "2026-08-26T11:44:40.578Z"
+        "updatedAt": "2026-08-26T11:51:09.676Z"
       },
       {
         "id": "N_I_60_5__I_64_4",
