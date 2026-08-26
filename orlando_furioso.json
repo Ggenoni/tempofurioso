@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-26T12:40:34.529Z"
+    "exportedAt": "2026-08-26T15:06:58.580Z"
   },
   "annotations": {
     "narrative": [
@@ -39778,7 +39778,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T01:08:18.153Z",
-        "updatedAt": "2026-08-26T11:40:48.762Z"
+        "updatedAt": "2026-08-26T15:06:58.543Z"
       },
       {
         "id": "N_XVII_9_5__XVII_13_6",
@@ -54484,7 +54484,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T19:41:13.296Z",
-        "updatedAt": "2026-08-26T11:42:10.310Z"
+        "updatedAt": "2026-08-26T13:23:05.092Z"
       },
       {
         "id": "N_XV_66_1__XV_66_8",
@@ -54830,7 +54830,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T19:44:58.660Z",
-        "updatedAt": "2026-08-26T11:42:35.060Z"
+        "updatedAt": "2026-08-26T13:23:49.810Z"
       },
       {
         "id": "N_XV_75_1__XV_81_2",
@@ -57897,26 +57897,26 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Da_Riferimento_ID": "N_XVI_5_1__XVI_5_6",
-              "Da_incluso": true,
-              "Direzione": "dopo",
-              "A_Riferimento_ID": "T_XVIII_74_3",
-              "A_incluso": false,
-              "Per_Riferimento_ID": "T_XVIII_70_6",
-              "Punto_ripresa_successivo": "",
-              "Nota": "Aggiungere eventualmente i giorni",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
-            }
-          ],
+              {
+                "Da_Riferimento_ID": "N_XVI_5_1__XVI_5_6",
+                "Da_incluso": true,
+                "Direzione": "dopo",
+                "A_Riferimento_ID": "N_XVIII_71_1__XVIII_73_6",
+                "A_incluso": false,
+                "Per_Riferimento_ID": "T_XVIII_70_6",
+                "Punto_ripresa_successivo": "",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "3",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Riferimento_incluso": false
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
@@ -58158,26 +58158,26 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Da_Riferimento_ID": "T_XVIII_74_3",
-              "Da_incluso": true,
-              "Direzione": "in",
-              "A_Riferimento_ID": "T_XVIII_74_3",
-              "A_incluso": true,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": "",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
-            }
-          ],
+              {
+                "Da_Riferimento_ID": "T_XVIII_74_3",
+                "Da_incluso": true,
+                "Direzione": "in",
+                "A_Riferimento_ID": "N_XVIII_75_5__XVIII_75_6",
+                "A_incluso": true,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": "",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "3",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Riferimento_incluso": false
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
@@ -58248,25 +58248,25 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Riferimento_ID": "T_XVIII_74_3",
-              "Riferimento_incluso": true,
-              "Direzione": "in",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            }
-          ],
+              {
+                "Riferimento_ID": "T_XVIII_76_7",
+                "Riferimento_incluso": false,
+                "Direzione": "prima",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "1",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Da_incluso": false,
+                "A_incluso": false,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": ""
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -58328,26 +58328,26 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Da_Riferimento_ID": "T_XVIII_74_3",
-              "Da_incluso": true,
-              "Direzione": "in",
-              "A_Riferimento_ID": "T_XVIII_74_3",
-              "A_incluso": true,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": "",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
-            }
-          ],
+              {
+                "Da_Riferimento_ID": "N_XVIII_75_5__XVIII_75_6",
+                "Da_incluso": true,
+                "Direzione": "in",
+                "A_Riferimento_ID": "T_XVIII_76_7",
+                "A_incluso": true,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": "",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "2",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Riferimento_incluso": false
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
@@ -58411,25 +58411,25 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Riferimento_ID": "T_XVIII_74_3",
-              "Riferimento_incluso": true,
-              "Direzione": "in",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            }
-          ],
+              {
+                "Riferimento_ID": "T_XVIII_76_7",
+                "Riferimento_incluso": true,
+                "Direzione": "in",
+                "Nota": "",
+                "Quantita": [
+                  {
+                    "Valore": "",
+                    "Unita": ""
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Da_incluso": false,
+                "A_incluso": false,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": ""
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -58502,43 +58502,25 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Riferimento_ID": "T_XVIII_76_7",
-              "Riferimento_incluso": true,
-              "Direzione": "in",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            },
-            {
-              "Riferimento_ID": "T_XVIII_74_3",
-              "Riferimento_incluso": true,
-              "Direzione": "in",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            }
-          ],
+              {
+                "Riferimento_ID": "T_XVIII_76_7",
+                "Riferimento_incluso": true,
+                "Direzione": "in",
+                "Nota": "",
+                "Quantita": [
+                  {
+                    "Valore": "",
+                    "Unita": ""
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Da_incluso": false,
+                "A_incluso": false,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": ""
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -58612,26 +58594,26 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Da_Riferimento_ID": "T_XVIII_76_7",
-              "Da_incluso": true,
-              "Direzione": "in",
-              "A_Riferimento_ID": "T_XVIII_76_7",
-              "A_incluso": true,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": "",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
-            }
-          ],
+              {
+                "Da_Riferimento_ID": "T_XVIII_76_7",
+                "Da_incluso": true,
+                "Direzione": "in",
+                "A_Riferimento_ID": "N_XVIII_77_3__XVIII_86_2",
+                "A_incluso": true,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": "",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "4",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Riferimento_incluso": false
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
@@ -58697,25 +58679,25 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Riferimento_ID": "T_XVIII_76_7",
-              "Riferimento_incluso": true,
-              "Direzione": "in",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            }
-          ],
+              {
+                "Riferimento_ID": "T_XVIII_76_7",
+                "Riferimento_incluso": false,
+                "Direzione": "dopo",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "3",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Da_incluso": false,
+                "A_incluso": false,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": ""
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -58788,26 +58770,26 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Da_Riferimento_ID": "T_XVIII_76_7",
-              "Da_incluso": true,
-              "Direzione": "in",
-              "A_Riferimento_ID": "T_XVIII_76_7",
-              "A_incluso": true,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": "",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
-            }
-          ],
+              {
+                "Da_Riferimento_ID": "N_XVIII_77_3__XVIII_86_2",
+                "Da_incluso": true,
+                "Direzione": "in",
+                "A_Riferimento_ID": "N_XVIII_87_1__XVIII_90_8",
+                "A_incluso": true,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": "",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "4",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Riferimento_incluso": false
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
@@ -58874,25 +58856,25 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Riferimento_ID": "T_XVIII_76_7",
-              "Riferimento_incluso": true,
-              "Direzione": "in",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            }
-          ],
+              {
+                "Riferimento_ID": "N_XVIII_77_3__XVIII_86_2",
+                "Riferimento_incluso": true,
+                "Direzione": "dopo",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "4",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Da_incluso": false,
+                "A_incluso": false,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": ""
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -58967,25 +58949,25 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Riferimento_ID": "T_XVIII_76_7",
-              "Riferimento_incluso": true,
-              "Direzione": "in",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            }
-          ],
+              {
+                "Riferimento_ID": "N_XVIII_87_1__XVIII_90_8",
+                "Riferimento_incluso": true,
+                "Direzione": "in",
+                "Nota": "",
+                "Quantita": [
+                  {
+                    "Valore": "",
+                    "Unita": ""
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Da_incluso": false,
+                "A_incluso": false,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": ""
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -59057,43 +59039,43 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Riferimento_ID": "T_XVIII_93_2",
-              "Riferimento_incluso": true,
-              "Direzione": "in",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "",
-                  "Unita": ""
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            },
-            {
-              "Riferimento_ID": "T_XVIII_76_7",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "1",
-                  "Unita": "giorni"
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
-            }
-          ],
+              {
+                "Riferimento_ID": "T_XVIII_93_2",
+                "Riferimento_incluso": true,
+                "Direzione": "in",
+                "Nota": "",
+                "Quantita": [
+                  {
+                    "Valore": "",
+                    "Unita": ""
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Da_incluso": false,
+                "A_incluso": false,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": ""
+              },
+              {
+                "Riferimento_ID": "N_XVIII_91_1__XVIII_92_8",
+                "Riferimento_incluso": false,
+                "Direzione": "dopo",
+                "Nota": "",
+                "Quantita": [
+                  {
+                    "Valore": "1",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Da_incluso": false,
+                "A_incluso": false,
+                "Per_Riferimento_ID": "",
+                "Punto_ripresa_successivo": ""
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -59160,26 +59142,26 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Da_Riferimento_ID": "T_XVIII_76_7",
-              "Da_incluso": false,
-              "Direzione": "dopo",
-              "A_Riferimento_ID": "N_XVIII_95_1__XVIII_95_8",
-              "A_incluso": false,
-              "Per_Riferimento_ID": "T_XVIII_93_8",
-              "Punto_ripresa_successivo": "",
-              "Nota": "Mia ipotesi",
-              "Quantita": [
-                {
-                  "Valore": "8",
-                  "Unita": "giorni"
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
-            }
-          ],
+              {
+                "Da_Riferimento_ID": "N_XVIII_91_1__XVIII_92_8",
+                "Da_incluso": false,
+                "Direzione": "dopo",
+                "A_Riferimento_ID": "N_XVIII_95_1__XVIII_95_8",
+                "A_incluso": false,
+                "Per_Riferimento_ID": "T_XVIII_93_8",
+                "Punto_ripresa_successivo": "",
+                "Nota": "Mia ipotesi",
+                "Quantita": [
+                  {
+                    "Valore": "8",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Riferimento_incluso": false
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
@@ -59245,26 +59227,26 @@
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
-            {
-              "Da_Riferimento_ID": "T_XVIII_76_7",
-              "Da_incluso": true,
-              "Direzione": "dopo",
-              "A_Riferimento_ID": "N_XVIII_95_1__XVIII_95_8",
-              "A_incluso": true,
-              "Per_Riferimento_ID": "T_XVIII_94_7",
-              "Punto_ripresa_successivo": "",
-              "Nota": "",
-              "Quantita": [
-                {
-                  "Valore": "10",
-                  "Unita": "giorni"
-                }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
-            }
-          ],
+              {
+                "Da_Riferimento_ID": "N_XVIII_91_1__XVIII_92_8",
+                "Da_incluso": true,
+                "Direzione": "dopo",
+                "A_Riferimento_ID": "N_XVIII_95_1__XVIII_95_8",
+                "A_incluso": true,
+                "Per_Riferimento_ID": "T_XVIII_94_7",
+                "Punto_ripresa_successivo": "",
+                "Nota": "",
+                "Quantita": [
+                  {
+                    "Valore": "10",
+                    "Unita": "giorni"
+                  }
+                ],
+                "Stima_min_quantita": [],
+                "Stima_max_quantita": [],
+                "Riferimento_incluso": false
+              }
+            ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
@@ -122016,7 +121998,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T17:43:08.967Z",
-        "updatedAt": "2026-08-26T12:40:34.498Z"
+        "updatedAt": "2026-08-26T13:22:19.660Z"
       },
       {
         "id": "N_XXV_73_5__XXV_80_4",
