@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-25T23:38:44.959Z"
+    "exportedAt": "2026-08-26T00:18:15.351Z"
   },
   "annotations": {
     "narrative": [
@@ -21453,7 +21453,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-27T12:02:18.140Z",
-        "updatedAt": "2026-08-25T23:38:44.927Z"
+        "updatedAt": "2026-08-25T23:48:58.929Z"
       },
       {
         "id": "N_IX_58_5__IX_58_8",
@@ -63000,7 +63000,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Marfisa, Guidone e compagni viaggiano verso Luna",
+          "Titolo_breve": "Marfisa, Guidone e compagni viaggiano verso Luni",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -63026,13 +63026,10 @@
               "Nota": "Durata ricostruita retrospettivamente dall’arrivo ad Alessandretta, escluso, al giorno dell’imbarco a Luna e dell’arrivo a Marsiglia, incluso.",
               "Quantita": [
                 {
-                  "Valore": "19",
+                  "Valore": "18",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -63069,12 +63066,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T21:31:47.661Z",
-        "updatedAt": "2026-08-22T14:35:24.928Z",
-        "drafts": {}
+        "updatedAt": "2026-08-26T00:18:15.318Z"
       },
       {
         "id": "N_XX_101_1__XX_101_4",
@@ -63772,13 +63769,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -63807,12 +63798,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T22:56:42.653Z",
-        "updatedAt": "2026-08-07T20:08:05.086Z",
-        "drafts": {}
+        "updatedAt": "2026-08-25T23:49:24.060Z"
       },
       {
         "id": "N_XXII_5_7__XXII_5_8",
@@ -63833,7 +63830,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Astolfo parte da Alessandretta",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -63854,19 +63851,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
-          "Determinazione_coordinata_temporale": false,
+          "Determinazione_coordinata_temporale": true,
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
@@ -63891,12 +63882,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T22:59:42.122Z",
-        "updatedAt": "2026-08-09T12:31:26.022Z",
-        "drafts": {}
+        "updatedAt": "2026-08-26T00:13:50.701Z"
       },
       {
         "id": "N_XXII_7_3__XXII_7_6",
@@ -64103,7 +64100,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Astolfo viaggia in Brabante e in Fiandra",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -64128,16 +64125,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
-          "Determinazione_coordinata_temporale": false,
+          "Determinazione_coordinata_temporale": true,
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
@@ -64168,12 +64162,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T23:00:54.294Z",
-        "updatedAt": "2026-08-22T14:37:33.328Z",
-        "drafts": {}
+        "updatedAt": "2026-08-26T00:13:25.604Z"
       },
       {
         "id": "N_XXII_8_1__XXII_8_5",
@@ -64562,7 +64556,7 @@
               "Da_incluso": false,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XXII_7_1__XXII_7_2",
-              "A_incluso": false,
+              "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "Quantificazione convenzionale fondata sulle formule «dopo alquanti giorni» e «in meno di venti giorni».",
@@ -64571,10 +64565,7 @@
                   "Valore": "20",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -64614,12 +64605,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-28T23:10:36.774Z",
-        "updatedAt": "2026-08-14T21:04:26.303Z",
-        "drafts": {}
+        "updatedAt": "2026-08-26T00:18:05.001Z"
       },
       {
         "id": "N_XVIII_70_1__XVIII_70_2",
