@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-26T12:11:32.443Z"
+    "exportedAt": "2026-08-26T12:40:34.529Z"
   },
   "annotations": {
     "narrative": [
@@ -53681,7 +53681,7 @@
               "Da_incluso": false,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XV_37_1__XV_37_2",
-              "A_incluso": false,
+              "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "",
@@ -53732,7 +53732,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T19:14:04.743Z",
-        "updatedAt": "2026-08-26T12:10:50.443Z"
+        "updatedAt": "2026-08-26T12:40:26.131Z"
       },
       {
         "id": "N_XV_18_1__XV_18_8",
@@ -121971,7 +121971,7 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "15",
+                  "Valore": "21",
                   "Unita": "giorni"
                 }
               ]
@@ -122016,7 +122016,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T17:43:08.967Z",
-        "updatedAt": "2026-08-26T12:11:32.411Z"
+        "updatedAt": "2026-08-26T12:40:34.498Z"
       },
       {
         "id": "N_XXV_73_5__XXV_80_4",
