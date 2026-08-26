@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-26T00:49:51.847Z"
+    "exportedAt": "2026-08-26T00:51:52.251Z"
   },
   "annotations": {
     "narrative": [
@@ -64556,13 +64556,13 @@
               "Da_incluso": false,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XXII_7_1__XXII_7_2",
-              "A_incluso": true,
+              "A_incluso": false,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "Quantificazione convenzionale fondata sulle formule «dopo alquanti giorni» e «in meno di venti giorni».",
               "Quantita": [
                 {
-                  "Valore": "22",
+                  "Valore": "21",
                   "Unita": "giorni"
                 }
               ]
@@ -64610,7 +64610,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T23:10:36.774Z",
-        "updatedAt": "2026-08-26T00:49:51.819Z"
+        "updatedAt": "2026-08-26T00:51:52.221Z"
       },
       {
         "id": "N_XVIII_70_1__XVIII_70_2",
