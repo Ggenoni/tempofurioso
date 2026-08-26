@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-26T00:18:15.351Z"
+    "exportedAt": "2026-08-26T00:49:51.847Z"
   },
   "annotations": {
     "narrative": [
@@ -63026,7 +63026,7 @@
               "Nota": "Durata ricostruita retrospettivamente dall’arrivo ad Alessandretta, escluso, al giorno dell’imbarco a Luna e dell’arrivo a Marsiglia, incluso.",
               "Quantita": [
                 {
-                  "Valore": "18",
+                  "Valore": "20",
                   "Unita": "giorni"
                 }
               ]
@@ -63071,7 +63071,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T21:31:47.661Z",
-        "updatedAt": "2026-08-26T00:18:15.318Z"
+        "updatedAt": "2026-08-26T00:49:38.386Z"
       },
       {
         "id": "N_XX_101_1__XX_101_4",
@@ -63893,7 +63893,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T22:59:42.122Z",
-        "updatedAt": "2026-08-26T00:13:50.701Z"
+        "updatedAt": "2026-08-26T00:49:45.719Z"
       },
       {
         "id": "N_XXII_7_3__XXII_7_6",
@@ -64562,7 +64562,7 @@
               "Nota": "Quantificazione convenzionale fondata sulle formule «dopo alquanti giorni» e «in meno di venti giorni».",
               "Quantita": [
                 {
-                  "Valore": "20",
+                  "Valore": "22",
                   "Unita": "giorni"
                 }
               ]
@@ -64610,7 +64610,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T23:10:36.774Z",
-        "updatedAt": "2026-08-26T00:18:05.001Z"
+        "updatedAt": "2026-08-26T00:49:51.819Z"
       },
       {
         "id": "N_XVIII_70_1__XVIII_70_2",
