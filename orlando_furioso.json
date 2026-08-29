@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-29T23:21:12.334Z"
+    "exportedAt": "2026-08-29T23:26:35.085Z"
   },
   "annotations": {
     "narrative": [
@@ -88405,7 +88405,7 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "21",
+                  "Valore": "28",
                   "Unita": "giorni"
                 }
               ]
@@ -88449,7 +88449,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T07:41:18.650Z",
-        "updatedAt": "2026-08-29T23:19:00.801Z"
+        "updatedAt": "2026-08-29T23:25:41.569Z"
       },
       {
         "id": "N_XXXIII_103_1__XXXIII_103_2",
@@ -88488,7 +88488,7 @@
               "Nota": "Mia ipotesi - deve essere almeno dopo l'inizio della follia di Orlando",
               "Quantita": [
                 {
-                  "Valore": "20",
+                  "Valore": "27",
                   "Unita": "giorni"
                 }
               ]
@@ -88535,7 +88535,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T07:49:51.794Z",
-        "updatedAt": "2026-08-29T23:19:34.535Z"
+        "updatedAt": "2026-08-29T23:26:16.019Z"
       },
       {
         "id": "N_XXXIII_114_1__XXXIII_114_2",
@@ -91832,7 +91832,7 @@
                   "Unita": "mesi"
                 },
                 {
-                  "Valore": "12",
+                  "Valore": "5",
                   "Unita": "giorni"
                 }
               ]
@@ -91877,7 +91877,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T10:58:07.039Z",
-        "updatedAt": "2026-08-29T23:20:52.552Z"
+        "updatedAt": "2026-08-29T23:26:35.052Z"
       },
       {
         "id": "N_XXXVIII_31_5__XXXVIII_31_8",
@@ -92060,7 +92060,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T11:01:06.436Z",
-        "updatedAt": "2026-08-29T23:21:12.302Z"
+        "updatedAt": "2026-08-29T23:25:29.618Z"
       },
       {
         "id": "N_XXXVIII_32_7__XXXVIII_33_4",
