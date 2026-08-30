@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-29T23:26:35.085Z"
+    "exportedAt": "2026-08-30T15:23:37.578Z"
   },
   "annotations": {
     "narrative": [
@@ -91877,7 +91877,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T10:58:07.039Z",
-        "updatedAt": "2026-08-29T23:26:35.052Z"
+        "updatedAt": "2026-08-30T15:23:04.666Z"
       },
       {
         "id": "N_XXXVIII_31_5__XXXVIII_31_8",
@@ -121072,10 +121072,10 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "T_XXII_30_5",
-              "Da_incluso": false,
+              "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "T_XXVII_13_3",
-              "A_incluso": false,
+              "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "Calcolare il tempo",
@@ -121084,10 +121084,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121121,12 +121118,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T11:34:04.863Z",
-        "updatedAt": "2026-08-13T21:57:10.251Z",
-        "drafts": {}
+        "updatedAt": "2026-08-30T15:23:37.549Z"
       },
       {
         "id": "N_XXVII_13_1__XXVII_13_8",
@@ -121259,13 +121256,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121300,12 +121291,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T11:44:51.407Z",
-        "updatedAt": "2026-08-09T15:22:10.658Z",
-        "drafts": {}
+        "updatedAt": "2026-08-30T15:23:07.414Z"
       },
       {
         "id": "N_XXVII_15_5__XXVII_15_8",
@@ -121340,10 +121337,10 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "T_XXIII_132_7",
-              "Da_incluso": false,
+              "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "T_XXVII_13_3",
-              "A_incluso": false,
+              "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "quanti giorni?",
@@ -121352,10 +121349,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121382,12 +121376,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T11:44:56.758Z",
-        "updatedAt": "2026-08-04T11:54:40.867Z",
-        "drafts": {}
+        "updatedAt": "2026-08-30T15:23:15.050Z"
       },
       {
         "id": "N_XXVII_15_1__XXVII_15_4",
@@ -121422,10 +121423,10 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "T_XXIII_132_7",
-              "Da_incluso": false,
+              "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "T_XXVII_13_3",
-              "A_incluso": false,
+              "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "stabilire quanto tempo passa",
@@ -121434,10 +121435,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121472,12 +121470,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T11:45:04.407Z",
-        "updatedAt": "2026-08-22T15:23:52.020Z",
-        "drafts": {}
+        "updatedAt": "2026-08-30T15:23:20.615Z"
       },
       {
         "id": "N_XXVII_6_1__XXVII_6_8",
