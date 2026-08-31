@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-31T09:11:48.482Z"
+    "exportedAt": "2026-08-31T09:22:33.944Z"
   },
   "annotations": {
     "narrative": [
@@ -82810,13 +82810,7 @@
                   "Valore": "9",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "N_XXIX_39_7__XXIX_40_5",
@@ -82828,13 +82822,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -82873,12 +82861,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Rinaldo e i compagni incontrano Fiordiligi presso Parigi assediata"
+          "secondo_titolo": "Rinaldo e i compagni incontrano Fiordiligi presso Parigi assediata",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T15:54:13.356Z",
-        "updatedAt": "2026-08-14T22:50:47.989Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:18:05.752Z"
       },
       {
         "id": "N_XXXI_50_1__XXXI_50_2",
@@ -86245,7 +86233,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T18:05:37.448Z",
-        "updatedAt": "2026-08-31T09:08:34.786Z"
+        "updatedAt": "2026-08-31T09:22:10.635Z"
       },
       {
         "id": "N_XXXI_85_1__XXXI_87_8",
@@ -86504,7 +86492,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T18:10:03.910Z",
-        "updatedAt": "2026-08-31T09:09:05.785Z"
+        "updatedAt": "2026-08-31T09:22:19.636Z"
       },
       {
         "id": "N_XXXI_89_7__XXXI_90_8",
@@ -95029,13 +95017,7 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -95076,12 +95058,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Brandimarte e Fiordiligi giungono al ponte di Rodomonte"
+          "secondo_titolo": "Brandimarte e Fiordiligi giungono al ponte di Rodomonte",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T13:24:10.526Z",
-        "updatedAt": "2026-08-14T23:13:37.115Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:21:56.319Z"
       },
       {
         "id": "N_XXXI_65_5__XXXI_65_8",
@@ -121520,7 +121502,7 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_79_5__XXXI_84_2",
-              "Riferimento_incluso": true,
+              "Riferimento_incluso": false,
               "Direzione": "dopo",
               "Nota": "Mia ipotesi",
               "Quantita": [
@@ -121574,7 +121556,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:57:47.523Z",
-        "updatedAt": "2026-08-31T09:11:30.685Z"
+        "updatedAt": "2026-08-31T09:22:33.920Z"
       },
       {
         "id": "N_XXXII_4_1__XXXII_4_8",
@@ -121915,7 +121897,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:59:07.077Z",
-        "updatedAt": "2026-08-31T09:11:48.453Z"
+        "updatedAt": "2026-08-31T09:16:45.519Z"
       },
       {
         "id": "N_XXXII_9_1__XXXII_9_2",
