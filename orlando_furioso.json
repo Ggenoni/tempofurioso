@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-30T16:11:24.718Z"
+    "exportedAt": "2026-08-31T09:11:48.482Z"
   },
   "annotations": {
     "narrative": [
@@ -76830,10 +76830,7 @@
                   "Valore": "18",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -76868,12 +76865,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T09:51:33.784Z",
-        "updatedAt": "2026-08-14T01:38:23.457Z",
-        "drafts": {}
+        "updatedAt": "2026-08-30T17:07:25.734Z"
       },
       {
         "id": "N_XXVII_127_5__XXVII_127_8",
@@ -76985,7 +76982,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T10:08:50.694Z",
-        "updatedAt": "2026-08-30T16:11:24.693Z"
+        "updatedAt": "2026-08-30T16:33:16.933Z"
       },
       {
         "id": "N_XXVII_117_1__XXVII_122_5",
@@ -77795,7 +77792,7 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "N_XXVIII_85_7__XXVIII_87_2",
-              "Da_incluso": false,
+              "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XXVIII_91_1__XXVIII_91_2",
               "A_incluso": true,
@@ -77804,13 +77801,10 @@
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
+                  "Valore": "2",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -77847,12 +77841,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T10:31:37.099Z",
-        "updatedAt": "2026-08-13T23:19:07.772Z",
-        "drafts": {}
+        "updatedAt": "2026-08-30T16:56:13.594Z"
       },
       {
         "id": "N_XXVIII_91_1__XXVIII_91_2",
@@ -81522,13 +81516,7 @@
                   "Valore": "15",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XXX_90_7",
@@ -81540,20 +81528,16 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
           "Determinazione_coordinata_temporale": false,
-          "Tempi_secondari": [],
+          "Tempi_secondari": [
+            "T_XXX_90_7_2"
+          ],
           "Successioni_temporali": [
             {
               "Segmento_successione_riferimento": "N_XXX_87_1__XXX_87_4",
@@ -81589,12 +81573,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T15:20:09.143Z",
-        "updatedAt": "2026-08-14T00:15:25.374Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T01:48:26.592Z"
       },
       {
         "id": "N_XXX_93_1__XXX_93_6",
@@ -82940,10 +82924,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -82974,12 +82955,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T15:59:32.730Z",
-        "updatedAt": "2026-08-09T16:23:56.786Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:05:07.719Z"
       },
       {
         "id": "N_XXXI_50_3__XXXI_58_8",
@@ -83022,21 +83009,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -83073,12 +83054,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T16:04:49.359Z",
-        "updatedAt": "2026-08-14T00:34:06.229Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:05:50.253Z"
       },
       {
         "id": "N_XXXI_59_1__XXXI_60_2",
@@ -83113,21 +83094,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -83156,12 +83131,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T16:06:48.729Z",
-        "updatedAt": "2026-08-09T16:24:14.154Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:06:06.819Z"
       },
       {
         "id": "N_XXXI_60_3__XXXI_64_8",
@@ -83196,21 +83177,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -83245,12 +83220,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T16:08:11.795Z",
-        "updatedAt": "2026-08-19T16:29:24.032Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:06:30.502Z"
       },
       {
         "id": "N_XXXI_78_1__XXXI_78_4",
@@ -83296,10 +83271,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -83328,12 +83300,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T16:12:20.862Z",
-        "updatedAt": "2026-08-08T00:34:38.619Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:07:22.784Z"
       },
       {
         "id": "N_XXXI_78_5__XXXI_78_8",
@@ -83376,13 +83354,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -83417,12 +83389,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T16:12:27.175Z",
-        "updatedAt": "2026-08-19T16:09:51.190Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:07:27.485Z"
       },
       {
         "id": "N_XXX_16_3__XXX_16_8",
@@ -84790,13 +84762,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -84833,12 +84799,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T17:00:13.165Z",
-        "updatedAt": "2026-08-14T00:15:10.540Z",
-        "drafts": {}
+        "updatedAt": "2026-08-30T20:11:27.608Z"
       },
       {
         "id": "N_XXX_87_4__XXX_89_4",
@@ -85145,19 +85111,16 @@
               "Da_incluso": false,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XXXI_65_3__XXXI_65_4",
-              "A_incluso": false,
+              "A_incluso": true,
               "Per_Riferimento_ID": "T_XXXI_65_3",
               "Punto_ripresa_successivo": "",
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "2",
+                  "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -85186,12 +85149,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T17:15:38.604Z",
-        "updatedAt": "2026-08-07T22:37:49.431Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:06:59.086Z"
       },
       {
         "id": "N_XXXII_10_1__XXXII_13_8",
@@ -86138,21 +86107,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86186,12 +86149,17 @@
             "sì"
           ],
           "di_riferimento": [],
-          "primo_ordine": "1"
+          "primo_ordine": "1",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T17:49:33.898Z",
-        "updatedAt": "2026-08-10T13:46:48.157Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:08:25.200Z"
       },
       {
         "id": "N_XXXI_84_3__XXXI_84_8",
@@ -86225,7 +86193,7 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "N_XXXI_79_5__XXXI_84_2",
-              "Da_incluso": true,
+              "Da_incluso": false,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XXXII_3_3__XXXII_3_8",
               "A_incluso": true,
@@ -86237,10 +86205,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86275,12 +86240,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:05:37.448Z",
-        "updatedAt": "2026-08-14T00:45:13.665Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:08:34.786Z"
       },
       {
         "id": "N_XXXI_85_1__XXXI_87_8",
@@ -86323,21 +86288,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86371,12 +86330,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:06:46.265Z",
-        "updatedAt": "2026-08-22T14:42:50.542Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:08:54.685Z"
       },
       {
         "id": "N_XXXI_89_1__XXXI_89_6",
@@ -86411,21 +86370,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86459,12 +86412,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:09:25.000Z",
-        "updatedAt": "2026-08-22T14:43:12.642Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:09:18.069Z"
       },
       {
         "id": "N_XXXI_88_1__XXXI_88_8",
@@ -86499,7 +86452,7 @@
           "Determinazioni_temporali": [
             {
               "Da_Riferimento_ID": "N_XXXI_79_5__XXXI_84_2",
-              "Da_incluso": true,
+              "Da_incluso": false,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XXXII_3_3__XXXII_3_8",
               "A_incluso": true,
@@ -86511,10 +86464,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86549,12 +86499,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:10:03.910Z",
-        "updatedAt": "2026-08-14T00:54:22.029Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:09:05.785Z"
       },
       {
         "id": "N_XXXI_89_7__XXXI_90_8",
@@ -86588,21 +86538,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86631,12 +86575,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:12:21.431Z",
-        "updatedAt": "2026-08-04T12:16:34.593Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:09:35.519Z"
       },
       {
         "id": "N_XXXI_93_1__XXXI_94_4",
@@ -86670,21 +86621,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86718,12 +86663,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:13:54.201Z",
-        "updatedAt": "2026-08-14T01:03:17.727Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:09:51.535Z"
       },
       {
         "id": "N_XXXI_94_5__XXXI_98_8",
@@ -86760,21 +86705,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86808,12 +86747,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:15:18.661Z",
-        "updatedAt": "2026-08-14T01:04:07.693Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:10:08.502Z"
       },
       {
         "id": "N_XXXI_99_1__XXXI_101_4",
@@ -86848,21 +86787,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86889,12 +86822,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:16:35.766Z",
-        "updatedAt": "2026-08-01T18:21:13.337Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:10:20.119Z"
       },
       {
         "id": "N_XXXI_101_5__XXXI_101_8",
@@ -86929,21 +86869,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -86972,12 +86906,19 @@
             "G_XXXI_101_5"
           ],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:16:49.877Z",
-        "updatedAt": "2026-08-01T18:22:04.555Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:10:27.502Z"
       },
       {
         "id": "N_XXXI_102_1__XXXI_102_4",
@@ -87013,21 +86954,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87054,12 +86989,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:19:08.569Z",
-        "updatedAt": "2026-08-01T18:22:39.556Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:10:37.135Z"
       },
       {
         "id": "N_XXXI_102_5__XXXI_106_4",
@@ -87094,21 +87036,15 @@
           "Determinazioni_temporali": [
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
-              "Riferimento_incluso": false,
-              "Direzione": "dopo",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87135,12 +87071,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:20:01.464Z",
-        "updatedAt": "2026-08-01T18:24:50.040Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:10:49.068Z"
       },
       {
         "id": "N_XXXI_106_5__XXXI_106_8",
@@ -87183,13 +87126,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "N_XXXI_37_2__XXXI_49_8",
@@ -87198,16 +87135,10 @@
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "2",
+                  "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87239,12 +87170,19 @@
             "G_XXXI_106_7"
           ],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:26:20.344Z",
-        "updatedAt": "2026-08-01T18:28:10.733Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:11:01.969Z"
       },
       {
         "id": "N_XXXI_110_1__XXXI_110_6",
@@ -87287,13 +87225,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87327,12 +87259,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T18:28:10.761Z",
-        "updatedAt": "2026-08-13T21:30:59.665Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:11:14.453Z"
       },
       {
         "id": "N_XXXIII_78_5__XXXIII_82_8",
@@ -95191,13 +95123,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -95228,12 +95154,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T13:27:52.794Z",
-        "updatedAt": "2026-08-07T22:01:44.448Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:07:02.218Z"
       },
       {
         "id": "N_XXXI_66_1__XXXI_73_3",
@@ -95276,13 +95208,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -95318,12 +95244,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T13:31:00.345Z",
-        "updatedAt": "2026-08-14T00:44:06.900Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:07:07.385Z"
       },
       {
         "id": "N_XXXI_73_4__XXXI_74_8",
@@ -95366,13 +95292,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -95401,12 +95321,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T13:32:37.563Z",
-        "updatedAt": "2026-08-02T13:33:44.072Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:07:12.085Z"
       },
       {
         "id": "N_XXXI_75_1__XXXI_75_8",
@@ -95449,13 +95376,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -95484,12 +95405,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T13:33:44.093Z",
-        "updatedAt": "2026-08-02T13:35:17.723Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:07:14.435Z"
       },
       {
         "id": "N_XXXI_76_1__XXXI_77_8",
@@ -95531,13 +95459,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -95566,12 +95488,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T13:34:04.475Z",
-        "updatedAt": "2026-08-02T15:28:22.219Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:07:17.552Z"
       },
       {
         "id": "N_XXXII_49_1__XXXII_49_4",
@@ -97945,12 +97874,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T15:46:48.039Z",
-        "updatedAt": "2026-08-22T14:47:40.643Z",
-        "drafts": {}
+        "updatedAt": "2026-08-30T18:50:49.302Z"
       },
       {
         "id": "N_XXXV_57_1__XXXV_61_8",
@@ -121599,13 +121528,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121646,12 +121569,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Agramante si rifugia in Arli"
+          "secondo_titolo": "Agramante si rifugia in Arli",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T11:57:47.523Z",
-        "updatedAt": "2026-08-14T23:16:57.432Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:11:30.685Z"
       },
       {
         "id": "N_XXXII_4_1__XXXII_4_8",
@@ -121698,10 +121621,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121740,12 +121660,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T11:58:20.062Z",
-        "updatedAt": "2026-08-14T01:05:35.290Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:11:36.053Z"
       },
       {
         "id": "N_XXXII_5_1__XXXII_5_4",
@@ -121955,13 +121875,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121996,12 +121910,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Marfisa raggiunge Agramante in Arli"
+          "secondo_titolo": "Marfisa raggiunge Agramante in Arli",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T11:59:07.077Z",
-        "updatedAt": "2026-08-21T13:35:32.078Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:11:48.453Z"
       },
       {
         "id": "N_XXXII_9_1__XXXII_9_2",
@@ -122312,13 +122226,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XXVII_48_5",
@@ -122330,13 +122238,7 @@
                   "Valore": "10",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122373,12 +122275,12 @@
           ],
           "riferimento_contraddizione": "RIF_XXXII_7_3__XXXII_7_8",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T12:00:51.277Z",
-        "updatedAt": "2026-08-13T01:06:00.383Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:11:38.086Z"
       },
       {
         "id": "N_XXXII_7_3__XXXII_7_8",
@@ -123339,10 +123241,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -123369,12 +123268,12 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-13T00:51:37.114Z",
-        "updatedAt": "2026-08-13T01:47:08.488Z",
-        "drafts": {}
+        "updatedAt": "2026-08-31T09:11:40.285Z"
       },
       {
         "id": "N_II_64_1__II_64_6",
@@ -155077,6 +154976,66 @@
         "createdAt": "2026-08-23T11:18:53.739Z",
         "updatedAt": "2026-08-23T11:18:58.045Z",
         "drafts": {}
+      },
+      {
+        "id": "T_XXX_90_7_2",
+        "category": "time",
+        "range": {
+          "start": {
+            "c": 30,
+            "o": 90,
+            "v": 7,
+            "ch": 29
+          },
+          "end": {
+            "c": 30,
+            "o": 90,
+            "v": 7,
+            "ch": 42
+          }
+        },
+        "exactSpans": [
+          {
+            "start": {
+              "c": 30,
+              "o": 90,
+              "v": 7,
+              "ch": 29
+            },
+            "end": {
+              "c": 30,
+              "o": 90,
+              "v": 7,
+              "ch": 42
+            }
+          }
+        ],
+        "fields": {
+          "Coordinata_temporale": false,
+          "Nome_coordinata_temporale": "",
+          "Relazione_coordinata_temporale": "nessuna",
+          "Coordinata_temporale_riferimento": "",
+          "Note": "",
+          "come_riferimento": "",
+          "primo_ordine": "",
+          "Termine_temporale": "in su la nona",
+          "Calendario": false,
+          "Calendario_estensione": "puntuale",
+          "Calendario_giorno": "",
+          "Calendario_mese": "",
+          "Calendario_anno": "",
+          "Calendario_da_giorno": "",
+          "Calendario_da_mese": "",
+          "Calendario_da_anno": "",
+          "Calendario_a_giorno": "",
+          "Calendario_a_mese": "",
+          "Calendario_a_anno": "",
+          "Incompleta": false,
+          "Nota_incompletezza": ""
+        },
+        "custom": {},
+        "createdAt": "2026-08-30T20:11:27.645Z",
+        "updatedAt": "2026-08-30T20:11:32.991Z"
       }
     ],
     "geography": [
