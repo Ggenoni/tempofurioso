@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-08-31T23:09:02.311Z"
+    "exportedAt": "2026-09-01T01:12:59.661Z"
   },
   "annotations": {
     "narrative": [
@@ -90773,7 +90773,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T10:58:21.876Z",
-        "updatedAt": "2026-08-31T23:09:02.278Z"
+        "updatedAt": "2026-09-01T01:11:11.728Z"
       },
       {
         "id": "N_XXXVIII_32_1__XXXVIII_32_7",
@@ -92079,13 +92079,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92122,12 +92116,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:34:44.634Z",
-        "updatedAt": "2026-08-14T10:12:06.590Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:11:24.893Z"
       },
       {
         "id": "N_XXXVIII_65_4__XXXVIII_65_8",
@@ -92170,13 +92164,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92205,12 +92193,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:36:04.133Z",
-        "updatedAt": "2026-08-09T17:52:23.743Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:11:27.676Z"
       },
       {
         "id": "N_XXXVIII_67_1__XXXVIII_67_8",
@@ -92252,13 +92246,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92287,12 +92275,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:37:20.353Z",
-        "updatedAt": "2026-08-09T18:09:51.655Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:11:30.977Z"
       },
       {
         "id": "N_XXXVIII_68_1__XXXVIII_69_8",
@@ -92334,13 +92328,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92369,12 +92357,19 @@
           ],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:38:16.332Z",
-        "updatedAt": "2026-08-02T12:39:00.211Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:11:37.493Z"
       },
       {
         "id": "N_XXXVIII_70_1__XXXVIII_72_8",
@@ -92416,13 +92411,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92451,12 +92440,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:39:39.033Z",
-        "updatedAt": "2026-08-03T09:41:57.145Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:11:43.576Z"
       },
       {
         "id": "N_XXXVIII_73_1__XXXVIII_73_8",
@@ -92499,13 +92495,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92540,12 +92530,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:40:11.367Z",
-        "updatedAt": "2026-08-14T10:12:30.274Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:11:46.459Z"
       },
       {
         "id": "N_XXXVIII_74_1__XXXVIII_74_2",
@@ -92588,13 +92578,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92621,12 +92605,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:42:43.092Z",
-        "updatedAt": "2026-08-02T12:43:35.984Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:11:48.260Z"
       },
       {
         "id": "N_XXXVIII_74_3__XXXVIII_75_6",
@@ -92668,13 +92659,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92701,12 +92686,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:43:36.005Z",
-        "updatedAt": "2026-08-02T12:47:27.385Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:11:58.093Z"
       },
       {
         "id": "N_XXXVIII_76_1__XXXVIII_78_8",
@@ -92750,13 +92742,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XXXVIII_65_4",
@@ -92765,16 +92751,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "1",
+                  "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -92813,12 +92793,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:47:27.408Z",
-        "updatedAt": "2026-08-14T10:12:33.340Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T01:12:59.627Z"
       },
       {
         "id": "N_XXXVIII_79_1__XXXVIII_80_2",
