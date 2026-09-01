@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-09-01T12:29:58.951Z"
+    "exportedAt": "2026-09-01T12:37:31.933Z"
   },
   "annotations": {
     "narrative": [
@@ -107124,9 +107124,9 @@
               "Da_Riferimento_ID": "N_XLI_24_7__XLI_24_8",
               "Da_incluso": false,
               "Direzione": "dopo",
-              "A_Riferimento_ID": "",
+              "A_Riferimento_ID": "T_XLI_30_1",
               "A_incluso": false,
-              "Per_Riferimento_ID": "T_XLI_30_1",
+              "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "",
               "Quantita": [
@@ -107176,7 +107176,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T14:24:27.833Z",
-        "updatedAt": "2026-09-01T12:29:58.921Z"
+        "updatedAt": "2026-09-01T12:37:31.904Z"
       },
       {
         "id": "N_XLI_31_5__XLI_33_8",
