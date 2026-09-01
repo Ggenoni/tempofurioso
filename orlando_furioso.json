@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-09-01T10:09:59.520Z"
+    "exportedAt": "2026-09-01T12:29:58.951Z"
   },
   "annotations": {
     "narrative": [
@@ -106934,7 +106934,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T14:14:17.088Z",
-        "updatedAt": "2026-09-01T10:09:59.487Z"
+        "updatedAt": "2026-09-01T12:29:11.837Z"
       },
       {
         "id": "N_XLI_26_1__XLI_26_2",
@@ -107126,18 +107126,15 @@
               "Direzione": "dopo",
               "A_Riferimento_ID": "",
               "A_incluso": false,
-              "Per_Riferimento_ID": "",
+              "Per_Riferimento_ID": "T_XLI_30_1",
               "Punto_ripresa_successivo": "",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "5",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -107174,12 +107171,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T14:24:27.833Z",
-        "updatedAt": "2026-08-21T12:37:36.012Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T12:29:58.921Z"
       },
       {
         "id": "N_XLI_31_5__XLI_33_8",
@@ -107215,20 +107212,17 @@
               "Da_Riferimento_ID": "N_XLI_24_7__XLI_24_8",
               "Da_incluso": false,
               "Direzione": "dopo",
-              "A_Riferimento_ID": "",
+              "A_Riferimento_ID": "T_XLI_30_1",
               "A_incluso": false,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "5",
-                  "Unita": "giorni"
+                  "Valore": "",
+                  "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -107267,12 +107261,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T14:26:17.919Z",
-        "updatedAt": "2026-08-21T12:35:55.678Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T12:29:47.670Z"
       },
       {
         "id": "N_XLI_35_7__XLI_36_4",
@@ -107712,13 +107706,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -107752,12 +107740,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T14:38:10.829Z",
-        "updatedAt": "2026-08-21T12:29:12.306Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T12:29:27.403Z"
       },
       {
         "id": "N_XLI_47_1__XLI_50_6",
