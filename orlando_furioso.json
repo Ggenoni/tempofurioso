@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-09-01T01:12:59.661Z"
+    "exportedAt": "2026-09-01T01:16:02.937Z"
   },
   "annotations": {
     "narrative": [
@@ -92698,7 +92698,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T12:43:36.005Z",
-        "updatedAt": "2026-09-01T01:11:58.093Z"
+        "updatedAt": "2026-09-01T01:15:34.843Z"
       },
       {
         "id": "N_XXXVIII_76_1__XXXVIII_78_8",
@@ -92798,7 +92798,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T12:47:27.408Z",
-        "updatedAt": "2026-09-01T01:12:59.627Z"
+        "updatedAt": "2026-09-01T01:15:12.745Z"
       },
       {
         "id": "N_XXXVIII_79_1__XXXVIII_80_2",
@@ -120446,8 +120446,8 @@
               "Da_Riferimento_ID": "N_XXXII_3_3__XXXII_3_8",
               "Da_incluso": true,
               "Direzione": "dopo",
-              "A_Riferimento_ID": "N_XXXV_62_3__XXXV_62_4",
-              "A_incluso": false,
+              "A_Riferimento_ID": "T_XXXVIII_65_4",
+              "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
               "Nota": "",
@@ -120500,7 +120500,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:58:20.062Z",
-        "updatedAt": "2026-08-31T09:11:36.053Z"
+        "updatedAt": "2026-09-01T01:16:02.910Z"
       },
       {
         "id": "N_XXXII_5_1__XXXII_5_4",
