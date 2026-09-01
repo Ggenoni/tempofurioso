@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-09-01T01:16:02.937Z"
+    "exportedAt": "2026-09-01T01:19:06.402Z"
   },
   "annotations": {
     "narrative": [
@@ -120409,7 +120409,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:57:47.523Z",
-        "updatedAt": "2026-08-31T13:10:09.349Z"
+        "updatedAt": "2026-09-01T01:19:06.375Z"
       },
       {
         "id": "N_XXXII_4_1__XXXII_4_8",
@@ -120500,7 +120500,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:58:20.062Z",
-        "updatedAt": "2026-09-01T01:16:02.910Z"
+        "updatedAt": "2026-09-01T01:18:57.572Z"
       },
       {
         "id": "N_XXXII_5_1__XXXII_5_4",
