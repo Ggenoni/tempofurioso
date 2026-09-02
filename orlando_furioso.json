@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-09-01T12:37:31.933Z"
+    "exportedAt": "2026-09-02T11:36:22.121Z"
   },
   "annotations": {
     "narrative": [
@@ -80489,16 +80489,10 @@
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "3",
-                  "Unita": "mesi"
+                  "Valore": "92",
+                  "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "N_XXX_9_1__XXX_9_8",
@@ -80507,16 +80501,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "20",
+                  "Valore": "25",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -80553,12 +80541,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:30:06.192Z",
-        "updatedAt": "2026-08-14T00:09:54.050Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:30:06.425Z"
       },
       {
         "id": "N_XXIX_51_1__XXIX_51_2",
@@ -81199,13 +81187,10 @@
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "5",
+                  "Valore": "12",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81232,12 +81217,19 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:42:09.240Z",
-        "updatedAt": "2026-08-01T15:04:53.125Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:19:20.292Z"
       },
       {
         "id": "N_XXX_4_3__XXX_4_6",
@@ -81280,13 +81272,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "5",
+                  "Valore": "12",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81322,12 +81311,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:43:08.023Z",
-        "updatedAt": "2026-08-14T00:02:41.942Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:19:31.061Z"
       },
       {
         "id": "N_XXX_4_7__XXX_5_2",
@@ -81366,16 +81355,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "5",
+                  "Valore": "12",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81404,12 +81387,19 @@
             "G_XXX_4_7"
           ],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:43:18.790Z",
-        "updatedAt": "2026-08-01T15:06:46.959Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:19:57.410Z"
       },
       {
         "id": "N_XXX_5_2__XXX_8_1",
@@ -81535,10 +81525,7 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81569,12 +81556,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:44:06.673Z",
-        "updatedAt": "2026-08-08T00:04:12.544Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:10:32.211Z"
       },
       {
         "id": "N_XXX_8_5__XXX_8_8",
@@ -81620,10 +81613,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81652,12 +81642,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:44:17.091Z",
-        "updatedAt": "2026-08-09T16:57:48.837Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:20:26.011Z"
       },
       {
         "id": "N_XXX_9_1__XXX_9_8",
@@ -81696,16 +81692,10 @@
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "26",
+                  "Valore": "16",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81742,12 +81732,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Orlando pazzo devasta Malaga"
+          "secondo_titolo": "Orlando pazzo devasta Malaga",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:44:38.078Z",
-        "updatedAt": "2026-08-14T22:50:43.377Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:20:55.094Z"
       },
       {
         "id": "N_XXX_10_1__XXX_12_8",
@@ -81879,13 +81869,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81920,12 +81904,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:45:52.921Z",
-        "updatedAt": "2026-08-14T00:07:42.465Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:21:57.276Z"
       },
       {
         "id": "N_XXX_15_5__XXX_15_6",
@@ -81958,8 +81942,8 @@
           "Note": "",
           "Determinazioni_temporali": [
             {
-              "Da_Riferimento_ID": "N_XXX_9_1__XXX_9_8",
-              "Da_incluso": false,
+              "Da_Riferimento_ID": "N_XXX_15_1__XXX_15_4",
+              "Da_incluso": true,
               "Direzione": "dopo",
               "A_Riferimento_ID": "N_XXXIX_37_1__XXXIX_37_8",
               "A_incluso": true,
@@ -81968,13 +81952,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "20",
+                  "Valore": "25",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -82009,12 +81990,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:46:15.856Z",
-        "updatedAt": "2026-08-14T00:08:40.434Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:35:07.689Z"
       },
       {
         "id": "N_XXX_15_1__XXX_15_4",
@@ -82056,19 +82037,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
-          "Determinazione_coordinata_temporale": false,
+          "Determinazione_coordinata_temporale": true,
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
@@ -82099,12 +82074,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T13:46:23.241Z",
-        "updatedAt": "2026-08-14T00:08:39.633Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:22:12.460Z"
       },
       {
         "id": "N_XXIX_58_3__XXIX_58_6",
@@ -93417,16 +93392,10 @@
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "3",
-                  "Unita": "mesi"
+                  "Valore": "92",
+                  "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -93469,12 +93438,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Orlando pazzo fa strage di guerrieri presso il campo di Biserta"
+          "secondo_titolo": "Orlando pazzo fa strage di guerrieri presso il campo di Biserta",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T11:16:53.063Z",
-        "updatedAt": "2026-08-14T23:17:05.600Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:30:48.058Z"
       },
       {
         "id": "N_XXXIX_33_3__XXXIX_36_8",
@@ -107176,7 +107145,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T14:24:27.833Z",
-        "updatedAt": "2026-09-01T12:37:31.904Z"
+        "updatedAt": "2026-09-01T14:38:54.489Z"
       },
       {
         "id": "N_XLI_31_5__XLI_33_8",
@@ -111832,20 +111801,16 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
           "Determinazione_coordinata_temporale": false,
-          "Tempi_secondari": [],
+          "Tempi_secondari": [
+            "T_XLIII_167_2"
+          ],
           "Successioni_temporali": [
             {
               "Segmento_successione_riferimento": "N_XLIII_166_5__XLIII_166_8",
@@ -111876,12 +111841,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T16:28:06.240Z",
-        "updatedAt": "2026-08-21T13:16:52.674Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T17:14:17.614Z"
       },
       {
         "id": "N_XLIII_168_1__XLIII_175_1",
@@ -115131,13 +115096,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "N_XLIV_28_5__XLIV_34_5",
@@ -115146,20 +115105,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "2",
-                  "Unita": "mesi"
-                },
-                {
-                  "Valore": "20",
+                  "Valore": "81",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -115196,12 +115145,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T22:21:41.547Z",
-        "updatedAt": "2026-08-21T15:34:49.372Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:35:57.889Z"
       },
       {
         "id": "N_XLIV_40_3__XLIV_47_8",
@@ -116086,20 +116035,10 @@
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "10",
+                  "Valore": "41",
                   "Unita": "giorni"
-                },
-                {
-                  "Valore": "1",
-                  "Unita": "mesi"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -116136,12 +116075,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Ruggiero parte da Parigi"
+          "secondo_titolo": "Ruggiero parte da Parigi",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T22:34:21.763Z",
-        "updatedAt": "2026-08-14T23:17:26.782Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:36:22.088Z"
       },
       {
         "id": "N_XLIV_78_5__XLIV_78_8",
@@ -116184,13 +116123,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "1",
-                  "Unita": "mesi"
+                  "Valore": "28",
+                  "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -116227,12 +116163,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T22:35:55.128Z",
-        "updatedAt": "2026-08-14T13:03:43.773Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:35:39.206Z"
       },
       {
         "id": "N_XLIV_78_8__XLIV_79_4",
@@ -120549,7 +120485,7 @@
         "drafts": {}
       },
       {
-        "id": "N_XLV_116_1__XLV_116_8",
+        "id": "N_XLV_116_1__XLV_117_2",
         "category": "narrative",
         "range": {
           "start": {
@@ -120560,16 +120496,16 @@
           },
           "end": {
             "c": 45,
-            "o": 116,
-            "v": 8,
-            "ch": 36
+            "o": 117,
+            "v": 2,
+            "ch": 39
           }
         },
         "exactSpans": [],
         "fields": {
           "Titolo_breve": "Leone fa cercare Ruggiero",
           "Tipo_segmento": "",
-          "Durata_genettiana": "scena",
+          "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
           "Personaggi_in_scena": [
@@ -120579,26 +120515,24 @@
           "Note": "",
           "Determinazioni_temporali": [
             {
-              "Riferimento_ID": "T_XLV_64_2",
-              "Riferimento_incluso": false,
+              "Da_Riferimento_ID": "T_XLV_64_2",
+              "Da_incluso": false,
               "Direzione": "dopo",
+              "A_Riferimento_ID": "",
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": "",
               "Nota": "",
               "Quantita": [
                 {
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
-          "Determinazione_Estensione": "puntuale",
+          "Determinazione_Estensione": "durativo",
           "Determinazione_Quantificazione": "determinato",
           "Determinazione_coordinata_temporale": false,
           "Tempi_secondari": [
@@ -120633,21 +120567,21 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T23:57:09.843Z",
-        "updatedAt": "2026-08-22T17:23:47.286Z",
-        "drafts": {}
+        "updatedAt": "2026-09-01T19:44:51.670Z"
       },
       {
-        "id": "N_XLV_117_1__XLV_117_4",
+        "id": "N_XLV_117_3__XLV_117_4",
         "category": "narrative",
         "range": {
           "start": {
             "c": 45,
             "o": 117,
-            "v": 1,
+            "v": 3,
             "ch": 0
           },
           "end": {
@@ -120680,13 +120614,7 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -120696,11 +120624,11 @@
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
-              "Segmento_successione_riferimento": "N_XLV_116_1__XLV_116_8",
+              "Segmento_successione_riferimento": "N_XLV_116_1__XLV_117_2",
               "Relazione_successione": "segue"
             }
           ],
-          "Segmento_successione_riferimento": "N_XLV_116_1__XLV_116_8",
+          "Segmento_successione_riferimento": "N_XLV_116_1__XLV_117_2",
           "Relazione_successione": "segue",
           "Contraddizione_temporale": false,
           "Contraddizioni_tempi": [],
@@ -120721,12 +120649,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T23:58:08.095Z",
-        "updatedAt": "2026-08-22T17:24:59.304Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:09:21.196Z"
       },
       {
         "id": "N_XLVI_20_1__XLVI_25_8",
@@ -120785,11 +120713,11 @@
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
-              "Segmento_successione_riferimento": "N_XLV_117_1__XLV_117_4",
+              "Segmento_successione_riferimento": "N_XLV_117_3__XLV_117_4",
               "Relazione_successione": "parzialmente sovrapposto"
             }
           ],
-          "Segmento_successione_riferimento": "N_XLV_117_1__XLV_117_4",
+          "Segmento_successione_riferimento": "N_XLV_117_3__XLV_117_4",
           "Relazione_successione": "parzialmente sovrapposto",
           "Contraddizione_temporale": false,
           "Contraddizioni_tempi": [],
@@ -121662,16 +121590,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "77",
+                  "Valore": "75",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121710,12 +121632,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Nozze di Ruggiero e Bradamante"
+          "secondo_titolo": "Nozze di Ruggiero e Bradamante",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-04T00:21:57.132Z",
-        "updatedAt": "2026-08-22T16:00:48.984Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T11:35:19.890Z"
       },
       {
         "id": "N_XLVI_98_7__XLVI_99_4",
