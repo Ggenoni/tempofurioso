@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-09-02T11:36:22.121Z"
+    "exportedAt": "2026-09-04T10:44:28.748Z"
   },
   "annotations": {
     "narrative": [
@@ -49758,13 +49758,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -49806,8 +49800,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T14:13:31.037Z",
-        "updatedAt": "2026-08-31T14:56:02.027Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T19:29:47.235Z"
       },
       {
         "id": "N_XXII_36_7__XXII_48_8",
@@ -53896,8 +53889,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T18:43:33.503Z",
-        "updatedAt": "2026-08-31T14:55:29.596Z",
-        "drafts": {}
+        "updatedAt": "2026-09-02T19:29:12.088Z"
       },
       {
         "id": "N_XXII_27_1__XXII_27_8",
@@ -66792,10 +66784,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -66837,8 +66826,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-31T10:09:45.209Z",
-        "updatedAt": "2026-08-31T15:14:11.606Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:00.576Z"
       },
       {
         "id": "N_XXIV_15_2__XXIV_20_1",
@@ -87035,7 +87023,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Agramante fugge da Parigi ad Arli",
+          "Titolo_breve": "Agramante fugge da Parigi ad Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -87058,13 +87046,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87108,8 +87090,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T17:49:33.898Z",
-        "updatedAt": "2026-08-31T09:08:25.200Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:06.942Z"
       },
       {
         "id": "N_XXXI_84_3__XXXI_84_8",
@@ -87130,7 +87111,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Agramante fugge verso Arli",
+          "Titolo_breve": "Agramante fugge verso Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -87155,10 +87136,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87198,8 +87176,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T18:05:37.448Z",
-        "updatedAt": "2026-08-31T09:22:10.635Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:54.392Z"
       },
       {
         "id": "N_XXXI_85_1__XXXI_87_8",
@@ -87406,7 +87383,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Ruggiero ferito viene trasportato verso Arli",
+          "Titolo_breve": "Ruggiero ferito viene trasportato verso Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -87432,10 +87409,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87475,8 +87449,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T18:10:03.910Z",
-        "updatedAt": "2026-08-31T09:22:19.636Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:33:01.209Z"
       },
       {
         "id": "N_XXXI_89_7__XXXI_90_8",
@@ -89149,7 +89122,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Gradasso giunge ad Arli",
+          "Titolo_breve": "Gradasso giunge ad Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -89174,10 +89147,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -89214,12 +89184,12 @@
           "aggancio_contraddizione": [
             "N_XXXIII_95_5__XXXIII_95_6"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T06:21:18.651Z",
-        "updatedAt": "2026-08-14T08:54:53.531Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:22.059Z"
       },
       {
         "id": "N_XXXIII_95_5__XXXIII_95_6",
@@ -89240,7 +89210,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Gradasso parte da Arli",
+          "Titolo_breve": "Gradasso parte da Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -89261,13 +89231,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XL_10_2",
@@ -89279,13 +89243,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -89322,12 +89280,12 @@
           ],
           "riferimento_contraddizione": "RIF_XL_46_1__XL_46_4",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Gradasso parte da Arli"
+          "secondo_titolo": "Gradasso parte da Arli",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T06:21:28.881Z",
-        "updatedAt": "2026-08-14T22:51:03.755Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:30.275Z"
       },
       {
         "id": "N_XXXIII_96_2__XXXIII_101_8_2",
@@ -99284,7 +99242,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Bradamante e Fiordiligi giungono in Arli",
+          "Titolo_breve": "Bradamante e Fiordiligi giungono in Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -99306,13 +99264,7 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -99347,12 +99299,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Bradamante e Fiordiligi giungono in Arli"
+          "secondo_titolo": "Bradamante e Fiordiligi giungono in Arli",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T16:01:01.319Z",
-        "updatedAt": "2026-08-14T22:54:17.121Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:33.491Z"
       },
       {
         "id": "N_XXXV_62_5__XXXV_62_8",
@@ -102398,7 +102350,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Ruggiero ritorna in Arli",
+          "Titolo_breve": "Ruggiero ritorna in Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -102419,13 +102371,7 @@
                   "Valore": "2",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -102464,12 +102410,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T17:15:56.443Z",
-        "updatedAt": "2026-08-14T10:01:29.190Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:39.108Z"
       },
       {
         "id": "N_XXXVIII_7_3__XXXVIII_7_8",
@@ -103886,7 +103832,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Agramante fugge da Arli",
+          "Titolo_breve": "Agramante fugge da Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -103907,13 +103853,7 @@
                   "Valore": "2",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XXXIX_73_7",
@@ -103925,13 +103865,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -103966,12 +103900,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T12:48:44.258Z",
-        "updatedAt": "2026-08-14T10:42:24.737Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:33:06.342Z"
       },
       {
         "id": "N_XXXIX_74_1__XXXIX_74_8",
@@ -105669,13 +105603,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -105704,12 +105632,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T13:47:28.977Z",
-        "updatedAt": "2026-08-14T03:00:24.358Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T10:32:07.367Z"
       },
       {
         "id": "N_XL_71_1__XL_71_4",
@@ -113786,16 +113714,10 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "3",
+                  "Valore": "10",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -113836,12 +113758,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": "Carlo accoglie a Parigi i campioni cristiani"
+          "secondo_titolo": "Carlo accoglie a Parigi i campioni cristiani",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T17:41:17.399Z",
-        "updatedAt": "2026-08-21T13:22:02.521Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T10:32:31.170Z"
       },
       {
         "id": "N_XLIV_34_6__XLIV_34_8",
@@ -113893,10 +113815,7 @@
                   "Valore": "2",
                   "Unita": "mesi"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -113933,12 +113852,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T17:42:28.118Z",
-        "updatedAt": "2026-08-21T16:36:14.390Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T10:43:14.899Z"
       },
       {
         "id": "N_XLVI_102_1__XLVI_103_8",
@@ -115105,7 +115024,7 @@
               "Nota": "Mia ipotesi",
               "Quantita": [
                 {
-                  "Valore": "81",
+                  "Valore": "74",
                   "Unita": "giorni"
                 }
               ]
@@ -115150,7 +115069,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T22:21:41.547Z",
-        "updatedAt": "2026-09-02T11:35:57.889Z"
+        "updatedAt": "2026-09-04T10:44:28.716Z"
       },
       {
         "id": "N_XLIV_40_3__XLIV_47_8",
@@ -116080,7 +115999,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T22:34:21.763Z",
-        "updatedAt": "2026-09-02T11:36:22.088Z"
+        "updatedAt": "2026-09-02T19:29:06.786Z"
       },
       {
         "id": "N_XLIV_78_5__XLIV_78_8",
@@ -122648,7 +122567,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Agramante sosta ad Arli",
+          "Titolo_breve": "Agramante sosta ad Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -122669,13 +122588,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122721,8 +122634,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:57:47.523Z",
-        "updatedAt": "2026-09-01T01:19:06.375Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:10.908Z"
       },
       {
         "id": "N_XXXII_4_1__XXXII_4_8",
@@ -122743,7 +122655,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Agramante rifugiato in Arli",
+          "Titolo_breve": "Agramante rifugiato in Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
@@ -122769,10 +122681,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122816,8 +122725,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:58:20.062Z",
-        "updatedAt": "2026-09-01T01:18:57.572Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:14.657Z"
       },
       {
         "id": "N_XXXII_5_1__XXXII_5_4",
@@ -123006,7 +122914,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Marfisa raggiunge Agramante in Arli",
+          "Titolo_breve": "Marfisa raggiunge Agramante in Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -123027,13 +122935,7 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -123073,8 +122975,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:59:07.077Z",
-        "updatedAt": "2026-08-31T09:16:45.519Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:27.258Z"
       },
       {
         "id": "N_XXXII_9_1__XXXII_9_2",
@@ -123363,7 +123264,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Marfisa sente del ritiro di Agramante in Arli",
+          "Titolo_breve": "Marfisa sente del ritiro di Agramante in Arles",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -123385,13 +123286,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XXVII_48_5",
@@ -123403,13 +123298,7 @@
                   "Valore": "10",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -123451,8 +123340,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T12:00:51.277Z",
-        "updatedAt": "2026-08-31T09:11:38.086Z",
-        "drafts": {}
+        "updatedAt": "2026-09-04T09:32:18.658Z"
       },
       {
         "id": "N_XXXII_7_3__XXXII_7_8",
