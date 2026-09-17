@@ -923,7 +923,7 @@ body > header .armorDecorRepeats::after,
 <div class="settingsDrawerHeader"><span class="armorDecorLayer" aria-hidden="true"><span class="armorDecorRepeats" aria-hidden="true"></span><span class="armorDecorFullFrame" aria-hidden="true"></span></span><div><h2 id="settingsDrawerTitle">Impostazioni</h2><p>Filtri e criteri di visualizzazione</p></div><button class="settingsClose" id="settingsClose" type="button" aria-label="Chiudi impostazioni">×</button></div>
 <section class="controls">
 <div class="charbox"><label class="top">Scelta dei personaggi</label><details class="charDropdown" id="charDropdown"><summary><span id="charDropdownLabel">Scegli personaggi</span><span class="charDropdownCount" id="charDropdownCount">0</span></summary><div class="charDropdownPanel"><input id="charSearch" placeholder="Cerca un personaggio…" type="search"/><div class="charlist" id="charList"></div></div></details><div class="charbuttons"><button id="top6">Principali</button><button id="allOn">Tutti</button><button id="allOff">Azzera</button><button id="resetColors" type="button">Reset colori</button></div></div>
-<div class="structureControls" id="structureControls"><label class="top">Strutture dell’intreccio</label><label class="toggle"><input checked="checked" id="showSankey" name="raccordogramMode" type="radio" value="sankey"/> Ordine narrativo e tempo della storia</label><label class="toggle"><input id="showResumes" name="raccordogramMode" type="radio" value="resumes"/> Raccordi incrociati</label><label class="toggle"><input id="showNarrativeCuts" name="raccordogramMode" type="radio" value="cuts"/> Stacchi narrativi</label><label class="toggle"><input id="showBoiardoRefs" name="raccordogramMode" type="radio" value="boiardo"/> Connessioni narrative con Boiardo</label><label class="toggle"><input id="showContradictions" name="raccordogramMode" type="radio" value="contradictions"/> Incongruenze temporali</label><label class="toggle"><input id="showEdition1532" name="raccordogramMode" type="radio" value="edition1532"/> Aggiunte 1532</label><label class="toggle structureOverlayRow"><input id="overlayStructures" type="checkbox"/> Sovrapponi livelli</label><label class="toggle narrativeEllipsesRow"><input id="narrativeEllipsesToggle" type="checkbox"/> Mostra sospensioni narrative</label><label class="toggle temporalEllipsesRow"><input id="temporalEllipsesToggle" type="checkbox"/> Mostra ellissi temporali</label></div>
+<div class="structureControls" id="structureControls"><label class="top">Livelli di analisi</label><label class="toggle"><input checked="checked" id="showSankey" name="raccordogramMode" type="radio" value="sankey"/> Ordine narrativo e tempo della storia</label><label class="toggle"><input id="showResumes" name="raccordogramMode" type="radio" value="resumes"/> Ricongiungimenti narrativi</label><label class="toggle"><input id="showNarrativeCuts" name="raccordogramMode" type="radio" value="cuts"/> Stacchi narrativi</label><label class="toggle"><input id="showBoiardoRefs" name="raccordogramMode" type="radio" value="boiardo"/> Connessioni narrative con Boiardo</label><label class="toggle"><input id="showContradictions" name="raccordogramMode" type="radio" value="contradictions"/> Incongruenze temporali</label><label class="toggle"><input id="showEdition1532" name="raccordogramMode" type="radio" value="edition1532"/> Aggiunte 1532</label><label class="toggle structureOverlayRow"><input id="overlayStructures" type="checkbox"/> Sovrapponi livelli</label><label class="toggle narrativeEllipsesRow"><input id="narrativeEllipsesToggle" type="checkbox"/> Mostra sospensioni narrative</label><label class="toggle temporalEllipsesRow"><input id="temporalEllipsesToggle" type="checkbox"/> Mostra ellissi temporali</label></div>
 <div class="segmentRepresentation" id="segmentRepresentation">
   <label class="top">Rappresentazione dei segmenti</label>
   <div class="segmentModeControl" role="radiogroup" aria-label="Eventi mostrati">
@@ -977,7 +977,7 @@ body > header .armorDecorRepeats::after,
               <li><a href="#info-tempo">Scelta del tempo</a></li>
             </ol>
           </li>
-          <li><a href="#info-intreccio">Strutture dell’intreccio</a></li>
+          <li><a href="#info-intreccio">Livelli di analisi</a></li>
           <li><a href="#info-legenda-superiore">Legenda superiore</a></li>
           <li><a href="#info-testo">Il pannello del testo</a></li>
           <li><a href="#info-legenda-personaggi">Legenda dei personaggi</a></li>
@@ -1041,7 +1041,7 @@ body > header .armorDecorRepeats::after,
           </section>
 
         <section id="info-intreccio">
-          <h3>4. Le strutture dell’intreccio</h3>
+          <h3>4. Livelli di analisi</h3>
           <p>Questa sezione permette di mettere in luce sei aspetti diversi dell’<strong>organizzazione strutturale</strong> del poema. Per impostazione predefinita, le prime sei opzioni sono tra loro alternative; per poterle selezionare contemporaneamente va attivata la funzione <strong>Sovrapponi livelli</strong>. A esse si possono aggiungere le visualizzazioni delle <strong>sospensioni narrative</strong> e delle <strong>ellissi temporali</strong>, che funzionano invece come livelli indipendenti.</p>
           <div class="infoStructureGrid">
             <div class="infoStructure">
@@ -1049,7 +1049,7 @@ body > header .armorDecorRepeats::after,
               <p>Il diagramma collega la posizione dei segmenti nel <strong>POEMA</strong> alla loro collocazione nel <strong>TEMPO</strong>. I segmenti estesi sono rappresentati con una larghezza proporzionale alla loro estensione; quelli puntuali con un collegamento sottile. Passando su un elemento si evidenzia la tacca corrispondente nel grafico principale; con un clic il segmento viene selezionato e si apre il relativo passo nel testo.</p>
             </div>
             <div class="infoStructure">
-              <h4>Raccordi incrociati</h4>
+              <h4>Ricongiungimenti narrativi</h4>
               <p>Gli <strong>archi</strong> mettono in relazione due momenti del racconto nei quali un medesimo punto di convergenza viene raggiunto, in tempi diversi della narrazione, attraverso due fili distinti, il secondo dei quali viene sviluppato fino a ricongiungersi a una situazione già anticipata dal primo. Al passaggio del mouse i due segmenti e la linea che li collega risaltano nel grafico principale, mentre gli altri vengono attenuati. Un clic mantiene evidenziato il ricongiungimento.</p>
             </div>
             <div class="infoStructure">
@@ -4041,7 +4041,7 @@ function buildVisualizationData(raw, template){
   function renderRaccordogram(){
     const root=document.getElementById('raccordogramSvg'),title=document.getElementById('raccordogramTitleText');if(!root)return;
     syncResumesModeState();panel.hidden=!anyFeature();if(panel.hidden)return;panel.classList.toggle('sankeyMode',showSankey());panel.classList.toggle('overlayMode',overlayLayers());panel.dataset.mode=overlayLayers()?'overlay':showSankey()?'sankey':showResumes()?'resumes':showCuts()?'cuts':showBoiardo()?'boiardo':showContradictions()?'contradictions':'edition1532';
-    if(title)title.innerHTML=overlayLayers()?'Livelli sovrapposti':showSankey()?'Rapporto tra ordine narrativo e tempo della storia':showResumes()?'Raccordi incrociati':showCuts()?'Stacchi narrativi':showBoiardo()?"Connessioni narrative con l'<i>Innamoramento de Orlando</i>":showContradictions()?'Incongruenze temporali':'Aggiunte narrative del 1532';
+    if(title)title.innerHTML=overlayLayers()?'Livelli sovrapposti':showSankey()?'Rapporto tra ordine narrativo e tempo della storia':showResumes()?'Ricongiungimenti narrativi':showCuts()?'Stacchi narrativi':showBoiardo()?"Connessioni narrative con l'<i>Innamoramento de Orlando</i>":showContradictions()?'Incongruenze temporali':'Aggiunte narrative del 1532';
     const {W,H}=raccordLayoutMetrics();root.setAttribute('viewBox',`0 0 ${W} ${H}`);root.innerHTML='';window.__furiosoSankeyGroupList=null;
     root.append(svgEl('rect',{x:0,y:0,width:W,height:H,class:'raccordogramBg'}));
 
@@ -7536,7 +7536,7 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
   --reader-1532-hover:#C5E0CD;
 }
 
-/* Raccordi incrociati: viola. */
+/* Ricongiungimenti narrativi: viola. */
 #readerText.raccordSelectionActive .textFragment.raccordTextSelected{
   background:var(--reader-resumes-segment)!important;
   color:#1d2328!important;
@@ -11856,7 +11856,7 @@ window.__furiosoBeforeSettingsClose=()=>{window.__furiosoAutoApplyPoemFilter?.()
    dalle regole del filtro personaggi. La modalita Sovrapponi livelli conserva la
    propria gerarchia specifica e non viene alterata. */
 
-/* Raccordi incrociati. */
+/* Ricongiungimenti narrativi. */
 #chart#chart:not(.overlayStructuresEnabled).raccordSelectionActive
   .markerGroup:not(.raccordSelected):not(.raccordPreview):not(.characterSoloDim){
   opacity:1!important;
