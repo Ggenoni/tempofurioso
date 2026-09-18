@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-09-04T10:44:28.748Z"
+    "exportedAt": "2026-09-18T10:05:26.095Z"
   },
   "annotations": {
     "narrative": [
@@ -49,7 +49,13 @@
                   "Valore": "15",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "T_I_10_5",
@@ -61,7 +67,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Segmento_successione_riferimento": "",
@@ -108,7 +120,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-25T19:53:38.921Z",
-        "updatedAt": "2026-09-01T08:55:29.786Z"
+        "updatedAt": "2026-09-09T10:27:41.853Z",
+        "drafts": {}
       },
       {
         "id": "N_I_10_7__I_10_7",
@@ -198,7 +211,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T11:17:35.990Z",
-        "updatedAt": "2026-08-23T12:59:18.487Z",
+        "updatedAt": "2026-09-13T20:31:52.253Z",
         "drafts": {}
       },
       {
@@ -3660,7 +3673,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Si vede giungere Baiardo",
+          "Titolo_breve": "",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -3679,13 +3692,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -3723,12 +3730,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T14:14:45.816Z",
-        "updatedAt": "2026-08-22T10:10:23.605Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:25:19.153Z"
       },
       {
         "id": "N_I_73_1__I_76_8",
@@ -4471,7 +4478,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Il valletto raggiunge Rinaldo e Sacripante",
+          "Titolo_breve": "",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -4490,13 +4497,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -4532,12 +4533,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T14:32:44.469Z",
-        "updatedAt": "2026-08-22T10:18:14.004Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:25:42.619Z"
       },
       {
         "id": "N_II_15_6__II_18_8",
@@ -4580,13 +4581,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -4628,12 +4623,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T14:54:27.718Z",
-        "updatedAt": "2026-08-22T10:20:58.372Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:25:29.720Z"
       },
       {
         "id": "N_II_19_1__II_19_8",
@@ -5288,7 +5283,9 @@
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Rinaldo"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
@@ -5306,10 +5303,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -5352,8 +5346,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T15:17:31.069Z",
-        "updatedAt": "2026-08-23T10:15:04.587Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:26:04.919Z"
       },
       {
         "id": "N_II_27_8__II_30_4",
@@ -11168,7 +11161,10 @@
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Rinaldo",
+            "Dalinda"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
@@ -11186,10 +11182,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -11225,12 +11218,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T19:22:56.118Z",
-        "updatedAt": "2026-08-22T10:57:21.557Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:26:40.167Z"
       },
       {
         "id": "N_V_78_1__V_80_2",
@@ -11273,13 +11266,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -11315,12 +11302,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-26T19:24:07.335Z",
-        "updatedAt": "2026-08-22T10:57:24.707Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:26:16.351Z"
       },
       {
         "id": "N_V_80_3__V_80_5",
@@ -16959,7 +16946,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Il re di Scozia convoca l'armata",
+          "Titolo_breve": "",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -16978,13 +16965,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -17028,8 +17009,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T23:11:15.826Z",
-        "updatedAt": "2026-08-23T19:47:18.171Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:26:57.766Z"
       },
       {
         "id": "N_VIII_25_5__VIII_25_8",
@@ -17599,7 +17579,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "L'eremita si invaghisce di Angelica",
+          "Titolo_breve": "",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -17618,13 +17598,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -17663,8 +17637,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T23:33:41.631Z",
-        "updatedAt": "2026-08-23T21:39:12.555Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:27:17.065Z"
       },
       {
         "id": "N_VIII_33_1__VIII_33_8",
@@ -22224,7 +22197,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Bireno si mostra riconoscente a orlando",
+          "Titolo_breve": "Bireno si mostra riconoscente a Orlando",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -22246,13 +22219,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -22290,12 +22257,12 @@
           "aggancio_contraddizione": [
             "N_XI_82_1__XI_82_2"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T12:16:27.976Z",
-        "updatedAt": "2026-08-22T12:10:04.828Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:24:57.205Z"
       },
       {
         "id": "N_IX_88_3__IX_89_8",
@@ -27443,7 +27410,9 @@
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Angelica"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
@@ -27461,10 +27430,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -27504,12 +27470,12 @@
           "aggancio_contraddizione": [
             "N_XII_17_5__XII_17_6"
           ],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-07-27T14:58:26.797Z",
-        "updatedAt": "2026-08-22T12:35:40.556Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:27:31.299Z"
       },
       {
         "id": "N_XI_11_1__XI_12_8",
@@ -37632,13 +37598,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37679,8 +37639,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T00:23:32.657Z",
-        "updatedAt": "2026-08-23T12:05:26.279Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:27:41.147Z"
       },
       {
         "id": "N_XIV_109_1__XIV_112_8",
@@ -37720,13 +37679,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -37767,8 +37720,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T00:23:48.575Z",
-        "updatedAt": "2026-08-23T12:05:33.229Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:27:55.912Z"
       },
       {
         "id": "N_XIV_113_1__XIV_125_8",
@@ -38009,8 +37961,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T00:26:47.307Z",
-        "updatedAt": "2026-08-23T12:06:38.414Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:28:51.646Z"
       },
       {
         "id": "N_XIV_126_1__XIV_128_8",
@@ -38036,7 +37987,9 @@
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Rodomonte"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
@@ -38050,13 +38003,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -38097,8 +38044,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T00:26:58.212Z",
-        "updatedAt": "2026-08-23T12:05:58.379Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:28:28.764Z"
       },
       {
         "id": "N_XV_4_7__XV_5_8",
@@ -38957,13 +38903,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -39004,8 +38944,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T00:57:11.903Z",
-        "updatedAt": "2026-08-26T08:57:19.607Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:29:13.661Z"
       },
       {
         "id": "N_XVI_59_1__XVI_65_8",
@@ -39136,13 +39075,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -39183,8 +39116,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T00:59:36.337Z",
-        "updatedAt": "2026-08-26T08:57:25.807Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:29:54.477Z"
       },
       {
         "id": "N_XVI_71_1__XVI_74_8",
@@ -41740,13 +41672,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -41787,8 +41713,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T08:30:19.045Z",
-        "updatedAt": "2026-08-31T14:28:31.252Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:30:55.025Z"
       },
       {
         "id": "N_XVIII_161_7__XVIII_162_8",
@@ -41828,13 +41753,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -41873,8 +41792,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T08:30:59.229Z",
-        "updatedAt": "2026-08-31T14:28:39.784Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:31:07.824Z"
       },
       {
         "id": "N_XVIII_163_1__XVIII_163_4",
@@ -42004,13 +41922,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -42054,8 +41966,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T08:34:38.297Z",
-        "updatedAt": "2026-08-31T14:29:13.852Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:31:23.256Z"
       },
       {
         "id": "N_XVIII_165_1__XVIII_187_8",
@@ -45860,7 +45771,10 @@
           "Durata_genettiana": "sommario",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Zerbino",
+            "Gabrina"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [
@@ -45878,10 +45792,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -45925,8 +45836,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T10:59:50.370Z",
-        "updatedAt": "2026-08-31T14:53:59.979Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:31:45.642Z"
       },
       {
         "id": "N_XXI_72_1__XXI_72_7",
@@ -46999,13 +46909,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -47049,8 +46953,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T11:22:59.457Z",
-        "updatedAt": "2026-08-31T15:03:53.985Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:32:29.992Z"
       },
       {
         "id": "N_XXIII_48_1__XXIII_49_8",
@@ -47274,13 +47177,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -47324,8 +47221,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T11:25:13.173Z",
-        "updatedAt": "2026-08-31T15:04:16.337Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:32:43.941Z"
       },
       {
         "id": "N_XXIII_52_1__XXIII_52_8",
@@ -49758,7 +49654,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -49800,7 +49702,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T14:13:31.037Z",
-        "updatedAt": "2026-09-02T19:29:47.235Z"
+        "updatedAt": "2026-09-02T19:29:47.235Z",
+        "drafts": {}
       },
       {
         "id": "N_XXII_36_7__XXII_48_8",
@@ -53608,7 +53511,9 @@
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Atlante"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [],
@@ -53643,8 +53548,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T18:39:41.421Z",
-        "updatedAt": "2026-08-31T14:55:19.646Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:32:10.274Z"
       },
       {
         "id": "N_XXII_20_1__XXII_21_4",
@@ -53889,7 +53793,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T18:43:33.503Z",
-        "updatedAt": "2026-09-02T19:29:12.088Z"
+        "updatedAt": "2026-09-02T19:29:12.088Z",
+        "drafts": {}
       },
       {
         "id": "N_XXII_27_1__XXII_27_8",
@@ -58557,7 +58462,9 @@
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Grifone"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [],
@@ -58592,8 +58499,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:26:58.756Z",
-        "updatedAt": "2026-08-31T13:53:31.719Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:30:15.124Z"
       },
       {
         "id": "N_XVIII_59_7__XVIII_60_4",
@@ -59089,13 +58995,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -59136,8 +59036,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:31:01.937Z",
-        "updatedAt": "2026-08-31T14:07:11.766Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:48:50.833Z"
       },
       {
         "id": "N_XVIII_74_1__XVIII_75_4",
@@ -59172,8 +59071,8 @@
             {
               "Da_Riferimento_ID": "T_XVIII_74_3",
               "Da_incluso": true,
-              "Direzione": "in",
-              "A_Riferimento_ID": "",
+              "Direzione": "dopo",
+              "A_Riferimento_ID": "N_XVIII_75_5__XVIII_75_6",
               "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
@@ -59183,10 +59082,7 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -59227,8 +59123,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:32:13.500Z",
-        "updatedAt": "2026-08-31T14:08:10.032Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:55:29.753Z"
       },
       {
         "id": "N_XVIII_75_5__XVIII_75_6",
@@ -59270,19 +59165,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
-          "Determinazione_coordinata_temporale": false,
+          "Determinazione_coordinata_temporale": true,
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
@@ -59315,8 +59204,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:32:46.367Z",
-        "updatedAt": "2026-08-31T14:08:28.181Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:55:45.322Z"
       },
       {
         "id": "N_XVIII_75_7__XVIII_75_7",
@@ -59349,9 +59237,9 @@
           "Note": "",
           "Determinazioni_temporali": [
             {
-              "Da_Riferimento_ID": "",
+              "Da_Riferimento_ID": "N_XVIII_75_5__XVIII_75_6",
               "Da_incluso": true,
-              "Direzione": "in",
+              "Direzione": "dopo",
               "A_Riferimento_ID": "T_XVIII_76_7",
               "A_incluso": true,
               "Per_Riferimento_ID": "",
@@ -59362,10 +59250,7 @@
                   "Valore": "2",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -59406,8 +59291,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:33:09.134Z",
-        "updatedAt": "2026-08-31T14:08:40.831Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:01:12.796Z"
       },
       {
         "id": "N_XVIII_75_8__XVIII_76_6",
@@ -59449,13 +59333,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -59498,8 +59376,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:33:15.551Z",
-        "updatedAt": "2026-08-31T14:08:44.298Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:51:26.784Z"
       },
       {
         "id": "N_XVIII_76_7__XVIII_76_8",
@@ -59541,13 +59418,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -59591,8 +59462,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:34:16.363Z",
-        "updatedAt": "2026-08-31T14:08:55.964Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:42:17.046Z"
       },
       {
         "id": "N_XVIII_77_1__XVIII_77_2",
@@ -59638,10 +59508,7 @@
                   "Valore": "4",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -59682,8 +59549,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:34:44.133Z",
-        "updatedAt": "2026-08-31T14:09:21.414Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:51:31.400Z"
       },
       {
         "id": "N_XVIII_77_3__XVIII_86_2",
@@ -59727,19 +59593,13 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
-          "Determinazione_coordinata_temporale": false,
+          "Determinazione_coordinata_temporale": true,
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
@@ -59774,8 +59634,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:36:28.945Z",
-        "updatedAt": "2026-08-31T14:10:18.063Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:02:04.296Z"
       },
       {
         "id": "N_XVIII_86_3__XVIII_86_8",
@@ -59810,10 +59669,10 @@
           "Note": "",
           "Determinazioni_temporali": [
             {
-              "Da_Riferimento_ID": "",
+              "Da_Riferimento_ID": "N_XVIII_77_3__XVIII_86_2",
               "Da_incluso": true,
-              "Direzione": "in",
-              "A_Riferimento_ID": "",
+              "Direzione": "dopo",
+              "A_Riferimento_ID": "N_XVIII_87_1__XVIII_90_8",
               "A_incluso": true,
               "Per_Riferimento_ID": "",
               "Punto_ripresa_successivo": "",
@@ -59823,10 +59682,7 @@
                   "Valore": "4",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -59867,8 +59723,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:37:06.998Z",
-        "updatedAt": "2026-08-31T14:10:40.145Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:03:22.449Z"
       },
       {
         "id": "N_XVIII_87_1__XVIII_90_8",
@@ -59904,7 +59759,7 @@
           "Note": "",
           "Determinazioni_temporali": [
             {
-              "Riferimento_ID": "",
+              "Riferimento_ID": "N_XVIII_77_3__XVIII_86_2",
               "Riferimento_incluso": true,
               "Direzione": "dopo",
               "Nota": "Mia ipotesi",
@@ -59913,19 +59768,13 @@
                   "Valore": "4",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
-          "Determinazione_coordinata_temporale": false,
+          "Determinazione_coordinata_temporale": true,
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
@@ -59962,8 +59811,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:38:09.395Z",
-        "updatedAt": "2026-08-31T14:10:44.362Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:03:48.066Z"
       },
       {
         "id": "N_XVIII_91_1__XVIII_92_8",
@@ -59998,7 +59846,7 @@
           "Note": "",
           "Determinazioni_temporali": [
             {
-              "Riferimento_ID": "",
+              "Riferimento_ID": "N_XVIII_87_1__XVIII_90_8",
               "Riferimento_incluso": true,
               "Direzione": "in",
               "Nota": "",
@@ -60007,13 +59855,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -60054,8 +59896,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:38:49.463Z",
-        "updatedAt": "2026-08-31T14:10:47.606Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:05:09.634Z"
       },
       {
         "id": "N_XVIII_93_1__XVIII_93_6",
@@ -60098,16 +59939,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
-              "Riferimento_ID": "",
+              "Riferimento_ID": "N_XVIII_87_1__XVIII_90_8",
               "Riferimento_incluso": false,
               "Direzione": "dopo",
               "Nota": "",
@@ -60116,13 +59951,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -60164,8 +59993,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:38:55.839Z",
-        "updatedAt": "2026-08-31T14:11:07.413Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:05:26.068Z"
       },
       {
         "id": "N_XVIII_93_7__XVIII_93_8",
@@ -66784,7 +66612,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -66826,7 +66657,8 @@
         },
         "custom": {},
         "createdAt": "2026-07-31T10:09:45.209Z",
-        "updatedAt": "2026-09-04T09:32:00.576Z"
+        "updatedAt": "2026-09-04T09:32:00.576Z",
+        "drafts": {}
       },
       {
         "id": "N_XXIV_15_2__XXIV_20_1",
@@ -76220,7 +76052,10 @@
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
           "Frequenza_genettiana": "singolativa",
-          "Personaggi_in_scena": [],
+          "Personaggi_in_scena": [
+            "Mandricardo",
+            "Gradasso"
+          ],
           "Descrizione": "",
           "Note": "",
           "Determinazioni_temporali": [],
@@ -76250,12 +76085,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T09:20:13.256Z",
-        "updatedAt": "2026-08-13T22:34:33.158Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:33:24.842Z"
       },
       {
         "id": "N_XXVII_67_5__XXVII_69_4",
@@ -77520,10 +77355,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -77560,12 +77392,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T09:51:22.486Z",
-        "updatedAt": "2026-08-22T14:42:12.260Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:33:39.926Z"
       },
       {
         "id": "N_XXVII_115_5__XXVII_115_6",
@@ -80480,7 +80312,13 @@
                   "Valore": "92",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "N_XXX_9_1__XXX_9_8",
@@ -80492,7 +80330,13 @@
                   "Valore": "25",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -80534,7 +80378,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:30:06.192Z",
-        "updatedAt": "2026-09-02T11:30:06.425Z"
+        "updatedAt": "2026-09-02T11:30:06.425Z",
+        "drafts": {}
       },
       {
         "id": "N_XXIX_51_1__XXIX_51_2",
@@ -81178,7 +81023,10 @@
                   "Valore": "12",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81217,7 +81065,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:42:09.240Z",
-        "updatedAt": "2026-09-02T11:19:20.292Z"
+        "updatedAt": "2026-09-02T11:19:20.292Z",
+        "drafts": {}
       },
       {
         "id": "N_XXX_4_3__XXX_4_6",
@@ -81263,7 +81112,10 @@
                   "Valore": "12",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81304,7 +81156,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:43:08.023Z",
-        "updatedAt": "2026-09-02T11:19:31.061Z"
+        "updatedAt": "2026-09-02T11:19:31.061Z",
+        "drafts": {}
       },
       {
         "id": "N_XXX_4_7__XXX_5_2",
@@ -81346,7 +81199,13 @@
                   "Valore": "12",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81387,7 +81246,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:43:18.790Z",
-        "updatedAt": "2026-09-02T11:19:57.410Z"
+        "updatedAt": "2026-09-02T11:19:57.410Z",
+        "drafts": {}
       },
       {
         "id": "N_XXX_5_2__XXX_8_1",
@@ -81513,7 +81373,10 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81555,7 +81418,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:44:06.673Z",
-        "updatedAt": "2026-09-02T11:10:32.211Z"
+        "updatedAt": "2026-09-02T11:10:32.211Z",
+        "drafts": {}
       },
       {
         "id": "N_XXX_8_5__XXX_8_8",
@@ -81601,7 +81465,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81641,7 +81508,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:44:17.091Z",
-        "updatedAt": "2026-09-02T11:20:26.011Z"
+        "updatedAt": "2026-09-02T11:20:26.011Z",
+        "drafts": {}
       },
       {
         "id": "N_XXX_9_1__XXX_9_8",
@@ -81683,7 +81551,13 @@
                   "Valore": "16",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81725,7 +81599,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:44:38.078Z",
-        "updatedAt": "2026-09-02T11:20:55.094Z"
+        "updatedAt": "2026-09-02T11:20:55.094Z",
+        "drafts": {}
       },
       {
         "id": "N_XXX_10_1__XXX_12_8",
@@ -81857,7 +81732,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81897,7 +81778,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:45:52.921Z",
-        "updatedAt": "2026-09-02T11:21:57.276Z"
+        "updatedAt": "2026-09-02T11:21:57.276Z",
+        "drafts": {}
       },
       {
         "id": "N_XXX_15_5__XXX_15_6",
@@ -81943,7 +81825,10 @@
                   "Valore": "25",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -81983,7 +81868,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:46:15.856Z",
-        "updatedAt": "2026-09-02T11:35:07.689Z"
+        "updatedAt": "2026-09-02T11:35:07.689Z",
+        "drafts": {}
       },
       {
         "id": "N_XXX_15_1__XXX_15_4",
@@ -82025,7 +81911,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -82067,7 +81959,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T13:46:23.241Z",
-        "updatedAt": "2026-09-02T11:22:12.460Z"
+        "updatedAt": "2026-09-02T11:22:12.460Z",
+        "drafts": {}
       },
       {
         "id": "N_XXIX_58_3__XXIX_58_6",
@@ -87046,7 +86939,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87090,7 +86989,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T17:49:33.898Z",
-        "updatedAt": "2026-09-04T09:32:06.942Z"
+        "updatedAt": "2026-09-04T09:32:06.942Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXI_84_3__XXXI_84_8",
@@ -87136,7 +87036,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87176,7 +87079,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T18:05:37.448Z",
-        "updatedAt": "2026-09-04T09:32:54.392Z"
+        "updatedAt": "2026-09-04T09:32:54.392Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXI_85_1__XXXI_87_8",
@@ -87409,7 +87313,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -87449,7 +87356,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T18:10:03.910Z",
-        "updatedAt": "2026-09-04T09:33:01.209Z"
+        "updatedAt": "2026-09-04T09:33:01.209Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXI_89_7__XXXI_90_8",
@@ -89147,7 +89055,10 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -89189,7 +89100,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T06:21:18.651Z",
-        "updatedAt": "2026-09-04T09:32:22.059Z"
+        "updatedAt": "2026-09-04T09:32:22.059Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXIII_95_5__XXXIII_95_6",
@@ -89231,7 +89143,13 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "T_XL_10_2",
@@ -89243,7 +89161,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -89285,7 +89209,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T06:21:28.881Z",
-        "updatedAt": "2026-09-04T09:32:30.275Z"
+        "updatedAt": "2026-09-04T09:32:30.275Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXIII_96_2__XXXIII_101_8_2",
@@ -93353,7 +93278,13 @@
                   "Valore": "92",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -93401,7 +93332,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T11:16:53.063Z",
-        "updatedAt": "2026-09-02T11:30:48.058Z"
+        "updatedAt": "2026-09-02T11:30:48.058Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXIX_33_3__XXXIX_36_8",
@@ -93447,13 +93379,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -93463,11 +93389,11 @@
           "Tempi_secondari": [],
           "Successioni_temporali": [
             {
-              "Segmento_successione_riferimento": "N_XXXIX_29_3__XXXIX_33_2",
+              "Segmento_successione_riferimento": "N_XXXIX_30_5__XXXIX_33_2",
               "Relazione_successione": "segue"
             }
           ],
-          "Segmento_successione_riferimento": "N_XXXIX_29_3__XXXIX_33_2",
+          "Segmento_successione_riferimento": "N_XXXIX_30_5__XXXIX_33_2",
           "Relazione_successione": "segue",
           "Contraddizione_temporale": false,
           "Contraddizioni_tempi": [],
@@ -93487,12 +93413,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T11:28:31.880Z",
-        "updatedAt": "2026-08-14T19:45:16.546Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:38:18.460Z"
       },
       {
         "id": "N_XXXIX_21_1__XXXIX_21_5",
@@ -93801,13 +93727,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -93841,12 +93761,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T11:33:13.093Z",
-        "updatedAt": "2026-08-19T17:14:18.148Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:36:55.776Z"
       },
       {
         "id": "N_XXXIX_29_3__XXXIX_33_2",
@@ -93867,7 +93787,7 @@
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "Dudone libera Brandimarte, Oliviero e Sansonetto",
+          "Titolo_breve": "Dudone capitana la flotta navale",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -93888,13 +93808,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -93928,12 +93842,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T11:33:28.447Z",
-        "updatedAt": "2026-08-19T17:14:14.764Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:39:08.945Z"
       },
       {
         "id": "N_XXXVIII_35_5__XXXVIII_36_1",
@@ -93973,13 +93887,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -94008,12 +93916,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:19:49.019Z",
-        "updatedAt": "2026-08-09T18:42:18.181Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:34:03.626Z"
       },
       {
         "id": "N_XXXIX_19_5__XXXIX_20_4",
@@ -94074,12 +93988,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:25:06.313Z",
-        "updatedAt": "2026-08-19T17:14:09.332Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:34:46.159Z"
       },
       {
         "id": "N_XXXVIII_36_7__XXXVIII_36_8",
@@ -94207,10 +94121,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -94241,12 +94152,18 @@
           "Incompleta": false,
           "Nota_incompletezza": "",
           "da_mostrare": [],
-          "di_riferimento": []
+          "di_riferimento": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-02T12:26:46.966Z",
-        "updatedAt": "2026-08-09T18:43:06.215Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:34:22.610Z"
       },
       {
         "id": "N_XXXVIII_37_1__XXXVIII_65_3",
@@ -99264,7 +99181,13 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -99304,7 +99227,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T16:01:01.319Z",
-        "updatedAt": "2026-09-04T09:32:33.491Z"
+        "updatedAt": "2026-09-04T09:32:33.491Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXV_62_5__XXXV_62_8",
@@ -102371,7 +102295,13 @@
                   "Valore": "2",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -102415,7 +102345,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-02T17:15:56.443Z",
-        "updatedAt": "2026-09-04T09:32:39.108Z"
+        "updatedAt": "2026-09-04T09:32:39.108Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXVIII_7_3__XXXVIII_7_8",
@@ -103853,7 +103784,13 @@
                   "Valore": "2",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "T_XXXIX_73_7",
@@ -103865,7 +103802,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -103905,7 +103848,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T12:48:44.258Z",
-        "updatedAt": "2026-09-04T09:33:06.342Z"
+        "updatedAt": "2026-09-04T09:33:06.342Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXIX_74_1__XXXIX_74_8",
@@ -104004,7 +103948,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -104045,7 +103995,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T12:51:57.343Z",
-        "updatedAt": "2026-09-01T10:09:13.001Z"
+        "updatedAt": "2026-09-01T10:09:13.001Z",
+        "drafts": {}
       },
       {
         "id": "N_XL_6_1__XL_8_2",
@@ -104746,7 +104697,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -104785,7 +104742,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T13:14:58.073Z",
-        "updatedAt": "2026-09-01T10:09:28.251Z"
+        "updatedAt": "2026-09-01T10:09:28.251Z",
+        "drafts": {}
       },
       {
         "id": "N_XL_46_3__XL_46_4",
@@ -104827,7 +104785,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -104866,7 +104830,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T13:15:28.354Z",
-        "updatedAt": "2026-09-01T10:09:51.451Z"
+        "updatedAt": "2026-09-01T10:09:51.451Z",
+        "drafts": {}
       },
       {
         "id": "N_XL_46_1__XL_55_2",
@@ -104910,7 +104875,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -104954,7 +104925,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T13:22:46.421Z",
-        "updatedAt": "2026-09-01T10:09:38.234Z"
+        "updatedAt": "2026-09-01T10:09:38.234Z",
+        "drafts": {}
       },
       {
         "id": "N_XL_56_5__XL_57_2",
@@ -105603,7 +105575,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -105637,7 +105615,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T13:47:28.977Z",
-        "updatedAt": "2026-09-04T10:32:07.367Z"
+        "updatedAt": "2026-09-04T10:32:07.367Z",
+        "drafts": {}
       },
       {
         "id": "N_XL_71_1__XL_71_4",
@@ -106665,12 +106644,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T14:10:46.374Z",
-        "updatedAt": "2026-08-22T14:53:25.287Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:35:10.991Z"
       },
       {
         "id": "N_XL_55_5__XL_55_6",
@@ -106748,7 +106727,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T14:14:03.303Z",
-        "updatedAt": "2026-09-01T10:09:54.303Z"
+        "updatedAt": "2026-09-18T09:34:58.776Z"
       },
       {
         "id": "N_XL_55_7__XL_55_8",
@@ -106790,7 +106769,13 @@
                   "Valore": "2",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -106831,7 +106816,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T14:14:17.088Z",
-        "updatedAt": "2026-09-01T12:29:11.837Z"
+        "updatedAt": "2026-09-01T12:29:11.837Z",
+        "drafts": {}
       },
       {
         "id": "N_XLI_26_1__XLI_26_2",
@@ -107031,7 +107017,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -107073,7 +107062,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T14:24:27.833Z",
-        "updatedAt": "2026-09-01T14:38:54.489Z"
+        "updatedAt": "2026-09-01T14:38:54.489Z",
+        "drafts": {}
       },
       {
         "id": "N_XLI_31_5__XLI_33_8",
@@ -107119,7 +107109,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -107163,7 +107156,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T14:26:17.919Z",
-        "updatedAt": "2026-09-01T12:29:47.670Z"
+        "updatedAt": "2026-09-01T12:29:47.670Z",
+        "drafts": {}
       },
       {
         "id": "N_XLI_35_7__XLI_36_4",
@@ -107603,7 +107597,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -107642,7 +107642,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T14:38:10.829Z",
-        "updatedAt": "2026-09-01T12:29:27.403Z"
+        "updatedAt": "2026-09-01T12:29:27.403Z",
+        "drafts": {}
       },
       {
         "id": "N_XLI_47_1__XLI_50_6",
@@ -110115,13 +110116,10 @@
               "Nota": "",
               "Quantita": [
                 {
-                  "Valore": "",
-                  "Unita": ""
+                  "Valore": "1",
+                  "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Riferimento_incluso": false
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -110159,12 +110157,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T15:56:49.073Z",
-        "updatedAt": "2026-08-14T12:26:03.753Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:40:58.764Z"
       },
       {
         "id": "N_XLIII_54_3__XLIII_56_8",
@@ -110206,13 +110204,7 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -110245,12 +110237,19 @@
             "G_XLIII_54_7"
           ],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T15:58:35.324Z",
-        "updatedAt": "2026-08-03T15:59:34.633Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:40:24.562Z"
       },
       {
         "id": "N_XLIII_60_1__XLIII_63_8",
@@ -111729,7 +111728,13 @@
                   "Valore": "1",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -111774,7 +111779,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T16:28:06.240Z",
-        "updatedAt": "2026-09-01T17:14:17.614Z"
+        "updatedAt": "2026-09-01T17:14:17.614Z",
+        "drafts": {}
       },
       {
         "id": "N_XLIII_168_1__XLIII_175_1",
@@ -113717,7 +113723,13 @@
                   "Valore": "10",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -113763,7 +113775,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T17:41:17.399Z",
-        "updatedAt": "2026-09-04T10:32:31.170Z"
+        "updatedAt": "2026-09-04T10:32:31.170Z",
+        "drafts": {}
       },
       {
         "id": "N_XLIV_34_6__XLIV_34_8",
@@ -113815,7 +113828,10 @@
                   "Valore": "2",
                   "Unita": "mesi"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -113857,7 +113873,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T17:42:28.118Z",
-        "updatedAt": "2026-09-04T10:43:14.899Z"
+        "updatedAt": "2026-09-04T10:43:14.899Z",
+        "drafts": {}
       },
       {
         "id": "N_XLVI_102_1__XLVI_103_8",
@@ -115015,7 +115032,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "N_XLIV_28_5__XLIV_34_5",
@@ -115027,7 +115050,13 @@
                   "Valore": "74",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -115069,7 +115098,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T22:21:41.547Z",
-        "updatedAt": "2026-09-04T10:44:28.716Z"
+        "updatedAt": "2026-09-09T09:07:41.109Z",
+        "drafts": {}
       },
       {
         "id": "N_XLIV_40_3__XLIV_47_8",
@@ -115957,7 +115987,13 @@
                   "Valore": "41",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -115999,7 +116035,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T22:34:21.763Z",
-        "updatedAt": "2026-09-02T19:29:06.786Z"
+        "updatedAt": "2026-09-02T19:29:06.786Z",
+        "drafts": {}
       },
       {
         "id": "N_XLIV_78_5__XLIV_78_8",
@@ -116045,7 +116082,10 @@
                   "Valore": "28",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -116087,7 +116127,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T22:35:55.128Z",
-        "updatedAt": "2026-09-02T11:35:39.206Z"
+        "updatedAt": "2026-09-02T11:35:39.206Z",
+        "drafts": {}
       },
       {
         "id": "N_XLIV_78_8__XLIV_79_4",
@@ -117480,13 +117521,7 @@
                   "Valore": "45",
                   "Unita": "giorni"
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             },
             {
               "Riferimento_ID": "T_XLV_50_2",
@@ -117498,13 +117533,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -117534,12 +117563,12 @@
           "personaggio_incongruente": [],
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
-          "secondo_titolo": ""
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-03T23:14:07.669Z",
-        "updatedAt": "2026-08-22T16:36:08.350Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:35:40.910Z"
       },
       {
         "id": "N_XLV_41_5__XLV_42_8",
@@ -120447,7 +120476,10 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -120491,7 +120523,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T23:57:09.843Z",
-        "updatedAt": "2026-09-01T19:44:51.670Z"
+        "updatedAt": "2026-09-01T19:44:51.670Z",
+        "drafts": {}
       },
       {
         "id": "N_XLV_117_3__XLV_117_4",
@@ -120533,7 +120566,13 @@
                   "Valore": "3",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -120573,7 +120612,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-03T23:58:08.095Z",
-        "updatedAt": "2026-09-02T11:09:21.196Z"
+        "updatedAt": "2026-09-02T11:09:21.196Z",
+        "drafts": {}
       },
       {
         "id": "N_XLVI_20_1__XLVI_25_8",
@@ -121512,7 +121552,13 @@
                   "Valore": "75",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -121556,7 +121602,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T00:21:57.132Z",
-        "updatedAt": "2026-09-02T11:35:19.890Z"
+        "updatedAt": "2026-09-02T11:35:19.890Z",
+        "drafts": {}
       },
       {
         "id": "N_XLVI_98_7__XLVI_99_4",
@@ -122588,7 +122635,13 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122634,7 +122687,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:57:47.523Z",
-        "updatedAt": "2026-09-04T09:32:10.908Z"
+        "updatedAt": "2026-09-04T09:32:10.908Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXII_4_1__XXXII_4_8",
@@ -122681,7 +122735,10 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Riferimento_incluso": false
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122725,7 +122782,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:58:20.062Z",
-        "updatedAt": "2026-09-04T09:32:14.657Z"
+        "updatedAt": "2026-09-04T09:32:14.657Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXII_5_1__XXXII_5_4",
@@ -122935,7 +122993,13 @@
                   "Valore": "5",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -122975,7 +123039,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T11:59:07.077Z",
-        "updatedAt": "2026-09-04T09:32:27.258Z"
+        "updatedAt": "2026-09-04T09:32:27.258Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXII_9_1__XXXII_9_2",
@@ -123286,7 +123351,13 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             },
             {
               "Riferimento_ID": "T_XXVII_48_5",
@@ -123298,7 +123369,13 @@
                   "Valore": "10",
                   "Unita": "giorni"
                 }
-              ]
+              ],
+              "Stima_min_quantita": [],
+              "Stima_max_quantita": [],
+              "Da_incluso": false,
+              "A_incluso": false,
+              "Per_Riferimento_ID": "",
+              "Punto_ripresa_successivo": ""
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -123340,7 +123417,8 @@
         },
         "custom": {},
         "createdAt": "2026-08-04T12:00:51.277Z",
-        "updatedAt": "2026-09-04T09:32:18.658Z"
+        "updatedAt": "2026-09-04T09:32:18.658Z",
+        "drafts": {}
       },
       {
         "id": "N_XXXII_7_3__XXXII_7_8",
@@ -124490,25 +124568,25 @@
         "drafts": {}
       },
       {
-        "id": "N_XXXIX_30_1__XXXIX_30_4",
+        "id": "N_XXXIX_30_5__XXXIX_33_2",
         "category": "narrative",
         "range": {
           "start": {
             "c": 39,
             "o": 30,
-            "v": 1,
-            "ch": 8
+            "v": 5,
+            "ch": 0
           },
           "end": {
             "c": 39,
-            "o": 30,
-            "v": 4,
-            "ch": 38
+            "o": 33,
+            "v": 2,
+            "ch": 40
           }
         },
         "exactSpans": [],
         "fields": {
-          "Titolo_breve": "",
+          "Titolo_breve": "Dudone libera Brandimarte, Oliviero e Sansonetto",
           "Tipo_segmento": "",
           "Durata_genettiana": "scena",
           "Ordine_genettiano": "lineare",
@@ -124527,16 +124605,34 @@
           "riferimento_contraddizione": "",
           "aggancio_contraddizione": [],
           "secondo_titolo": "",
-          "Determinazioni_temporali": [],
+          "Determinazioni_temporali": [
+            {
+              "Riferimento_ID": "N_XXXIX_37_1__XXXIX_37_8",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
+              "Nota": "",
+              "Quantita": [
+                {
+                  "Valore": "",
+                  "Unita": ""
+                }
+              ]
+            }
+          ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
           "Determinazione_coordinata_temporale": false,
           "Tempi_secondari": [],
-          "Successioni_temporali": [],
-          "Segmento_successione_riferimento": "",
-          "Relazione_successione": "",
-          "Contraddizione_temporale": true,
+          "Successioni_temporali": [
+            {
+              "Segmento_successione_riferimento": "N_XXXIX_29_3__XXXIX_33_2",
+              "Relazione_successione": "segue"
+            }
+          ],
+          "Segmento_successione_riferimento": "N_XXXIX_29_3__XXXIX_33_2",
+          "Relazione_successione": "segue",
+          "Contraddizione_temporale": false,
           "Contraddizioni_tempi": [],
           "Contraddizione_tempo_principale_ID": "",
           "Nota_contraddizione": "",
@@ -124547,12 +124643,12 @@
           "Coordinate_spaziali": [],
           "Luoghi_secondari": [],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-14T10:24:19.701Z",
-        "updatedAt": "2026-08-14T19:47:26.375Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:39:52.996Z"
       },
       {
         "id": "N_XLV_20_5__XLV_20_8",
@@ -125154,7 +125250,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-25T19:52:08.755Z",
-        "updatedAt": "2026-08-24T08:27:38.457Z",
+        "updatedAt": "2026-09-17T00:26:07.000Z",
         "drafts": {}
       },
       {
@@ -139899,8 +139995,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:30:55.470Z",
-        "updatedAt": "2026-08-14T19:59:13.112Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T09:48:42.350Z"
       },
       {
         "id": "T_XVIII_76_7",
@@ -184119,11 +184214,12 @@
           "Note": "",
           "Incompleta": false,
           "Nota_incompletezza": "",
-          "Intervalli_destinazione": []
+          "Intervalli_destinazione": [],
+          "personaggi_boiardo": []
         },
         "custom": {},
         "createdAt": "2026-07-26T11:21:37.756Z",
-        "updatedAt": "2026-07-26T11:22:19.371Z",
+        "updatedAt": "2026-09-13T20:34:57.324Z",
         "drafts": {}
       },
       {
@@ -184771,11 +184867,12 @@
           "Note": "",
           "Incompleta": false,
           "Nota_incompletezza": "",
-          "Intervalli_destinazione": []
+          "Intervalli_destinazione": [],
+          "personaggi_boiardo": []
         },
         "custom": {},
         "createdAt": "2026-07-26T16:16:45.933Z",
-        "updatedAt": "2026-07-26T16:17:31.978Z",
+        "updatedAt": "2026-09-13T20:33:57.434Z",
         "drafts": {}
       },
       {
@@ -185179,7 +185276,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-26T19:57:36.533Z",
-        "updatedAt": "2026-08-11T22:09:53.395Z",
+        "updatedAt": "2026-09-13T20:34:24.392Z",
         "drafts": {}
       },
       {
@@ -185206,11 +185303,12 @@
           "Note": "",
           "Incompleta": false,
           "Nota_incompletezza": "",
-          "Intervalli_destinazione": []
+          "Intervalli_destinazione": [],
+          "personaggi_boiardo": []
         },
         "custom": {},
         "createdAt": "2026-07-26T19:59:12.313Z",
-        "updatedAt": "2026-07-26T19:59:30.023Z",
+        "updatedAt": "2026-09-13T20:34:16.658Z",
         "drafts": {}
       },
       {
@@ -189526,7 +189624,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T20:42:02.318Z",
-        "updatedAt": "2026-08-11T20:57:03.666Z",
+        "updatedAt": "2026-09-13T20:35:06.625Z",
         "drafts": {}
       },
       {
@@ -189560,7 +189658,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T20:57:03.691Z",
-        "updatedAt": "2026-08-11T21:14:11.396Z",
+        "updatedAt": "2026-09-13T20:34:51.759Z",
         "drafts": {}
       },
       {
@@ -189628,7 +189726,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T21:35:08.291Z",
-        "updatedAt": "2026-08-11T21:37:37.405Z",
+        "updatedAt": "2026-09-13T20:35:19.823Z",
         "drafts": {}
       },
       {
@@ -189797,7 +189895,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T22:03:59.607Z",
-        "updatedAt": "2026-08-11T22:11:26.474Z",
+        "updatedAt": "2026-09-13T20:34:40.542Z",
         "drafts": {}
       },
       {
@@ -189865,7 +189963,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T22:23:01.073Z",
-        "updatedAt": "2026-08-11T22:23:21.646Z",
+        "updatedAt": "2026-09-16T15:58:14.920Z",
         "drafts": {}
       },
       {
@@ -189899,7 +189997,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T22:36:19.929Z",
-        "updatedAt": "2026-08-11T22:36:39.466Z",
+        "updatedAt": "2026-09-13T20:35:34.823Z",
         "drafts": {}
       },
       {
@@ -189934,7 +190032,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T22:40:40.707Z",
-        "updatedAt": "2026-08-11T23:09:25.657Z",
+        "updatedAt": "2026-09-13T20:35:31.525Z",
         "drafts": {}
       },
       {
@@ -189968,7 +190066,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T22:47:45.376Z",
-        "updatedAt": "2026-08-11T22:49:29.764Z",
+        "updatedAt": "2026-09-13T20:35:26.925Z",
         "drafts": {}
       },
       {
@@ -190002,7 +190100,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T23:07:07.921Z",
-        "updatedAt": "2026-08-11T23:14:04.409Z",
+        "updatedAt": "2026-09-13T20:35:22.524Z",
         "drafts": {}
       },
       {
@@ -190037,7 +190135,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T23:15:35.622Z",
-        "updatedAt": "2026-08-11T23:18:44.908Z",
+        "updatedAt": "2026-09-13T20:35:17.875Z",
         "drafts": {}
       },
       {
@@ -190137,7 +190235,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-11T23:31:48.369Z",
-        "updatedAt": "2026-08-11T23:45:41.125Z",
+        "updatedAt": "2026-09-13T20:35:24.658Z",
         "drafts": {}
       },
       {
