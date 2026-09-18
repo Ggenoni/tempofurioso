@@ -5,7 +5,7 @@
     "description": "Annotatore con coordinate temporali e spaziali, determinazioni temporali narrative e categorie configurabili.",
     "migratedExplicitTimes": 0,
     "positionConvention": "indici di carattere zero-based; inizio incluso, fine esclusa",
-    "exportedAt": "2026-09-18T10:05:26.095Z"
+    "exportedAt": "2026-09-18T10:16:11.495Z"
   },
   "annotations": {
     "narrative": [
@@ -53516,7 +53516,20 @@
           ],
           "Descrizione": "",
           "Note": "",
-          "Determinazioni_temporali": [],
+          "Determinazioni_temporali": [
+            {
+              "Riferimento_ID": "T_XXII_30_5",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
+              "Nota": "",
+              "Quantita": [
+                {
+                  "Valore": "",
+                  "Unita": ""
+                }
+              ]
+            }
+          ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -53548,7 +53561,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T18:39:41.421Z",
-        "updatedAt": "2026-09-18T09:32:10.274Z"
+        "updatedAt": "2026-09-18T10:14:39.156Z"
       },
       {
         "id": "N_XXII_20_1__XXII_21_4",
@@ -53594,13 +53607,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -53641,8 +53648,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T18:39:51.007Z",
-        "updatedAt": "2026-08-31T14:55:25.344Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:14:28.042Z"
       },
       {
         "id": "N_XXII_22_7__XXII_24_2",
@@ -58388,13 +58394,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -58435,8 +58435,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:25:27.305Z",
-        "updatedAt": "2026-08-31T13:50:52.900Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:15:55.474Z"
       },
       {
         "id": "N_XVIII_3_5__XVIII_7_8",
@@ -58467,7 +58466,20 @@
           ],
           "Descrizione": "",
           "Note": "",
-          "Determinazioni_temporali": [],
+          "Determinazioni_temporali": [
+            {
+              "Riferimento_ID": "T_XVII_128_8_2",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
+              "Nota": "",
+              "Quantita": [
+                {
+                  "Valore": "",
+                  "Unita": ""
+                }
+              ]
+            }
+          ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -58499,7 +58511,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:26:58.756Z",
-        "updatedAt": "2026-09-18T09:30:15.124Z"
+        "updatedAt": "2026-09-18T10:16:11.475Z"
       },
       {
         "id": "N_XVIII_59_7__XVIII_60_4",
@@ -59993,7 +60005,7 @@
         },
         "custom": {},
         "createdAt": "2026-07-28T20:38:55.839Z",
-        "updatedAt": "2026-09-18T10:05:26.068Z"
+        "updatedAt": "2026-09-18T10:13:52.957Z"
       },
       {
         "id": "N_XVIII_93_7__XVIII_93_8",
@@ -75986,13 +75998,7 @@
                   "Valore": "",
                   "Unita": ""
                 }
-              ],
-              "Stima_min_quantita": [],
-              "Stima_max_quantita": [],
-              "Da_incluso": false,
-              "A_incluso": false,
-              "Per_Riferimento_ID": "",
-              "Punto_ripresa_successivo": ""
+              ]
             }
           ],
           "Determinazione_Collocazione": "relativo",
@@ -76021,12 +76027,19 @@
             "G_XXVII_47_1"
           ],
           "Incompleta": false,
-          "Nota_incompletezza": ""
+          "Nota_incompletezza": "",
+          "da_mostrare": [],
+          "primo_ordine": "",
+          "connessione_boiardo": [],
+          "personaggio_incongruente": [],
+          "riferimento_contraddizione": "",
+          "aggancio_contraddizione": [],
+          "secondo_titolo": "",
+          "certezza_cronologia": ""
         },
         "custom": {},
         "createdAt": "2026-08-01T09:18:13.727Z",
-        "updatedAt": "2026-08-01T09:19:42.669Z",
-        "drafts": {}
+        "updatedAt": "2026-09-18T10:15:12.341Z"
       },
       {
         "id": "N_XXVII_55_3__XXVII_55_6",
@@ -76058,7 +76071,20 @@
           ],
           "Descrizione": "",
           "Note": "",
-          "Determinazioni_temporali": [],
+          "Determinazioni_temporali": [
+            {
+              "Riferimento_ID": "T_XXVII_48_5",
+              "Riferimento_incluso": true,
+              "Direzione": "in",
+              "Nota": "",
+              "Quantita": [
+                {
+                  "Valore": "",
+                  "Unita": ""
+                }
+              ]
+            }
+          ],
           "Determinazione_Collocazione": "relativo",
           "Determinazione_Estensione": "puntuale",
           "Determinazione_Quantificazione": "determinato",
@@ -76090,7 +76116,7 @@
         },
         "custom": {},
         "createdAt": "2026-08-01T09:20:13.256Z",
-        "updatedAt": "2026-09-18T09:33:24.842Z"
+        "updatedAt": "2026-09-18T10:15:29.475Z"
       },
       {
         "id": "N_XXVII_67_5__XXVII_69_4",
